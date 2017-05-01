@@ -1,3 +1,4 @@
+import os
 import sys
 import pickle
 import requests
@@ -70,7 +71,7 @@ def search(loc):
   determines whether or not the restaurant dictionary should be appended to or
   overwrite a potentially preexisting output file named 'file_name'.
 """
-def saveResults(results, file_name, append=True):
+def saveResults(place, results, file_name, append=True):
   try:
     FileNotFoundError
   except NameError:
@@ -89,44 +90,22 @@ def saveResults(results, file_name, append=True):
       with open(file_name, 'wb') as f:
         for r in result_list:
           pickle.dump(r, f, protocol=2)
-        pickle.dump(results, f, protocol=2)
+        pickle.dump({place: results}, f, protocol=2)
     else:
       with open(file_name, 'wb') as f:
-        pickle.dump(results, f, protocol=2)
+        pickle.dump({place: results}, f, protocol=2)
   except FileNotFoundError:
-    pickle.dump(results, open(file_name, 'wb'), protocol=2)
+    pickle.dump({place: results}, open(file_name, 'wb'), protocol=2)
 
 
 
 if __name__ == '__main__':
-#############  Demonstration of usage ##############
-
-  output_file = 'michelin_restaurants.bin'
-
-  # These cities have a lot of restaurants -- if you're just testing,
-  # it will be a lot faster to run using 'san jose ca' alone
-  places_to_search = ['chicago il', 'new york ny', 'san francisco ca']
-  #places_to_search = ['san jose ca']
-
-  for place in places_to_search:
-    saveResults(search(place), output_file, append=True)
-
-####################################################
-
-  # Prints the results of running the script by reading the output file
-  restaurant_locations = []
-  f = open(output_file, 'rb')
-
-  while True:
-    try:
-      restaurant_locations.append(pickle.load(f))
-    except EOFError:
-      break
-
-  for i, restaurants in enumerate(restaurant_locations):
-    print("Restaurants in location", i)
-    for name, location in restaurants.items():
-      try:
-        exec("print '     {:25s} {:s}'.format(name, location)")
-      except SyntaxError as e:
-        print("     {:25s} {:s}".format(name, str(location)))
+  if os.path.isfile('michelin_restaurants.bin'):
+    print("Michelin restaurant data structure has already been computed. Loading from file...")
+    restaurants = pickle.load(open('michelin_restaurants.bin', 'rb'))
+  else:
+    places_to_search = ['chicago il', 'new york ny', 'san francisco ca']
+    restaurants = {}
+    for place in places_to_search:
+      restaurants[place] = search(place)
+    pickle.dump(restaurants, open('michelin_restaurants.bin', 'wb'))
