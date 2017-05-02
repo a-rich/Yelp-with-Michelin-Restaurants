@@ -10,17 +10,17 @@ yelp_reviews = pickle.load(open('yelp_reviews.bin', 'rb'))
 create_table_sql = """PRAGMA foreign_keys = ON;
 
                       CREATE TABLE IF NOT EXISTS state (
-                        id INT,
+                        id INT PRIMARY KEY,
                         name VARCHAR(100) NOT NULL
                       );
 
                       CREATE TABLE IF NOT EXISTS city (
-                        id INT,
+                        id INT PRIMARY KEY,
                         name VARCHAR(100) NOT NULL
                       );
 
                       CREATE TABLE IF NOT EXISTS restaurant (
-                        id INT,
+                        id INT PRIMARY KEY,
                         name VARCHAR(100) NOT NULL,
                         rating FLOAT,
                         url VARCHAR(300),
@@ -36,17 +36,19 @@ create_table_sql = """PRAGMA foreign_keys = ON;
                       );
 
                       CREATE TABLE IF NOT EXISTS category (
-                        id INT,
+                        id INT PRIMARY KEY,
                         title VARCHAR(100)
                       );
 
                       CREATE TABLE IF NOT EXISTS restaurant_by_category (
                         restaurant_id INT,
-                        category_id INT
+                        category_id INT,
+                        FOREIGN KEY (restaurant_id) REFERENCES restaurant,
+                        FOREIGN KEY (category_id) REFERENCES category
                       );
 
                       CREATE TABLE IF NOT EXISTS review (
-                        url VARCHAR(300),
+                        url VARCHAR(300) PRIMARY KEY,
                         restaurant_id INT,
                         rating FLOAT,
                         name VARCHAR(100),
@@ -68,7 +70,7 @@ state_id = city_id = restaurant_id = category_id = 0
 seen_states, seen_cities, seen_categories = set(), set(), set()
 sql = ""
 for place in michelin.keys():
-  print("Adding {0} restaurants to the database...".format(place))
+  print("Building SQL string for {0} restaurants...".format(place))
   for r in yelp_restaurants[place]:
     if r['name'] in michelin[place].keys():
       sql += """INSERT INTO restaurant VALUES({0}, "{1}", {2}, "{3}", "{4}", {5}, "{6}", "{7}", "{8}", "{9}", {10}, "{11}", "{12}");\n""".format(
@@ -128,6 +130,7 @@ for place in michelin.keys():
             )
       restaurant_id += 1
 try:
+  print("Adding records to the database...")
   conn = sqlite3.connect('database.db')
   c = conn.cursor()
   c.executescript(sql)
