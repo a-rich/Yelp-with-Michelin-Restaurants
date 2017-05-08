@@ -1,0 +1,37 @@
+<script>
+    function redirectTo(url) {
+        window.location.href = url;
+    }
+</script>
+<body>
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+    </form>
+    <button type="submit">Submit</button>
+    <br><br>
+    Restaurants<br>
+    {% for restaurant in restaurants %}
+        <div onClick=redirectTo('{% url 'restaurant' restaurant.id %}')>
+            {{ restaurant.name }}
+        </div>
+    {% endfor %}
+    Categories<br>
+    {% for category in categories %}
+        <div onClick=redirectTo('{% url 'category' category.id %}')>
+            {{ category.title }}
+        </div>
+    {% endfor %}
+    Cities<br>
+    {% for city in cities %}
+        <div onClick=redirectTo('{% url 'city' city.id %}')>
+            {{ city }}
+        </div>
+    {% endfor %}
+    States<br>
+    {% for state in states %}
+        <div onClick=redirectTo('{% url 'state' state.id %}')>
+            {{ state }}
+        </div>
+    {% endfor %}
+</body>

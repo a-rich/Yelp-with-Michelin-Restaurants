@@ -1,15 +1,18 @@
 from __future__ import unicode_literals
 from django.db import models
-from localflavor.us.models import (USStateField, USZipCodeField,
-                                   PhoneNumberField)
+from localflavor.us.models import USZipCodeField
 
+class City(models.Model):
+  name = models.CharField(max_length=100)
 
-class Address(models.Model):
-  street = models.CharField(max_length=100, blank=True, null=True)
-  city = models.CharField(max_length=100, null=True, blank=True)
-  state_name = USStateField(blank=True, null=True)
-  state_abbreviation = models.CharField(max_length=2, blank=True, null=True)
-  zip_code = USZipCodeField(blank=True, null=True)
+  def __str__(self):
+    return self.name
+
+class State(models.Model):
+  name = models.CharField(max_length=100)
+
+  def __str__(self):
+    return self.name
 
 class Restaurant(models.Model):
   name = models.CharField(max_length=100)
@@ -20,7 +23,14 @@ class Restaurant(models.Model):
   review_count = models.IntegerField(blank=True, null=True)
   phone = models.CharField(max_length=14, blank=True, null=True)
   image_url = models.CharField(max_length=300, blank=True, null=True)
-  address = models.ForeignKey(Address)
+  city = models.ForeignKey(City, blank=True, null=True)
+  state = models.ForeignKey(State, blank=True, null=True)
+  state_abbreviation = models.CharField(max_length=2, blank=True, null=True)
+  zip_code = USZipCodeField(blank=True, null=True)
+  street = models.CharField(max_length=100, blank=True, null=True)
+
+  def __str__(self):
+    return self.name
 
 class Review(models.Model):
   url = models.CharField(max_length=300)
@@ -37,3 +47,5 @@ class Category(models.Model):
 class RestaurantByCategory(models.Model):
   restaurant_id = models.ForeignKey(Restaurant)
   category_id = models.ForeignKey(Category)
+
+
