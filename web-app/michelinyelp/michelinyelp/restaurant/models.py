@@ -9,7 +9,8 @@ class City(models.Model):
     return self.name
 
 class State(models.Model):
-  name = models.CharField(max_length=100)
+  abbreviation = models.CharField(max_length=2, blank=True, null=True)
+  name = models.CharField(max_length=100, blank=True, null=True)
 
   def __str__(self):
     return self.name
@@ -43,6 +44,9 @@ class Review(models.Model):
 
 class Category(models.Model):
   title = models.CharField(max_length=100, blank=True, null=True)
+
+  def __str__(self):
+    return self.title
 
 class RestaurantByCategory(models.Model):
   restaurant_id = models.ForeignKey(Restaurant)

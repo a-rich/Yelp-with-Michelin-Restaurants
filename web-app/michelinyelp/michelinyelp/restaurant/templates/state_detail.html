@@ -1,1 +1,14 @@
+<script>
+    function redirectTo(url) {
+        window.location.href = url;
+    }
+</script>
 {{ state }}
+<br>
+{% for restaurant in state.restaurant_set.all %}
+    <br>
+    <div onClick=redirectTo('{% url 'restaurant' restaurant.id %}')>
+        {{ restaurant.name }}
+    </div>
+    <br>
+{% endfor %}

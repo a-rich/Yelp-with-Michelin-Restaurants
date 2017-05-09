@@ -1,5 +1,5 @@
 from django.contrib import admin
-from michelinyelp.restaurant.models import Restaurant, City, Category, Review, RestaurantByCategory
+from michelinyelp.restaurant.models import Restaurant, City, State, Category, Review, RestaurantByCategory
 
 
 @admin.register(Restaurant)
@@ -10,6 +10,11 @@ class RestaurantAdmin(admin.ModelAdmin):
 @admin.register(City)
 class CityAdmin(admin.ModelAdmin):
   list_display = ['name']
+
+
+@admin.register(State)
+class RestaurantAdmin(admin.ModelAdmin):
+  list_display = ['name', 'abbreviation']
 
 
 @admin.register(Category)

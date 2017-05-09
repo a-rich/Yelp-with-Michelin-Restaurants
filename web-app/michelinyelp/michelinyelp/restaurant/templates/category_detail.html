@@ -1,1 +1,14 @@
-{{ category.title }}
+<script>
+    function redirectTo(url) {
+        window.location.href = url;
+    }
+</script>
+{{ category }}
+<br>
+{% for restaurant in restaurants %}
+    <br>
+    <div onClick=redirectTo('{% url 'restaurant' restaurant.id %}')>
+        {{ restaurant.name }}
+    </div>
+    <br>
+{% endfor %}
