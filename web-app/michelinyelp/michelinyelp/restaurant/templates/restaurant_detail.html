@@ -1,11 +1,35 @@
-{{ restaurant }}
-{{ restaurant.name }}
-{{ restaurant.rating }}
-{{ restaurant.price }}
-{{ restaurant.review_count }}
-{{ restaurant.image_url }}
-{{ restaurant.phone }}
-{{ restaurant.city }}
-{{ restaurant.state }}
-{{ restaurant.street }}
-{{ restaurant.zip_code }}
+{% load static %}
+<link href="{% static 'style.css' %}" rel="stylesheet" type="text/css"/>
+
+<div id='restaurant_container'>
+  <img class='img' src='{{ restaurant.image_url }}'>
+    <div id=info_container>
+      <span id='name'>{{ restaurant.name }}</span> <br><br><br>
+      <div id='info1'>
+        <span id='rating'>Rating: {{ restaurant.rating }}&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span id='price'>Price: {{ restaurant.price }}&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span id='review_count'>Reviews: {{ restaurant.review_count }}</span>
+      </div>
+      <div id='info2'>
+        <span id='phone'>{{ restaurant.phone }}&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span id='url'><a href='{{ restaurant.url }}'>View on Yelp</a></span>
+      </div>
+      <div id='info3'>
+        <span id=''>{{ restaurant.city }}</span>&nbsp;&nbsp;&nbsp;&nbsp;
+        <span id=''{>{{ restaurant.state }}</span>&nbsp;&nbsp;&nbsp;&nbsp;
+        <span id=''{>{{ restaurant.street }}</span>&nbsp;&nbsp;&nbsp;&nbsp;
+        <span id=''{>{{ restaurant.zip_code }}</span>&nbsp;&nbsp;&nbsp;&nbsp;
+      </div>
+      <br><br><br>
+      <div id='reviews'>
+        {% for review in reviews %}
+          <br>
+          <span class='review_item'>{{review.name}}</span>&nbsp;&nbsp;&nbsp;&nbsp;
+          <span class='review_item'>{{ review.rating }}</span>&nbsp;&nbsp;&nbsp;&nbsp;
+          <span class='review_item'>{{ review.time}}</span> <br>
+          <span class='review_item'>{{ review.text }}</span>
+          <br>
+        {% endfor %}
+      </div>
+    </div>
+</div>

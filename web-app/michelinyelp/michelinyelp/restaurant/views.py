@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.views.generic.edit import FormView
 from michelinyelp.restaurant.forms import SearchForm
 from django.views.generic import TemplateView, DetailView
-from michelinyelp.restaurant.models import Restaurant, City, State, Category, RestaurantByCategory
+from michelinyelp.restaurant.models import Restaurant, City, State, Category, RestaurantByCategory, Review
 
 
 class SearchView(FormView):
@@ -29,6 +29,14 @@ class RestaurantDetailView(DetailView):
     model = Restaurant
     template_name = 'restaurant_detail.html'
 
+    def get_context_data(self, **kwargs):
+      context = super(RestaurantDetailView, self).get_context_data(**kwargs)
+      print("self.object:", self.object)
+      r = Review.objects.filter(restaurant_id=self.object.id)
+      print('r:', r)
+      context['reviews'] = r
+      return context
+
 
 class CityListView(DetailView):
     model = City
@@ -50,3 +58,4 @@ class CategoryListView(DetailView):
       restaurant_ids = [r.restaurant_id.id for r in restaurants_by_category]
       context['restaurants'] = Restaurant.objects.filter(id__in=restaurant_ids)
       return context
+
