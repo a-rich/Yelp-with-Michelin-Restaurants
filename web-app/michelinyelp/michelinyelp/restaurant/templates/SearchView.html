@@ -1,3 +1,6 @@
+{% load static %}
+<link href="{% static 'style.css' %}" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="../../../static/style.css" />
 <script>
     function redirectTo(url) {
         window.location.href = url;
@@ -8,20 +11,25 @@
         {% csrf_token %}
         {{ form.as_p }}
     </form>
-    <button type="submit">Submit</button>
+    <button id="this_button" type="submit">Submit</button>
     <br><br>
-    Restaurants<br>
-    {% for restaurant in restaurants %}
-        <div onClick=redirectTo('{% url 'restaurant' restaurant.id %}')>
+    <div id='results_container'>
+      <div class='results' id='restaurant_results'>
+        Restaurants<br>
+        {% for restaurant in restaurants %}
+          <div onClick=redirectTo('{% url 'restaurant' restaurant.id %}')>
             {{ restaurant.name }}
-        </div>
-    {% endfor %}
-    Categories<br>
-    {% for category in categories %}
-        <div onClick=redirectTo('{% url 'category' category.id %}')>
+          </div>
+        {% endfor %}
+      </div>
+      <div class='results' id='category_results'>
+        Categories<br>
+        {% for category in categories %}
+          <div onClick=redirectTo('{% url 'category' category.id %}')>
             {{ category.title }}
-        </div>
-    {% endfor %}
+          </div>
+        {% endfor %}
+      </div>
     Cities<br>
     {% for city in cities %}
         <div onClick=redirectTo('{% url 'city' city.id %}')>
@@ -34,4 +42,5 @@
             {{ state }}
         </div>
     {% endfor %}
+    </div>
 </body>

@@ -15,18 +15,19 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from django.conf import settings
+from django.conf.urls.static import static
 from michelinyelp.restaurant.views import (SearchView, RestaurantDetailView,
                                            CityListView, StateListView,
                                            CategoryListView)
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^search/', SearchView.as_view()),
+    url(r'^$', SearchView.as_view()),
     url(r'restaurants/(?P<pk>[-\w]+)/$', RestaurantDetailView.as_view(),
         name='restaurant'),
     url(r'cities/(?P<pk>[-\w]+)/$', CityListView.as_view(), name='city'),
     url(r'states/(?P<pk>[-\w]+)/$', StateListView.as_view(), name='state'),
     url(r'categories/(?P<pk>[-\w]+)/$', CategoryListView.as_view(),
         name='category'),
-
-]
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
