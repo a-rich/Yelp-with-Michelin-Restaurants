@@ -1,6 +1,5 @@
 {% load static %}
 <link href="{% static 'style.css' %}" rel="stylesheet" type="text/css"/>
-<link rel="stylesheet" href="../../../static/style.css" />
 <script>
     function redirectTo(url) {
         window.location.href = url;
@@ -14,33 +13,49 @@
     <button id="this_button" type="submit">Submit</button>
     <br><br>
     <div id='results_container'>
+
       <div class='results' id='restaurant_results'>
-        Restaurants<br>
-        {% for restaurant in restaurants %}
-          <div onClick=redirectTo('{% url 'restaurant' restaurant.id %}')>
-            {{ restaurant.name }}
+        <h1>Restaurants</h1><br>
+          <div class='inner_container'>
+            {% for restaurant in restaurants %}
+              <div class='item' onClick=redirectTo('{% url 'restaurant' restaurant.id %}')>
+                {{ restaurant.name }}
+              </div>
+            {% endfor %}
           </div>
-        {% endfor %}
       </div>
+
       <div class='results' id='category_results'>
-        Categories<br>
-        {% for category in categories %}
-          <div onClick=redirectTo('{% url 'category' category.id %}')>
-            {{ category.title }}
+        <h1>Categories</h1><br>
+          <div class='inner_container'>
+            {% for category in categories %}
+              <div class='item' onClick=redirectTo('{% url 'category' category.id %}')>
+                {{ category.title }}
+              </div>
+            {% endfor %}
           </div>
-        {% endfor %}
       </div>
-    Cities<br>
-    {% for city in cities %}
-        <div onClick=redirectTo('{% url 'city' city.id %}')>
-            {{ city }}
-        </div>
-    {% endfor %}
-    States<br>
-    {% for state in states %}
-        <div onClick=redirectTo('{% url 'state' state.id %}')>
-            {{ state }}
-        </div>
-    {% endfor %}
+
+      <div class='results' id='city_results'>
+        <h1>Cities</h1><br>
+          <div class='inner_container'>
+            {% for city in cities %}
+              <div class='item' onClick=redirectTo('{% url 'city' city.id %}')>
+                {{ city }}
+              </div>
+            {% endfor %}
+          </div>
+      </div>
+
+      <div class='results' id='state_results'>
+        <h1>States</h1><br>
+          <div class='inner_container'>
+            {% for state in states %}
+              <div class='item' onClick=redirectTo('{% url 'state' state.id %}')>
+                {{ state }}
+              </div>
+            {% endfor %}
+          </div>
+      </div>
     </div>
 </body>
