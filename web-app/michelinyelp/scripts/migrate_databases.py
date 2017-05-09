@@ -1,5 +1,5 @@
 import sqlite3
-from michelinyelp.restaurant.models import City, Restaurant, State, Category, RestaurantByCategory
+from michelinyelp.restaurant.models import City, Restaurant, State, Category, RestaurantByCategory, Review
 
 
 def run(*args):
@@ -7,6 +7,7 @@ def run(*args):
     conn = sqlite3.connect('database.db')
     c = conn.cursor()
     count = 0
+    '''
     res = ("""SELECT name, rating, url, price, review_count, street, city, state, country, zip_code, phone, image_url FROM restaurant""")  # noqa
     for result in c.execute(res):
         _city, _state = None, None
@@ -50,3 +51,19 @@ def run(*args):
                                        category_id=category)
             print rbc
             rbc.save()
+
+    res = ("""SELECT r.url, r.restaurant_id, r.rating, r.name, r.time, r.text, res.name FROM review AS r, restaurant as res WHERE res.id=r.restaurant_id""")
+    for result in c.execute(res):
+        print result
+        restaurant = Restaurant.objects.filter(name=result[6]).first()
+        if restaurant:
+            try:
+                Review.objects.create(url=result[0], restaurant_id=result[1],
+                                      rating=result[2], name=result[3], time=result[4].split(' ')[0],
+                                      text=result[5])
+            except Exception as e:
+                print 'ERROR occured: {}'.format(e)
+            print 'created review'
+    '''
+
+    
