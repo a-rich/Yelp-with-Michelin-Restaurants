@@ -1,7 +1,5 @@
 import sqlite3
 from michelinyelp.restaurant.models import City, Restaurant, State, Category, RestaurantByCategory
-import re
-from localflavor.us import us_states
 
 
 def run(*args):
@@ -16,11 +14,13 @@ def run(*args):
             print 'searching for city {}'.format(result[6])
             _city = City.objects.get(name=result[6])
         except City.DoesNotExist:
+            City.objects.create(name=result[6])
             print 'ERROR: {} not found in cities'.format(result[6])
         print 'searching for state {}'.format(result[7])
         try:
-            _state = State.objects.get(name=state_map[result[7]])
+            _state = State.objects.get(name=result[7])
         except State.DoesNotExist:
+            State.objects.create(name=result[7])
             print 'ERROR: {} not found in states'.format(result[7])
 
         if _city and _state:
@@ -41,7 +41,7 @@ def run(*args):
         try:
             category = Category.objects.get(title=result[1])
         except Category.DoesNotExist:
-            # category = Category.objects.create(title=result[1])
+            category = Category.objects.create(title=result[1])
             print 'ERROR: {} not found in categories'.format(result[1])
 
         restaurant = Restaurant.objects.filter(name=result[0]).first()
