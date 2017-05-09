@@ -1,0 +1,2000 @@
+
+
+```python
+%load_ext sql
+%sql sqlite://
+%sql sqlite:///database.db
+```
+
+
+
+
+    u'Connected: None@database.db'
+
+
+
+# Show the restaruant table
+
+
+```python
+%sql select * from restaurant limit 2
+
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>rating</th>
+        <th>url</th>
+        <th>price</th>
+        <th>review_count</th>
+        <th>phone</th>
+        <th>image_url</th>
+        <th>addressID</th>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>The Purple Pig</td>
+        <td>4.0</td>
+        <td>https//www.yelp.com/biz/the-purple-pig-chicago?adjust_creative=TgDi75JA_PwGLZfvhAmGyw&amp;utm_campaign=yelp_api_v3&amp;utm_medium=api_v3_business_search&amp;utm_source=TgDi75JA_PwGLZfvhAmGyw</td>
+        <td>$$</td>
+        <td>4939</td>
+        <td>(312) 464-1744</td>
+        <td>https://s3-media4.fl.yelpcdn.com/bphoto/_A9av72FoUEpGnf1WR7hIg/o.jpg</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Au Cheval</td>
+        <td>4.5</td>
+        <td>https//www.yelp.com/biz/au-cheval-chicago?adjust_creative=TgDi75JA_PwGLZfvhAmGyw&amp;utm_campaign=yelp_api_v3&amp;utm_medium=api_v3_business_search&amp;utm_source=TgDi75JA_PwGLZfvhAmGyw</td>
+        <td>$$</td>
+        <td>3794</td>
+        <td>(312) 929-4580</td>
+        <td>https://s3-media4.fl.yelpcdn.com/bphoto/o7P1jZ8tMz5q8CYrcRrGbA/o.jpg</td>
+        <td>1</td>
+    </tr>
+</table>
+
+
+
+# show the address table
+
+
+```python
+%sql select * from address limit 1
+
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>addressID</th>
+        <th>street</th>
+        <th>city</th>
+        <th>zip_code</th>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>500 N Michigan Ave</td>
+        <td>Chicago</td>
+        <td>60611</td>
+    </tr>
+</table>
+
+
+
+# show the belong_to relational table
+
+
+```python
+%sql select * from belong_to limit 1
+
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>zip_code</th>
+        <th>state_id</th>
+    </tr>
+    <tr>
+        <td>60611</td>
+        <td>0</td>
+    </tr>
+</table>
+
+
+
+# show the restaruant_by_category relational table
+
+
+```python
+%sql select * from restaurant_by_category limit 1
+
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>restaurant_id</th>
+        <th>category_id</th>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+</table>
+
+
+
+# show the category table
+
+
+```python
+%sql select * from category limit 1
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>id</th>
+        <th>title</th>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>Tapas/Small Plates</td>
+    </tr>
+</table>
+
+
+
+# create trigger when insert a new restaurant if the ID already exist then report.
+
+
+```python
+%%sql
+CREATE TRIGGER IF NOT EXISTS inserrestaurant
+BEFORE INSERT ON restaurant
+FOR EACH ROW
+WHEN(EXISTS (SELECT * FROM restaurant
+            WHERE NEW.id=id))
+BEGIN 
+    SELECT RAISE(ABORT, 'ID exists');
+END;
+
+```
+
+    Done.
+
+
+
+
+
+    []
+
+
+
+# create trigger when insert a new address if the ID already exist then report.
+
+
+```python
+%%sql
+CREATE TRIGGER IF NOT EXISTS insertAddress
+BEFORE INSERT ON address
+FOR EACH ROW
+WHEN(EXISTS (SELECT * FROM address WHERE NEW.addressID=addressID))
+BEGIN
+    SELECT RAISE(ABORT, 'address exists');
+END;
+```
+
+    Done.
+
+
+
+
+
+    []
+
+
+
+# insert a new record into restaurant and address table
+
+
+```python
+%%sql
+insert into restaurant(name, rating, url, price, review_count, image_url, addressID) values ('Sawa Sushi','www.sawasushi.com',4.5,'$$$$',196,"Null",'384');
+insert into address values(384,'1042 E El Camino Real','Sunnyvale',94087);
+```
+
+    1 rows affected.
+    1 rows affected.
+
+
+
+
+
+    []
+
+
+
+# searching restaurant by name from restaurant table
+
+
+```python
+%%sql
+select id, name, phone, rating from restaurant where name LIKE '%Bird Provisions%' 
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>phone</th>
+        <th>rating</th>
+    </tr>
+    <tr>
+        <td>273</td>
+        <td>State Bird Provisions</td>
+        <td>(415) 795-1272</td>
+        <td>4.0</td>
+    </tr>
+</table>
+
+
+
+# searching restaurant by zip_code from restaurant and address table
+
+
+```python
+%%sql
+SELECT r.id, r.name,r.phone, r.rating , a.street, a.city, a.zip_code 
+FROM restaurant r, address a 
+WHERE r.addressID=a.addressID AND a.zip_code= 94115
+order by rating
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>phone</th>
+        <th>rating</th>
+        <th>street</th>
+        <th>city</th>
+        <th>zip_code</th>
+    </tr>
+    <tr>
+        <td>380</td>
+        <td>SPQR</td>
+        <td>(415) 771-7779</td>
+        <td>3.5</td>
+        <td>1911 Fillmore St</td>
+        <td>San Francisco</td>
+        <td>94115</td>
+    </tr>
+    <tr>
+        <td>273</td>
+        <td>State Bird Provisions</td>
+        <td>(415) 795-1272</td>
+        <td>4.0</td>
+        <td>1529 Fillmore St</td>
+        <td>San Francisco</td>
+        <td>94115</td>
+    </tr>
+    <tr>
+        <td>354</td>
+        <td>Nico</td>
+        <td>(415) 359-1000</td>
+        <td>4.0</td>
+        <td>3228 Sacramento St</td>
+        <td>San Francisco</td>
+        <td>94115</td>
+    </tr>
+    <tr>
+        <td>366</td>
+        <td>The Progress</td>
+        <td>(415) 673-1294</td>
+        <td>4.0</td>
+        <td>1525 Fillmore St</td>
+        <td>San Francisco</td>
+        <td>94115</td>
+    </tr>
+    <tr>
+        <td>322</td>
+        <td>Mosu</td>
+        <td>(415) 735-7303</td>
+        <td>4.5</td>
+        <td>1552 Fillmore St</td>
+        <td>San Francisco</td>
+        <td>94115</td>
+    </tr>
+</table>
+
+
+
+# Searching restaurant and the address by partical name of restaurant
+
+
+```python
+%%sql
+SELECT r.id, r.name,r.phone, r.rating , a.street, a.city, a.zip_code 
+FROM restaurant r, address a 
+WHERE r.addressID=a.addressID AND r.name LIKE '%dowsweet%'
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>phone</th>
+        <th>rating</th>
+        <th>street</th>
+        <th>city</th>
+        <th>zip_code</th>
+    </tr>
+    <tr>
+        <td>200</td>
+        <td>Meadowsweet</td>
+        <td>(718) 384-0673</td>
+        <td>4.0</td>
+        <td>149 Broadway</td>
+        <td>Brooklyn</td>
+        <td>11211</td>
+    </tr>
+</table>
+
+
+
+# searching restaurant and address by city and rating>4.5
+
+
+```python
+%%sql
+SELECT r.name, r.phone, r.rating, a.street, a.city,a.zip_code
+FROM restaurant r, address a
+WHERE r.addressID=a.addressID AND a.city='Chicago' AND rating >4.5
+order by price
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>name</th>
+        <th>phone</th>
+        <th>rating</th>
+        <th>street</th>
+        <th>city</th>
+        <th>zip_code</th>
+    </tr>
+    <tr>
+        <td>Oriole</td>
+        <td>(312) 877-5339</td>
+        <td>5.0</td>
+        <td>661 W Walnut St</td>
+        <td>Chicago</td>
+        <td>60661</td>
+    </tr>
+</table>
+
+
+
+# searching restaurant and address by city (with lower case letter) and rating = 5
+
+
+```python
+%%sql
+SELECT r.name,  r.phone, r.rating, a.street, a.city,a.zip_code
+FROM restaurant r, address a
+WHERE r.addressID=a.addressID AND rating=5 AND UPPER(city)= UPPER('new york')
+
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>name</th>
+        <th>phone</th>
+        <th>rating</th>
+        <th>street</th>
+        <th>city</th>
+        <th>zip_code</th>
+    </tr>
+    <tr>
+        <td>L'Appart</td>
+        <td>(212) 981-8577</td>
+        <td>5.0</td>
+        <td>225 Liberty St</td>
+        <td>New York</td>
+        <td>10281</td>
+    </tr>
+</table>
+
+
+
+# searching restaurant and address by street.
+
+
+```python
+%%sql
+SELECT r.name,r.phone, r.rating,a.street, a.city, a.zip_code
+FROM restaurant r, address a
+WHERE r.addressID=a.addressID and UPPER (street) LIKE UPPER('%Grand St%')
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>name</th>
+        <th>phone</th>
+        <th>rating</th>
+        <th>street</th>
+        <th>city</th>
+        <th>zip_code</th>
+    </tr>
+    <tr>
+        <td>Nyonya</td>
+        <td>(212) 334-3669</td>
+        <td>4.0</td>
+        <td>199 Grand St</td>
+        <td>New York</td>
+        <td>10013</td>
+    </tr>
+    <tr>
+        <td>Aurora</td>
+        <td>(718) 388-5100</td>
+        <td>4.0</td>
+        <td>70 Grand St</td>
+        <td>Brooklyn</td>
+        <td>11249</td>
+    </tr>
+    <tr>
+        <td>The Saint Austere</td>
+        <td>(718) 388-0012</td>
+        <td>4.5</td>
+        <td>613 Grand St</td>
+        <td>Brooklyn</td>
+        <td>11211</td>
+    </tr>
+</table>
+
+
+
+# searching restaurant and address by street and city.
+
+
+```python
+%%sql
+SELECT r.name,r.phone, r.rating,a.street, a.city, a.zip_code
+FROM restaurant r, address a
+WHERE r.addressID=a.addressID and UPPER (street) LIKE UPPER('%Grand St%') and city="Brooklyn"
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>name</th>
+        <th>phone</th>
+        <th>rating</th>
+        <th>street</th>
+        <th>city</th>
+        <th>zip_code</th>
+    </tr>
+    <tr>
+        <td>Aurora</td>
+        <td>(718) 388-5100</td>
+        <td>4.0</td>
+        <td>70 Grand St</td>
+        <td>Brooklyn</td>
+        <td>11249</td>
+    </tr>
+    <tr>
+        <td>The Saint Austere</td>
+        <td>(718) 388-0012</td>
+        <td>4.5</td>
+        <td>613 Grand St</td>
+        <td>Brooklyn</td>
+        <td>11211</td>
+    </tr>
+</table>
+
+
+
+# searching restaurant and address by street, city and rating >= 4.5
+
+
+```python
+%%sql
+SELECT r.name,r.phone, r.rating,a.street, a.city, a.zip_code
+FROM restaurant r, address a
+WHERE r.addressID=a.addressID and UPPER (street) LIKE UPPER('%Grand St%') and city="Brooklyn" and rating>=4.5
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>name</th>
+        <th>phone</th>
+        <th>rating</th>
+        <th>street</th>
+        <th>city</th>
+        <th>zip_code</th>
+    </tr>
+    <tr>
+        <td>The Saint Austere</td>
+        <td>(718) 388-0012</td>
+        <td>4.5</td>
+        <td>613 Grand St</td>
+        <td>Brooklyn</td>
+        <td>11211</td>
+    </tr>
+</table>
+
+
+
+# searching restaurant and address by zip_code and rating>= 4, sort by price.
+
+
+```python
+%%sql
+SELECT r.name, r.phone, a.street, a.city
+From restaurant r, address a
+WHERE r.addressID = a.addressID and zip_code =94115 and rating>=4
+ORDER BY price DESC
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>name</th>
+        <th>phone</th>
+        <th>street</th>
+        <th>city</th>
+    </tr>
+    <tr>
+        <td>Mosu</td>
+        <td>(415) 735-7303</td>
+        <td>1552 Fillmore St</td>
+        <td>San Francisco</td>
+    </tr>
+    <tr>
+        <td>The Progress</td>
+        <td>(415) 673-1294</td>
+        <td>1525 Fillmore St</td>
+        <td>San Francisco</td>
+    </tr>
+    <tr>
+        <td>State Bird Provisions</td>
+        <td>(415) 795-1272</td>
+        <td>1529 Fillmore St</td>
+        <td>San Francisco</td>
+    </tr>
+    <tr>
+        <td>Nico</td>
+        <td>(415) 359-1000</td>
+        <td>3228 Sacramento St</td>
+        <td>San Francisco</td>
+    </tr>
+</table>
+
+
+
+# searching restaurant and address by city and review_count>2200 then sort by rating and price.
+
+
+```python
+%%sql
+select r.id, r.name, r.phone, r.rating, a.street,r.url,r.price
+from restaurant r, address a
+where r.addressID = a.addressID and upper(city)=upper('new york') and review_count>2200 
+order by rating, price
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>phone</th>
+        <th>rating</th>
+        <th>street</th>
+        <th>url</th>
+        <th>price</th>
+    </tr>
+    <tr>
+        <td>133</td>
+        <td>Joe's Shanghai</td>
+        <td>(212) 233-8888</td>
+        <td>4.0</td>
+        <td>9 Pell St</td>
+        <td>https//www.yelp.com/biz/joes-shanghai-new-york-2?adjust_creative=TgDi75JA_PwGLZfvhAmGyw&amp;utm_campaign=yelp_api_v3&amp;utm_medium=api_v3_business_search&amp;utm_source=TgDi75JA_PwGLZfvhAmGyw</td>
+        <td>$$</td>
+    </tr>
+    <tr>
+        <td>153</td>
+        <td>ABC Kitchen</td>
+        <td>(212) 475-5829</td>
+        <td>4.0</td>
+        <td>35 E 18th St</td>
+        <td>https//www.yelp.com/biz/abc-kitchen-new-york?adjust_creative=TgDi75JA_PwGLZfvhAmGyw&amp;utm_campaign=yelp_api_v3&amp;utm_medium=api_v3_business_search&amp;utm_source=TgDi75JA_PwGLZfvhAmGyw</td>
+        <td>$$$</td>
+    </tr>
+    <tr>
+        <td>238</td>
+        <td>The Stanton Social</td>
+        <td>(212) 995-0099</td>
+        <td>4.0</td>
+        <td>99 Stanton St</td>
+        <td>https//www.yelp.com/biz/the-stanton-social-new-york?adjust_creative=TgDi75JA_PwGLZfvhAmGyw&amp;utm_campaign=yelp_api_v3&amp;utm_medium=api_v3_business_search&amp;utm_source=TgDi75JA_PwGLZfvhAmGyw</td>
+        <td>$$$</td>
+    </tr>
+    <tr>
+        <td>136</td>
+        <td>Gramercy Tavern</td>
+        <td>(212) 477-0777</td>
+        <td>4.5</td>
+        <td>42 E 20th St</td>
+        <td>https//www.yelp.com/biz/gramercy-tavern-new-york?adjust_creative=TgDi75JA_PwGLZfvhAmGyw&amp;utm_campaign=yelp_api_v3&amp;utm_medium=api_v3_business_search&amp;utm_source=TgDi75JA_PwGLZfvhAmGyw</td>
+        <td>$$$$</td>
+    </tr>
+</table>
+
+
+
+# searching restaurant and address by rating>=4.5, review_count>2000, and zip_code in california then sort results by rating and price.
+
+
+```python
+%%sql
+select r.id, r.name, r.phone, r.rating, a.street,a.city,r.price
+from restaurant r, address a
+where r.addressID = a.addressID and rating >=4.5 and review_count>2000 
+and a.zip_code IN(
+     select b.zip_code 
+     from state s, belong_to b
+    where s.stateID=b.state_id and upper(s.statename) =upper('california'))
+order by rating, price
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>phone</th>
+        <th>rating</th>
+        <th>street</th>
+        <th>city</th>
+        <th>price</th>
+    </tr>
+    <tr>
+        <td>294</td>
+        <td>Kokkari Estiatorio</td>
+        <td>(415) 981-0983</td>
+        <td>4.5</td>
+        <td>200 Jackson St</td>
+        <td>San Francisco</td>
+        <td>$$$</td>
+    </tr>
+    <tr>
+        <td>353</td>
+        <td>Chapeau!</td>
+        <td>(415) 750-9787</td>
+        <td>4.5</td>
+        <td>126 Clement St</td>
+        <td>San Francisco</td>
+        <td>$$$</td>
+    </tr>
+    <tr>
+        <td>274</td>
+        <td>Gary Danko</td>
+        <td>(415) 749-2060</td>
+        <td>4.5</td>
+        <td>800 N Point St</td>
+        <td>San Francisco</td>
+        <td>$$$$</td>
+    </tr>
+</table>
+
+
+
+# searching restaurant and it's category by restaurant name. 
+
+
+```python
+%%sql
+SELECT r.id,r.name,r.phone, r.rating, c.title
+from restaurant r, category c, restaurant_by_category rc
+where r.id=rc.restaurant_id and rc.category_id=c.id and r.name like '%Antique Taco%'
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>phone</th>
+        <th>rating</th>
+        <th>title</th>
+    </tr>
+    <tr>
+        <td>49</td>
+        <td>Antique Taco</td>
+        <td>(773) 823-9410</td>
+        <td>3.5</td>
+        <td>Desserts</td>
+    </tr>
+    <tr>
+        <td>49</td>
+        <td>Antique Taco</td>
+        <td>(773) 823-9410</td>
+        <td>3.5</td>
+        <td>Bars</td>
+    </tr>
+    <tr>
+        <td>68</td>
+        <td>Antique Taco</td>
+        <td>(773) 687-8697</td>
+        <td>4.0</td>
+        <td>Beer Bar</td>
+    </tr>
+    <tr>
+        <td>68</td>
+        <td>Antique Taco</td>
+        <td>(773) 687-8697</td>
+        <td>4.0</td>
+        <td>Lounges</td>
+    </tr>
+</table>
+
+
+
+# Excute all restaurants with their category title which having more than three different category.
+
+
+```python
+%%sql
+SELECT r.id,r.name,r.phone, r.rating, count(*) as categorycount
+from restaurant r, category c, restaurant_by_category rc
+where r.id=rc.restaurant_id and rc.category_id=c.id 
+group by r.name
+having count(distinct c.title)>3
+order by count(*)
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>phone</th>
+        <th>rating</th>
+        <th>categorycount</th>
+    </tr>
+    <tr>
+        <td>68</td>
+        <td>Antique Taco</td>
+        <td>(773) 687-8697</td>
+        <td>4.0</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>89</td>
+        <td>Rojo Gusano</td>
+        <td>(773) 539-4398</td>
+        <td>4.0</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>87</td>
+        <td>The Angry Crab</td>
+        <td>(773) 687-9929</td>
+        <td>3.5</td>
+        <td>6</td>
+    </tr>
+</table>
+
+
+
+# searching restaurant and address by city and category title sort results by price.
+
+
+```python
+%%sql 
+SELECT r.id,r.name,r.phone, r.rating, c.title, a.street, a.city,r.price
+from restaurant r, category c, restaurant_by_category rc, address a
+where r.id=rc.restaurant_id and rc.category_id=c.id and r.addressID = a.addressID 
+and city='New York' and c.title='Burgers'
+order by price
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>phone</th>
+        <th>rating</th>
+        <th>title</th>
+        <th>street</th>
+        <th>city</th>
+        <th>price</th>
+    </tr>
+    <tr>
+        <td>251</td>
+        <td>Cafe Sabarsky</td>
+        <td>(212) 288-0665</td>
+        <td>4.0</td>
+        <td>Burgers</td>
+        <td>1048 5th Ave</td>
+        <td>New York</td>
+        <td>$$</td>
+    </tr>
+    <tr>
+        <td>179</td>
+        <td>Schilling</td>
+        <td>(212) 406-1200</td>
+        <td>4.5</td>
+        <td>Burgers</td>
+        <td>109 Washington St</td>
+        <td>New York</td>
+        <td>$$$</td>
+    </tr>
+</table>
+
+
+
+# searching all restaurants and their address in Illinois which supply breakfast & brunch and rating more than 4.5
+
+
+```python
+%%sql
+select  r.id, r.name, r.phone, r.rating, c.title, a.street, a.city,r.price
+from restaurant r, category c, restaurant_by_category rc, address a
+where r.id=rc.restaurant_id and rc.category_id=c.id and r.addressID = a.addressID and c.title='Breakfast & Brunch'and rating>=4.5
+and  a.zip_code In(select b.zip_code
+            from belong_to b, state s
+            where s.stateID=b.state_id and s.statename='Illinois') 
+
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>phone</th>
+        <th>rating</th>
+        <th>title</th>
+        <th>street</th>
+        <th>city</th>
+        <th>price</th>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Bavette's Bar &amp; Boeuf</td>
+        <td>(312) 624-8154</td>
+        <td>4.5</td>
+        <td>Breakfast &amp; Brunch</td>
+        <td>218 W Kinzie St</td>
+        <td>Chicago</td>
+        <td>$$$</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>Avec</td>
+        <td>(312) 377-2002</td>
+        <td>4.5</td>
+        <td>Breakfast &amp; Brunch</td>
+        <td>615 W Randolph St</td>
+        <td>Chicago</td>
+        <td>$$$</td>
+    </tr>
+</table>
+
+
+
+# searching all restaurants and their address in New York city which supply burgers or tapas and rating over 4.
+
+
+```python
+%%sql 
+SELECT r.id,r.name,r.phone, r.rating, c.title, a.street, a.city,r.price
+from restaurant r, category c, restaurant_by_category rc, address a
+where r.id=rc.restaurant_id and rc.category_id=c.id and r.addressID = a.addressID 
+and city='New York' and (c.title='Burgers'or upper(c.title)  like upper('%Tapas%')) and rating >4
+order by price
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>phone</th>
+        <th>rating</th>
+        <th>title</th>
+        <th>street</th>
+        <th>city</th>
+        <th>price</th>
+    </tr>
+    <tr>
+        <td>168</td>
+        <td>Covina</td>
+        <td>(212) 204-0225</td>
+        <td>4.5</td>
+        <td>Tapas/Small Plates</td>
+        <td>127 E 27th St</td>
+        <td>New York</td>
+        <td>$$$</td>
+    </tr>
+    <tr>
+        <td>179</td>
+        <td>Schilling</td>
+        <td>(212) 406-1200</td>
+        <td>4.5</td>
+        <td>Burgers</td>
+        <td>109 Washington St</td>
+        <td>New York</td>
+        <td>$$$</td>
+    </tr>
+    <tr>
+        <td>179</td>
+        <td>Schilling</td>
+        <td>(212) 406-1200</td>
+        <td>4.5</td>
+        <td>Tapas/Small Plates</td>
+        <td>109 Washington St</td>
+        <td>New York</td>
+        <td>$$$</td>
+    </tr>
+    <tr>
+        <td>231</td>
+        <td>The Eddy</td>
+        <td>(646) 895-9884</td>
+        <td>4.5</td>
+        <td>Tapas/Small Plates</td>
+        <td>342 E 6th St</td>
+        <td>New York</td>
+        <td>$$$</td>
+    </tr>
+    <tr>
+        <td>268</td>
+        <td>Wallflower</td>
+        <td>(646) 682-9842</td>
+        <td>4.5</td>
+        <td>Tapas/Small Plates</td>
+        <td>235 W 12th St</td>
+        <td>New York</td>
+        <td>$$$</td>
+    </tr>
+    <tr>
+        <td>136</td>
+        <td>Gramercy Tavern</td>
+        <td>(212) 477-0777</td>
+        <td>4.5</td>
+        <td>Tapas/Small Plates</td>
+        <td>42 E 20th St</td>
+        <td>New York</td>
+        <td>$$$$</td>
+    </tr>
+</table>
+
+
+
+# searching all restaurants in New York city with over 2000 review count which their category only supply by the restaurants.
+
+
+```python
+%%sql
+select  c.title, r.name, r.phone, r.rating, r.url
+from restaurant r, category c, restaurant_by_category rc, address a
+where r.id=rc.restaurant_id and rc.category_id=c.id and r.addressID=a.addressID and a.city="New York"and review_count>2000
+group by c.title
+having count(*) =1
+order by rating DESC
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>title</th>
+        <th>name</th>
+        <th>phone</th>
+        <th>rating</th>
+        <th>url</th>
+    </tr>
+    <tr>
+        <td>American Traditional)</td>
+        <td>Babbo</td>
+        <td>(212) 777-0303</td>
+        <td>4.0</td>
+        <td>https//www.yelp.com/biz/babbo-new-york?adjust_creative=TgDi75JA_PwGLZfvhAmGyw&amp;utm_campaign=yelp_api_v3&amp;utm_medium=api_v3_business_search&amp;utm_source=TgDi75JA_PwGLZfvhAmGyw</td>
+    </tr>
+    <tr>
+        <td>Austrian</td>
+        <td>Babbo</td>
+        <td>(212) 777-0303</td>
+        <td>4.0</td>
+        <td>https//www.yelp.com/biz/babbo-new-york?adjust_creative=TgDi75JA_PwGLZfvhAmGyw&amp;utm_campaign=yelp_api_v3&amp;utm_medium=api_v3_business_search&amp;utm_source=TgDi75JA_PwGLZfvhAmGyw</td>
+    </tr>
+    <tr>
+        <td>Cafes</td>
+        <td>The Stanton Social</td>
+        <td>(212) 995-0099</td>
+        <td>4.0</td>
+        <td>https//www.yelp.com/biz/the-stanton-social-new-york?adjust_creative=TgDi75JA_PwGLZfvhAmGyw&amp;utm_campaign=yelp_api_v3&amp;utm_medium=api_v3_business_search&amp;utm_source=TgDi75JA_PwGLZfvhAmGyw</td>
+    </tr>
+    <tr>
+        <td>Japanese</td>
+        <td>Joe's Shanghai</td>
+        <td>(212) 233-8888</td>
+        <td>4.0</td>
+        <td>https//www.yelp.com/biz/joes-shanghai-new-york-2?adjust_creative=TgDi75JA_PwGLZfvhAmGyw&amp;utm_campaign=yelp_api_v3&amp;utm_medium=api_v3_business_search&amp;utm_source=TgDi75JA_PwGLZfvhAmGyw</td>
+    </tr>
+    <tr>
+        <td>Latin American</td>
+        <td>ABC Kitchen</td>
+        <td>(212) 475-5829</td>
+        <td>4.0</td>
+        <td>https//www.yelp.com/biz/abc-kitchen-new-york?adjust_creative=TgDi75JA_PwGLZfvhAmGyw&amp;utm_campaign=yelp_api_v3&amp;utm_medium=api_v3_business_search&amp;utm_source=TgDi75JA_PwGLZfvhAmGyw</td>
+    </tr>
+    <tr>
+        <td>Pubs</td>
+        <td>Becco</td>
+        <td>(212) 397-7597</td>
+        <td>4.0</td>
+        <td>https//www.yelp.com/biz/becco-new-york-4?adjust_creative=TgDi75JA_PwGLZfvhAmGyw&amp;utm_campaign=yelp_api_v3&amp;utm_medium=api_v3_business_search&amp;utm_source=TgDi75JA_PwGLZfvhAmGyw</td>
+    </tr>
+    <tr>
+        <td>Seafood</td>
+        <td>The Stanton Social</td>
+        <td>(212) 995-0099</td>
+        <td>4.0</td>
+        <td>https//www.yelp.com/biz/the-stanton-social-new-york?adjust_creative=TgDi75JA_PwGLZfvhAmGyw&amp;utm_campaign=yelp_api_v3&amp;utm_medium=api_v3_business_search&amp;utm_source=TgDi75JA_PwGLZfvhAmGyw</td>
+    </tr>
+    <tr>
+        <td>Tacos</td>
+        <td>The Stanton Social</td>
+        <td>(212) 995-0099</td>
+        <td>4.0</td>
+        <td>https//www.yelp.com/biz/the-stanton-social-new-york?adjust_creative=TgDi75JA_PwGLZfvhAmGyw&amp;utm_campaign=yelp_api_v3&amp;utm_medium=api_v3_business_search&amp;utm_source=TgDi75JA_PwGLZfvhAmGyw</td>
+    </tr>
+</table>
+
+
+
+# searching restaurant and address with category title, burgers or tapas, which has most review count.
+
+
+```python
+%%sql 
+SELECT distinct r.id,r.name,r.phone, r.rating, c.title, a.street, a.city,r.price
+from restaurant r, category c, restaurant_by_category rc, address a
+where r.id=rc.restaurant_id and rc.category_id=c.id and r.addressID = a.addressID 
+and (c.title='Burgers'or upper(c.title)  like upper('%Tapas%')) 
+and review_count = (
+    select max(r1.review_count)
+    from restaurant r1, category c1, restaurant_by_category rc1
+    where r1.id=rc1.restaurant_id and rc1.category_id=c1.id and (c1.title='Burgers'or upper(c1.title)  like upper('%Tapas%')))
+
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>phone</th>
+        <th>rating</th>
+        <th>title</th>
+        <th>street</th>
+        <th>city</th>
+        <th>price</th>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>The Purple Pig</td>
+        <td>(312) 464-1744</td>
+        <td>4.0</td>
+        <td>Tapas/Small Plates</td>
+        <td>500 N Michigan Ave</td>
+        <td>Chicago</td>
+        <td>$$</td>
+    </tr>
+</table>
+
+
+
+# searching restaurant and address with category title, burgers or tapas, which has most review count.
+
+
+```python
+%%sql 
+SELECT r.id,r.name,r.phone, r.rating, c.title, a.street, a.city,r.price
+from restaurant r, category c, restaurant_by_category rc, address a
+where r.id=rc.restaurant_id and rc.category_id=c.id and r.addressID = a.addressID 
+and (c.title='Burgers'or upper(c.title)  like upper('%Tapas%')) 
+order by review_count DESC
+LIMIT 1
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>phone</th>
+        <th>rating</th>
+        <th>title</th>
+        <th>street</th>
+        <th>city</th>
+        <th>price</th>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>The Purple Pig</td>
+        <td>(312) 464-1744</td>
+        <td>4.0</td>
+        <td>Tapas/Small Plates</td>
+        <td>500 N Michigan Ave</td>
+        <td>Chicago</td>
+        <td>$$</td>
+    </tr>
+</table>
+
+
+
+# searching restaurant and address with category title is breakfast & brunch and rating over 4.5, which has most review count.
+
+
+```python
+%%sql
+select r.id, r.name, r.phone, r.rating, c.title, a.street, a.city,r.price,r.review_count
+from restaurant r, category c, restaurant_by_category rc, address a
+where r.id=rc.restaurant_id and rc.category_id=c.id and r.addressID = a.addressID
+and c.title='Breakfast & Brunch' and rating >=4.5
+and r.review_count=(select max(review_count)
+                    from restaurant r, category c, restaurant_by_category rc
+    where r.id=rc.restaurant_id and rc.category_id=c.id and c.title='Breakfast & Brunch' and rating>=4.5)
+
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>phone</th>
+        <th>rating</th>
+        <th>title</th>
+        <th>street</th>
+        <th>city</th>
+        <th>price</th>
+        <th>review_count</th>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>Avec</td>
+        <td>(312) 377-2002</td>
+        <td>4.5</td>
+        <td>Breakfast &amp; Brunch</td>
+        <td>615 W Randolph St</td>
+        <td>Chicago</td>
+        <td>$$$</td>
+        <td>1766</td>
+    </tr>
+</table>
+
+
+
+# searching restaurant and its address which zip_code belong to California, category is "Breakfast & Brunch" and  have higest rating
+
+
+```python
+%%sql
+select  r.id, r.name, r.phone, r.rating, c.title, a.street, a.city,r.price
+from restaurant r, category c, restaurant_by_category rc, address a
+where r.id=rc.restaurant_id and rc.category_id=c.id and r.addressID = a.addressID and c.title='Breakfast & Brunch'
+and  a.zip_code In(select b.zip_code
+            from belong_to b, state s
+            where s.stateID=b.state_id and s.statename='California') 
+order by rating DESC
+limit 1
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>phone</th>
+        <th>rating</th>
+        <th>title</th>
+        <th>street</th>
+        <th>city</th>
+        <th>price</th>
+    </tr>
+    <tr>
+        <td>358</td>
+        <td>Piperade</td>
+        <td>(415) 391-2555</td>
+        <td>4.0</td>
+        <td>Breakfast &amp; Brunch</td>
+        <td>1015 Battery St</td>
+        <td>San Francisco</td>
+        <td>$$$</td>
+    </tr>
+</table>
+
+
+
+# searching restaurant and its address which zip_code belong to California and  have higest review count
+
+
+```python
+%%sql
+select  r.id, r.name, r.phone, r.rating, c.title, a.street, a.city,r.price,review_count
+from restaurant r, category c, restaurant_by_category rc, address a
+where r.id=rc.restaurant_id and rc.category_id=c.id and r.addressID = a.addressID
+and  a.zip_code In(select b.zip_code
+            from belong_to b, state s
+            where s.stateID=b.state_id and s.statename='California') 
+order by review_count DESC
+limit 1
+
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>phone</th>
+        <th>rating</th>
+        <th>title</th>
+        <th>street</th>
+        <th>city</th>
+        <th>price</th>
+        <th>review_count</th>
+    </tr>
+    <tr>
+        <td>275</td>
+        <td>Burma Superstar</td>
+        <td>(415) 387-2147</td>
+        <td>4.0</td>
+        <td>Basque</td>
+        <td>309 Clement St</td>
+        <td>San Francisco</td>
+        <td>$$</td>
+        <td>5676</td>
+    </tr>
+</table>
+
+
+
+# searching the restaurant and its address which zip_code belong to New York state and have rating =5
+
+
+```python
+%%sql
+select  r.id, r.name, r.phone, r.rating, c.title, a.street, a.city,r.price,review_count
+from restaurant r, category c, restaurant_by_category rc, address a
+where r.id=rc.restaurant_id and rc.category_id=c.id and r.addressID = a.addressID and rating =5
+and  a.zip_code In(select b.zip_code
+            from belong_to b, state s
+            where s.stateID=b.state_id and s.statename='New York')
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>phone</th>
+        <th>rating</th>
+        <th>title</th>
+        <th>street</th>
+        <th>city</th>
+        <th>price</th>
+        <th>review_count</th>
+    </tr>
+    <tr>
+        <td>250</td>
+        <td>L'Appart</td>
+        <td>(212) 981-8577</td>
+        <td>5.0</td>
+        <td>Beer Bar</td>
+        <td>225 Liberty St</td>
+        <td>New York</td>
+        <td>$$$$</td>
+        <td>35</td>
+    </tr>
+</table>
+
+
+
+# searching restaurant and its reviews by partical restaurant name "Meadow" and order result by review rating
+
+
+```python
+%%sql
+select r.id, r.name ,r.price, re.time,re.rating,re.text
+from restaurant r, review re
+where r.id=re.restaurant_id and r.name LIKE '%Meadow%'
+ORDER BY re.rating
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>price</th>
+        <th>time</th>
+        <th>rating</th>
+        <th>text</th>
+    </tr>
+    <tr>
+        <td>200</td>
+        <td>Meadowsweet</td>
+        <td>$$$</td>
+        <td>2017-04-21 093320</td>
+        <td>4.0</td>
+        <td>Awesome brunch spot in Williamsburg, highly recommended.<br><br>The waffles looked great topped with fresh berries, whipped cream, and maple syrup, but we didn't...</td>
+    </tr>
+    <tr>
+        <td>200</td>
+        <td>Meadowsweet</td>
+        <td>$$$</td>
+        <td>2017-04-02 151813</td>
+        <td>5.0</td>
+        <td>Walked in around 230ish for Sunday brunch. Though the restaurant was full we walked in just as another couple was getting ready to leave. The hostesses and...</td>
+    </tr>
+    <tr>
+        <td>200</td>
+        <td>Meadowsweet</td>
+        <td>$$$</td>
+        <td>2017-03-21 070154</td>
+        <td>5.0</td>
+        <td>i randomly happened upon this spot when i was searching for a resto that would take brunch reservations for a large party. i think eater.com led me...</td>
+    </tr>
+</table>
+
+
+
+# searching restaurants and their review in Astoria which category is "Gastropubs" then sort result by review rating.
+
+
+```python
+%%sql
+select r.name, r.phone, r.price, re.rating, re.text
+from restaurant r, review re, address a, category c, restaurant_by_category rc
+where r.id=re.restaurant_id and r.id=rc.restaurant_id and rc.category_id=c.id and r.addressID = a.addressID and 
+c.title='Gastropubs' and a.city='Astoria'
+order by re.rating
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>name</th>
+        <th>phone</th>
+        <th>price</th>
+        <th>rating</th>
+        <th>text</th>
+    </tr>
+    <tr>
+        <td>Gastroteca</td>
+        <td>(718) 729-9080</td>
+        <td>$$</td>
+        <td>3.0</td>
+        <td>Came here on a Saturday @ 1145 we were seated but told we had until 1 to eat. It is better if you make a reservation. It fills up quickly here.<br><br>Good...</td>
+    </tr>
+    <tr>
+        <td>Gastroteca</td>
+        <td>(718) 729-9080</td>
+        <td>$$</td>
+        <td>4.0</td>
+        <td>Very nice place near Kaufman studios and The Museum of the Moving Image.  Inside was airy and very bright.  <br><br>I had the chicken and waffles (as good as...</td>
+    </tr>
+    <tr>
+        <td>Gastroteca</td>
+        <td>(718) 729-9080</td>
+        <td>$$</td>
+        <td>5.0</td>
+        <td>The drinks here are STRONG. I came for brunch and had a shandy followed by two Moscow Mules and was definitely feeling the after effects, so don't let the...</td>
+    </tr>
+</table>
+
+
+
+# searching restaurants and their reviews which reviewed by reviewer named "Brent W."
+
+
+```python
+%%sql
+select r.name,r.phone, c.title, re.rating, re.text
+from restaurant r, review re, category c, restaurant_by_category rc
+where r.id=re.restaurant_id and r.id=rc.restaurant_id and rc.category_id=c.id and re.name='Brent W.'
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>name</th>
+        <th>phone</th>
+        <th>title</th>
+        <th>rating</th>
+        <th>text</th>
+    </tr>
+    <tr>
+        <td>The Dawson</td>
+        <td>(312) 243-8955</td>
+        <td>Cocktail Bars</td>
+        <td>4.0</td>
+        <td>The Dawson is pretty solid all the way around. Came here late to the party and am happy to say, they still deliver.  Great space, concept, look and feel,...</td>
+    </tr>
+    <tr>
+        <td>The Dawson</td>
+        <td>(312) 243-8955</td>
+        <td>Wine Bars</td>
+        <td>4.0</td>
+        <td>The Dawson is pretty solid all the way around. Came here late to the party and am happy to say, they still deliver.  Great space, concept, look and feel,...</td>
+    </tr>
+    <tr>
+        <td>The Dawson</td>
+        <td>(312) 243-8955</td>
+        <td>Latin American</td>
+        <td>4.0</td>
+        <td>The Dawson is pretty solid all the way around. Came here late to the party and am happy to say, they still deliver.  Great space, concept, look and feel,...</td>
+    </tr>
+    <tr>
+        <td>Owen &amp; Engine</td>
+        <td>(773) 235-2930</td>
+        <td>Seafood</td>
+        <td>4.0</td>
+        <td>This place strikes me as a proper English Pub with a smallish space but it works, quite cozy and nice.  The atmo, beer, food, and service - all excellent....</td>
+    </tr>
+    <tr>
+        <td>Owen &amp; Engine</td>
+        <td>(773) 235-2930</td>
+        <td>Whiskey Bars</td>
+        <td>4.0</td>
+        <td>This place strikes me as a proper English Pub with a smallish space but it works, quite cozy and nice.  The atmo, beer, food, and service - all excellent....</td>
+    </tr>
+    <tr>
+        <td>The Radler</td>
+        <td>(773) 276-0270</td>
+        <td>Breweries</td>
+        <td>4.0</td>
+        <td>Caveat Lector, I'm gonna talk thru some completely unrelated shiii for about a few good seconds so hold tight.<br><br>First off i ended up in the equivalent of a...</td>
+    </tr>
+    <tr>
+        <td>The Radler</td>
+        <td>(773) 276-0270</td>
+        <td>Cajun/Creole</td>
+        <td>4.0</td>
+        <td>Caveat Lector, I'm gonna talk thru some completely unrelated shiii for about a few good seconds so hold tight.<br><br>First off i ended up in the equivalent of a...</td>
+    </tr>
+    <tr>
+        <td>The Radler</td>
+        <td>(773) 276-0270</td>
+        <td>American Traditional)</td>
+        <td>4.0</td>
+        <td>Caveat Lector, I'm gonna talk thru some completely unrelated shiii for about a few good seconds so hold tight.<br><br>First off i ended up in the equivalent of a...</td>
+    </tr>
+</table>
+
+
+
+# searching the reviewer who reviews restaurants at more than three cities.
+
+
+```python
+%%sql
+select re.name as review_by
+from restaurant r, review re, category c, restaurant_by_category rc, address a
+where r.id=re.restaurant_id and r.id=rc.restaurant_id and rc.category_id=c.id and a.addressID=r.addressID  
+group by re.name
+having count(distinct a.city) >=3
+
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>review_by</th>
+    </tr>
+    <tr>
+        <td>Stephanie Y.</td>
+    </tr>
+    <tr>
+        <td>Tiffany H.</td>
+    </tr>
+</table>
+
+
+
+# searching restaurant and its reviews in Chicago and have rating = 5
+
+
+```python
+%%sql
+select r.id, r.name,r.phone, c.title, re.text,a.city, re.name as review_by
+from restaurant r, review re, category c, restaurant_by_category rc, address a
+where r.id=re.restaurant_id and r.id=rc.restaurant_id and rc.category_id=c.id and a.addressID=r.addressID 
+and r.rating=5 and a.city='Chicago'
+
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>phone</th>
+        <th>title</th>
+        <th>text</th>
+        <th>city</th>
+        <th>review_by</th>
+    </tr>
+    <tr>
+        <td>26</td>
+        <td>Oriole</td>
+        <td>(312) 877-5339</td>
+        <td>Tapas/Small Plates</td>
+        <td>I came here with my husband for my birthday. Firstly, the service was excellent, staff was friendly. My servers were very knowledgeable, and I got a...</td>
+        <td>Chicago</td>
+        <td>Nikhila B.</td>
+    </tr>
+    <tr>
+        <td>26</td>
+        <td>Oriole</td>
+        <td>(312) 877-5339</td>
+        <td>Tapas/Small Plates</td>
+        <td>I cannot possibly explain enough how truly magical of an experience we had at Oriole. Chef Noah Sandoval and Chef Genie Kwon are truly master artists in...</td>
+        <td>Chicago</td>
+        <td>Raheleh K.</td>
+    </tr>
+    <tr>
+        <td>26</td>
+        <td>Oriole</td>
+        <td>(312) 877-5339</td>
+        <td>Tapas/Small Plates</td>
+        <td>I haven't been to a prixe fixe in awhile so I was looking forward to this for a friends bday.  <br><br>The location-you have to be looking for it to find...</td>
+        <td>Chicago</td>
+        <td>Stephanie L.</td>
+    </tr>
+</table>
+
+
+
+# searching restaurant and its review in San Francisco by reviewer named "Tiffany H."
+
+
+```python
+%%sql
+select r.id, r.name,r.phone, c.title, re.rating, re.text,a.city, re.name as review_by
+from restaurant r, review re, category c, restaurant_by_category rc, address a
+where r.id=re.restaurant_id and r.id=rc.restaurant_id and rc.category_id=c.id and a.addressID=r.addressID 
+and re.name='Tiffany H.' and city='San Francisco'
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>phone</th>
+        <th>title</th>
+        <th>rating</th>
+        <th>text</th>
+        <th>city</th>
+        <th>review_by</th>
+    </tr>
+    <tr>
+        <td>278</td>
+        <td>Kin Khao</td>
+        <td>(415) 362-7456</td>
+        <td>Filipino</td>
+        <td>5.0</td>
+        <td>Kin Khao is definitely one of the best Thai restaurants I have been to! Highlights of my visit included the Butternut Squash Curry, the Pork Belly, and the...</td>
+        <td>San Francisco</td>
+        <td>Tiffany H.</td>
+    </tr>
+</table>
+
+
+
+# searching restaurants and their reviews by reviewer named "Stephanie Y." which the reviewer gives the highest rating.
+
+
+```python
+%%sql
+select r.id, r.name,r.phone, c.title, re.rating, re.text,a.city, re.name as review_by
+from restaurant r, review re, category c, restaurant_by_category rc, address a
+where r.id=re.restaurant_id and r.id=rc.restaurant_id and rc.category_id=c.id and a.addressID=r.addressID 
+and  re.name='Stephanie Y.' 
+and re.rating=(select max(rating) from review where name='Stephanie Y.')
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>phone</th>
+        <th>title</th>
+        <th>rating</th>
+        <th>text</th>
+        <th>city</th>
+        <th>review_by</th>
+    </tr>
+    <tr>
+        <td>217</td>
+        <td>Emily</td>
+        <td>(347) 844-9588</td>
+        <td>Sandwiches</td>
+        <td>4.0</td>
+        <td>Really really delicious pizza. Note. You can take out pizza. Also note by 8pm on a Saturday they were out of their limited count burger. Womp womp. Come...</td>
+        <td>Brooklyn</td>
+        <td>Stephanie Y.</td>
+    </tr>
+    <tr>
+        <td>266</td>
+        <td>Little Pepper</td>
+        <td>(718) 939-7788</td>
+        <td>Bakeries</td>
+        <td>4.0</td>
+        <td>It's hard to get me to ever rate Sichuan food badly. If it's authentically salty and spicy, I'm all about it. Little Pepper's gotta be REAL up your alley if...</td>
+        <td>College Point</td>
+        <td>Stephanie Y.</td>
+    </tr>
+</table>
+
+
+
+# searching the restaurants and their review which review by some reviewer who review restaurants in more than three city then sort the result by reviewer name and rating. 
+
+
+```python
+%%sql 
+select r.id, r.name,r.phone, c.title, re.rating, re.text,a.city, re.name as review_by
+from restaurant r, review re, category c, restaurant_by_category rc, address a
+where r.id=re.restaurant_id and r.id=rc.restaurant_id and rc.category_id=c.id and a.addressID=r.addressID 
+and  re.name IN (select re.name 
+from restaurant r, review re, category c, restaurant_by_category rc, address a
+where r.id=re.restaurant_id and r.id=rc.restaurant_id and rc.category_id=c.id and a.addressID=r.addressID  
+group by re.name
+having count(distinct a.city) >=3
+)
+order by re.name,re.rating
+```
+
+    Done.
+
+
+
+
+
+<table>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>phone</th>
+        <th>title</th>
+        <th>rating</th>
+        <th>text</th>
+        <th>city</th>
+        <th>review_by</th>
+    </tr>
+    <tr>
+        <td>340</td>
+        <td>Zuni Café</td>
+        <td>(415) 552-2522</td>
+        <td>Tapas/Small Plates</td>
+        <td>3.0</td>
+        <td>I guess it was A-OK? I mean from the rave reviews as this being known as an iconic SF spot, I gotta say not super impressed. It's a nice central location...</td>
+        <td>San Francisco</td>
+        <td>Stephanie Y.</td>
+    </tr>
+    <tr>
+        <td>340</td>
+        <td>Zuni Café</td>
+        <td>(415) 552-2522</td>
+        <td>Diners</td>
+        <td>3.0</td>
+        <td>I guess it was A-OK? I mean from the rave reviews as this being known as an iconic SF spot, I gotta say not super impressed. It's a nice central location...</td>
+        <td>San Francisco</td>
+        <td>Stephanie Y.</td>
+    </tr>
+    <tr>
+        <td>340</td>
+        <td>Zuni Café</td>
+        <td>(415) 552-2522</td>
+        <td>Tacos</td>
+        <td>3.0</td>
+        <td>I guess it was A-OK? I mean from the rave reviews as this being known as an iconic SF spot, I gotta say not super impressed. It's a nice central location...</td>
+        <td>San Francisco</td>
+        <td>Stephanie Y.</td>
+    </tr>
+    <tr>
+        <td>217</td>
+        <td>Emily</td>
+        <td>(347) 844-9588</td>
+        <td>Sandwiches</td>
+        <td>4.0</td>
+        <td>Really really delicious pizza. Note. You can take out pizza. Also note by 8pm on a Saturday they were out of their limited count burger. Womp womp. Come...</td>
+        <td>Brooklyn</td>
+        <td>Stephanie Y.</td>
+    </tr>
+    <tr>
+        <td>266</td>
+        <td>Little Pepper</td>
+        <td>(718) 939-7788</td>
+        <td>Bakeries</td>
+        <td>4.0</td>
+        <td>It's hard to get me to ever rate Sichuan food badly. If it's authentically salty and spicy, I'm all about it. Little Pepper's gotta be REAL up your alley if...</td>
+        <td>College Point</td>
+        <td>Stephanie Y.</td>
+    </tr>
+    <tr>
+        <td>23</td>
+        <td>Smoque BBQ</td>
+        <td>(773) 545-7427</td>
+        <td>American New)</td>
+        <td>2.0</td>
+        <td>Hmmm..I'm disappointed by Midwest 'Que! When there aren't paper towels on the table, you already know that it's just going to be ok. <br><br>When we arrived,...</td>
+        <td>Chicago</td>
+        <td>Tiffany H.</td>
+    </tr>
+    <tr>
+        <td>207</td>
+        <td>La Vara</td>
+        <td>(718) 422-0065</td>
+        <td>Soup</td>
+        <td>4.0</td>
+        <td>Came here for brunch with some diehard foodies who claimed this is one of their favorite restaurants in all of NYC for dinner - one was getting ready to...</td>
+        <td>Brooklyn</td>
+        <td>Tiffany H.</td>
+    </tr>
+    <tr>
+        <td>119</td>
+        <td>Ramen Takeya</td>
+        <td>(312) 666-7710</td>
+        <td>Peruvian</td>
+        <td>5.0</td>
+        <td>Ugh, I'm so ramen deprived in IN so I was really excited to stop by Ramen Takeya and Ramen Takeya did not disappoint. <br><br>I had the Spicy Chicken Paitan (Cage...</td>
+        <td>Chicago</td>
+        <td>Tiffany H.</td>
+    </tr>
+    <tr>
+        <td>119</td>
+        <td>Ramen Takeya</td>
+        <td>(312) 666-7710</td>
+        <td>Breweries</td>
+        <td>5.0</td>
+        <td>Ugh, I'm so ramen deprived in IN so I was really excited to stop by Ramen Takeya and Ramen Takeya did not disappoint. <br><br>I had the Spicy Chicken Paitan (Cage...</td>
+        <td>Chicago</td>
+        <td>Tiffany H.</td>
+    </tr>
+    <tr>
+        <td>278</td>
+        <td>Kin Khao</td>
+        <td>(415) 362-7456</td>
+        <td>Filipino</td>
+        <td>5.0</td>
+        <td>Kin Khao is definitely one of the best Thai restaurants I have been to! Highlights of my visit included the Butternut Squash Curry, the Pork Belly, and the...</td>
+        <td>San Francisco</td>
+        <td>Tiffany H.</td>
+    </tr>
+</table>
+
+
+
+
+```python
+
+```
+
+
+```python
+
+```
+
+
+```python
+
+```
+
+
+```python
+
+```
+
+
+```python
+
+```
