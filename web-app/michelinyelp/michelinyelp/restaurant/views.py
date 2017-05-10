@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.views.generic.edit import FormView
 from michelinyelp.restaurant.forms import SearchForm
-from django.views.generic import TemplateView, DetailView
+from django.views.generic import TemplateView, DetailView, ListView
 from michelinyelp.restaurant.models import Restaurant, City, State, Category, RestaurantByCategory, Review
 
 
@@ -25,7 +25,7 @@ class SearchView(FormView):
         return self.render_to_response(ctx)
 
 
-class RestaurantAllView(DetailView):
+class RestaurantAllView(ListView):
     model = Restaurant
     template_name = 'restaurant_all.html'
 
@@ -46,7 +46,7 @@ class RestaurantDetailView(DetailView):
         return context
 
 
-class CityAllView(DetailView):
+class CityAllView(ListView):
     model = City
     template_name = 'city_all.html'
 
@@ -61,7 +61,7 @@ class CityListView(DetailView):
     template_name = 'city_detail.html'
 
 
-class StateAllView(DetailView):
+class StateAllView(ListView):
     model = State
     template_name = 'state_all.html'
 
@@ -76,7 +76,7 @@ class StateListView(DetailView):
     template_name = 'state_detail.html'
 
 
-class CategoryAllView(DetailView):
+class CategoryAllView(ListView):
     model = Category
     template_name = 'category_all.html'
 

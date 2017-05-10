@@ -11,7 +11,7 @@
   {% for restaurant in restaurants %}
       <br>
       <div class='item' onClick=redirectTo('{% url 'restaurant' restaurant.id %}')>
-          {{ category.title}}
+          {{ restaurant.name }}
       </div>
       <br>
   {% endfor %}

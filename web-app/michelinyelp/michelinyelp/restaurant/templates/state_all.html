@@ -11,7 +11,7 @@
   {% for state in states %}
       <br>
       <div class='item' onClick=redirectTo('{% url 'state' state.id %}')>
-          {{ category.title}}
+          {{ state.name}}
       </div>
       <br>
   {% endfor %}
