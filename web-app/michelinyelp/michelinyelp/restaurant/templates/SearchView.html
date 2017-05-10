@@ -15,7 +15,9 @@
     <div id='results_container'>
 
       <div class='results' id='restaurant_results'>
-        <h1>Restaurants</h1><br>
+        <div class='item' onClick=redirectTo('{% url 'restaurants' %}')>
+          <h1>Restaurants</h1><br>
+        </div>
           <div class='inner_container'>
             {% for restaurant in restaurants %}
               <div class='item' onClick=redirectTo('{% url 'restaurant' restaurant.id %}')>
@@ -26,7 +28,9 @@
       </div>
 
       <div class='results' id='category_results'>
-        <h1>Categories</h1><br>
+        <div class='item' onClick=redirectTo('{% url 'categories' %}')>
+          <h1>Categories</h1><br>
+        </div>
         <div class='inner_container'>
           {% for category in categories %}
             <div class='item' onClick=redirectTo('{% url 'category' category.id %}')>
@@ -37,7 +41,9 @@
       </div>
 
       <div class='results' id='city_results'>
-        <h1>Cities</h1><br>
+        <div class='item' onClick=redirectTo('{% url 'cities' %}')>
+          <h1>Cities</h1><br>
+        </div>
         <div class='inner_container'>
           {% for city in cities %}
             <div class='item' onClick=redirectTo('{% url 'city' city.id %}')>
@@ -48,7 +54,9 @@
       </div>
 
       <div class='results' id='state_results'>
-        <h1>States</h1><br>
+        <div class='item' onClick=redirectTo('{% url 'states' %}')>
+          <h1>States</h1><br>
+        </div>
         <div class='inner_container'>
           {% for state in states %}
             <div class='item' onClick=redirectTo('{% url 'state' state.id %}')>

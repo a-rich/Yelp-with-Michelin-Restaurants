@@ -1,0 +1,18 @@
+{% load static %}
+<link href="{% static 'style.css' %}" rel="stylesheet" type="text/css"/>
+<script>
+    function redirectTo(url) {
+        window.location.href = url;
+    }
+</script>
+<h1>Categories</h1>
+<br>
+<div class='secondary_results'>
+  {% for category in categories %}
+      <br>
+      <div class='item' onClick=redirectTo('{% url 'category' category.id %}')>
+          {{ category.title}}
+      </div>
+      <br>
+  {% endfor %}
+</div>

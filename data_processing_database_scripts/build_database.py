@@ -9,53 +9,51 @@ yelp_reviews = pickle.load(open('yelp_reviews.bin', 'rb'))
 
 create_table_sql = """PRAGMA foreign_keys = ON;
 
-                      CREATE TABLE IF NOT EXISTS restaurant_state (
-                        id INTEGER PRIMARY KEY AUTOINCREMENT,
-                        name VARCHAR(2) NOT NULL
+                      CREATE TABLE IF NOT EXISTS state (
+                        id INT PRIMARY KEY,
+                        name VARCHAR(100) NOT NULL
                       );
 
-                      CREATE TABLE IF NOT EXISTS restaurant_city (
-                        id INTEGER PRIMARY KEY AUTOINCREMENT,
-                        name VARCHAR(200) NOT NULL
+                      CREATE TABLE IF NOT EXISTS city (
+                        id INT PRIMARY KEY,
+                        name VARCHAR(100) NOT NULL
                       );
 
-                      CREATE TABLE IF NOT EXISTS restaurant_restaurant (
-                        id INTEGER PRIMARY KEY AUTOINCREMENT,
-                        name VARCHAR(200) NOT NULL,
+                      CREATE TABLE IF NOT EXISTS restaurant (
+                        id INT PRIMARY KEY,
+                        name VARCHAR(100) NOT NULL,
                         rating FLOAT,
-                        url VARCHAR(1000),
+                        url VARCHAR(300),
                         price VARCHAR(4),
                         review_count INT,
                         street VARCHAR(100),
-                        city VARCHAR(200),
+                        city VARCHAR(100),
                         state VARCHAR(2),
+                        country VARCHAR(100),
                         zip_code INT,
-                        phone VARCHAR(14),
-                        image_url VARCHAR(1000),
-                        FOREIGN KEY (city) REFERENCES restaurant_city,
-                        FOREIGN KEY (state) REFERENCES restaurant_state
+                        phone VARCHAR(20),
+                        image_url VARCHAR(300)
                       );
 
-                      CREATE TABLE IF NOT EXISTS restaurant_category (
-                        id INTEGER PRIMARY KEY AUTOINCREMENT,
-                        title VARCHAR(300)
+                      CREATE TABLE IF NOT EXISTS category (
+                        id INT PRIMARY KEY,
+                        title VARCHAR(100)
                       );
 
-                      CREATE TABLE IF NOT EXISTS restaurant_restaurantbycategory (
-                        restaurant_id INTEGER,
-                        category_id INTEGER,
-                        FOREIGN KEY (restaurant_id) REFERENCES restaurant_restaurant,
-                        FOREIGN KEY (category_id) REFERENCES restaurant_category
+                      CREATE TABLE IF NOT EXISTS restaurant_by_category (
+                        restaurant_id INT,
+                        category_id INT,
+                        FOREIGN KEY (restaurant_id) REFERENCES restaurant,
+                        FOREIGN KEY (category_id) REFERENCES category
                       );
 
-                      CREATE TABLE IF NOT EXISTS restaurant_review (
-                        id INTEGER PRIMARY KEY AUTOINCREMENT,
-                        url VARCHAR(1000),
-                        restaurant_id INTEGER,
+                      CREATE TABLE IF NOT EXISTS review (
+                        url VARCHAR(300) PRIMARY KEY,
+                        restaurant_id INT,
                         rating FLOAT,
-                        name VARCHAR(300),
+                        name VARCHAR(100),
                         time VARCHAR(100),
-                        text VARCHAR(1000)
+                        text VARCHAR(300)
                       );
                    """
 
@@ -68,15 +66,14 @@ try:
 except Error as e:
   print(e)
 
-state_id = city_id = restaurant_id = category_id = review_id = 0
+state_id = city_id = restaurant_id = category_id = 0
 seen_states, seen_cities, seen_categories = set(), set(), set()
 sql = ""
 for place in michelin.keys():
   print("Building SQL string for {0} restaurants...".format(place))
   for r in yelp_restaurants[place]:
     if r['name'] in michelin[place].keys():
-      sql += """INSERT INTO restaurant_restaurant VALUES({0}, "{1}", {2},
-      "{3}", "{4}", {5}, "{6}", "{7}", "{8}", {9}, "{10}", "{11}");\n""".format(
+      sql += """INSERT INTO restaurant VALUES({0}, "{1}", {2}, "{3}", "{4}", {5}, "{6}", "{7}", "{8}", "{9}", {10}, "{11}", "{12}");\n""".format(
           restaurant_id,
           r['name'].replace('\"', '\'').replace(':', ''),
           r['rating'],
@@ -86,13 +83,14 @@ for place in michelin.keys():
           r['location']['address1'].replace('\"', '\'').replace(':', ''),
           r['location']['city'].replace('\"', '\'').replace(':', ''),
           r['location']['state'].replace('\"', '\'').replace(':', ''),
+          r['location']['country'].replace('\"', '\'').replace(':', ''),
           r['location']['zip_code'].replace('\"', '\'').replace(':', ''),
           r['display_phone'],
           r['image_url'],
       )
 
       if r['location']['city'] not in seen_cities:
-        sql += """INSERT INTO restaurant_city VALUES({0}, "{1}");\n""".format(
+        sql += """INSERT INTO city VALUES({0}, "{1}");\n""".format(
             city_id,
             r['location']['city'].replace('\"', '\'').replace(':', '')
             )
@@ -100,7 +98,7 @@ for place in michelin.keys():
         city_id += 1
 
       if r['location']['state'] not in seen_states:
-        sql += """INSERT INTO restaurant_state VALUES({0}, "{1}");\n""".format(
+        sql += """INSERT INTO state VALUES({0}, "{1}");\n""".format(
             state_id,
             r['location']['state'].replace('\"', '\'').replace(':', '')
             )
@@ -109,21 +107,20 @@ for place in michelin.keys():
 
       for category in set([c['title'] for c in r['categories']]):
         if category not in seen_categories:
-          sql += """INSERT INTO restaurant_category VALUES({0}, "{1}");\n""".format(
+          sql += """INSERT INTO category VALUES({0}, "{1}");\n""".format(
               category_id,
               category.replace('\"', '\'').replace(':', '').replace('(', '')
               )
           seen_categories.add(category)
           category_id += 1
 
-        sql += """INSERT INTO restaurant_restaurantbycategory VALUES({0}, {1});\n""".format(
+        sql += """INSERT INTO restaurant_by_category VALUES({0}, {1});\n""".format(
             restaurant_id,
             list(sorted(seen_categories)).index(category)
             )
 
       for review in yelp_reviews[place][r['id']]['reviews']:
-        sql += """INSERT INTO restaurant_review VALUES({0}, "{1}", {2}, {3}, "{4}", "{5}", "{6}");\n""".format(
-            review_id,
+        sql += """INSERT INTO review VALUES("{0}", {1}, {2}, "{3}", "{4}", "{5}");\n""".format(
             review['url'].replace('\"', '\''),
             restaurant_id,
             review['rating'],
@@ -131,7 +128,6 @@ for place in michelin.keys():
             review['time_created'].replace('\"', '\'').replace(':', ''),
             review['text'].replace('\"', '\'').replace(':', '')
             )
-        review_id += 1
       restaurant_id += 1
 try:
   print("Adding records to the database...")

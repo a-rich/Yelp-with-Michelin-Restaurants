@@ -19,15 +19,19 @@ from django.conf import settings
 from django.conf.urls.static import static
 from michelinyelp.restaurant.views import (SearchView, RestaurantDetailView,
                                            CityListView, StateListView,
-                                           CategoryListView)
+                                           CategoryListView, CategoryAllView,
+                                           StateAllView, CityAllView,
+                                           RestaurantAllView)
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', SearchView.as_view()),
-    url(r'restaurants/(?P<pk>[-\w]+)/$', RestaurantDetailView.as_view(),
-        name='restaurant'),
+    url(r'restaurants/$', RestaurantAllView.as_view(), name='restaurants'),
+    url(r'cities/$', CityAllView.as_view(), name='cities'),
+    url(r'states/$', StateAllView.as_view(), name='states'),
+    url(r'categories/$', CategoryAllView.as_view(), name='categories'),
+    url(r'restaurants/(?P<pk>[-\w]+)/$', RestaurantDetailView.as_view(), name='restaurant'),
     url(r'cities/(?P<pk>[-\w]+)/$', CityListView.as_view(), name='city'),
     url(r'states/(?P<pk>[-\w]+)/$', StateListView.as_view(), name='state'),
-    url(r'categories/(?P<pk>[-\w]+)/$', CategoryListView.as_view(),
-        name='category'),
+    url(r'categories/(?P<pk>[-\w]+)/$', CategoryListView.as_view(), name='category'),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

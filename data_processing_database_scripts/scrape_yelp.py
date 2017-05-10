@@ -22,7 +22,7 @@ def findRestaurants():
       except YelpAPI.YelpAPIError:
         break
 
-  pickle.dump(locations, open('yelp_restaurants.bin', 'wb'), protocol=2)
+  pickle.dump(locations, open('yelp_restaurants.bin', 'wb'))
   return locations
 
 def findReviews(locations):
@@ -35,12 +35,9 @@ def findReviews(locations):
     print("\nFetching reviews in {0}\n".format(place))
     for restaurant in [r for r in locations[place]]:
       print("Getting reviews for", restaurant['id'])
-      try:
-        reviews[place][restaurant['id']] = api.reviews_query(id=restaurant['id'])
-      except YelpAPI.YelpAPIError:
-        break
+      reviews[place][restaurant['id']] = api.reviews_query(id=restaurant['id'])
 
-  pickle.dump(reviews, open('yelp_reviews.bin', 'wb'), protocol=2)
+  pickle.dump(reviews, open('yelp_reviews.bin', 'wb'))
   return reviews
 
 

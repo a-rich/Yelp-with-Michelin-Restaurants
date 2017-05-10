@@ -89,13 +89,13 @@ def saveResults(place, results, file_name, append=True):
 
       with open(file_name, 'wb') as f:
         for r in result_list:
-          pickle.dump(r, f)
-        pickle.dump({place: results}, f)
+          pickle.dump(r, f, protocol=2)
+        pickle.dump({place: results}, f, protocol=2)
     else:
       with open(file_name, 'wb') as f:
-        pickle.dump({place: results}, f)
+        pickle.dump({place: results}, f, protocol=2)
   except FileNotFoundError:
-    pickle.dump({place: results}, open(file_name, 'wb'))
+    pickle.dump({place: results}, open(file_name, 'wb'), protocol=2)
 
 
 
