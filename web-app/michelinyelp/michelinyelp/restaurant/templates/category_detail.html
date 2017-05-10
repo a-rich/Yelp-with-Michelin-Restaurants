@@ -1,0 +1,18 @@
+{% load static %}
+<link href="{% static 'style.css' %}" rel="stylesheet" type="text/css"/>
+<script>
+    function redirectTo(url) {
+        window.location.href = url;
+    }
+</script>
+<h1>{{ category }}</h1>
+<br>
+<div class='secondary_results'>
+  {% for restaurant in restaurants %}
+      <br>
+      <div class='item' onClick=redirectTo('{% url 'restaurant' restaurant.id %}')>
+          {{ restaurant.name }}
+      </div>
+      <br>
+  {% endfor %}
+</div>
