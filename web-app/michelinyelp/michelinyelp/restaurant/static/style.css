@@ -14,6 +14,10 @@ input {
 
 #this_button { display: none; }
 
+#secondary_results {
+  text-align: center;
+}
+
 #results_container {
   left: 50%;
   transform: translate(-50%, 0);
@@ -41,9 +45,10 @@ input {
 }
 
 #info_container {
+  padding: 50px;
   position: absolute;
-  left: 60%;
-  top: 10%;
+  left: 50%;
+  text-align: center;
 }
 
 span {
@@ -53,24 +58,23 @@ span {
 
 #name {
   position: relative;
-  left: 5%;
-  font-size: 125px;
+  font-size: 100px;
   font-style: bold;
 }
 
 #info1 {
   position: relative;
-  left: -5%;
+  text-align: center;
 }
 
 #info3 {
   position: relative;
-  left: -10%;
+  text-align: center;
 }
 
 #reviews {
   position: relative;
-  left: -15%;
+  text-align: center;
 }
 
 .review_item {
@@ -80,7 +84,8 @@ span {
 img {
   position: absolute;
   vertical-align: middle;
-  margin-left: 50px;
+  //margin-left: 50px;
+  padding: 50px;
   top: 50%;
   transform: translate(0, -50%);
   width: 45%;
@@ -88,8 +93,7 @@ img {
 
 h1 {
   position: relative;
-  left: 50%;
-  transform: translate(-3%, 0);
+  text-align: center;
 }
 
 .results > h1 {

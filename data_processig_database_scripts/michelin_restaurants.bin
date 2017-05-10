@@ -1,0 +1,16789 @@
+(dp0
+S'san francisco ca'
+p1
+(dp2
+S"Piqueo's"
+p3
+(dp4
+S'city'
+p5
+S'San Francisco'
+p6
+sS'postal_code'
+p7
+S'94110'
+p8
+sS'address'
+p9
+S'830 Cortland Ave.'
+p10
+ssS"Akiko's"
+p11
+(dp12
+g5
+S'San Francisco'
+p13
+sg7
+S'94108'
+p14
+sg9
+S'431 Bush St.'
+p15
+ssS'Shizen'
+p16
+(dp17
+g5
+S'San Francisco'
+p18
+sg7
+S'94103'
+p19
+sg9
+S'370 14th St.'
+p20
+ssS'The Progress'
+p21
+(dp22
+g5
+S'San Francisco'
+p23
+sg7
+S'94115'
+p24
+sg9
+S'1525 Fillmore St.'
+p25
+ssS'Absinthe'
+p26
+(dp27
+g5
+S'San Francisco'
+p28
+sg7
+S'94102'
+p29
+sg9
+S'398 Hayes St.'
+p30
+ssS'The Slanted Door'
+p31
+(dp32
+g5
+S'San Francisco'
+p33
+sg7
+S'94111'
+p34
+sg9
+S'1 Ferry Building'
+p35
+ssS'Gioia'
+p36
+(dp37
+g5
+S'San Francisco'
+p38
+sg7
+S'94109'
+p39
+sg9
+S'2240 Polk St.'
+p40
+ssS'Michel Bistro'
+p41
+(dp42
+g5
+S'Oakland'
+p43
+sg7
+S'94601'
+p44
+sg9
+S'3343 Lakeshore Ave.'
+p45
+ssS'Tuba'
+p46
+(dp47
+g5
+S'San Francisco'
+p48
+sg7
+S'94110'
+p49
+sg9
+S'1007 Guerrero St.'
+p50
+ssS'Camino'
+p51
+(dp52
+g5
+S'Oakland'
+p53
+sg7
+S'94610'
+p54
+sg9
+S'3917 Grand Ave.'
+p55
+ssS'Kin Khao'
+p56
+(dp57
+g5
+S'San Francisco'
+p58
+sg7
+S'94102'
+p59
+sg9
+S'55 Cyril Magnin St.'
+p60
+ssS'Oliveto'
+p61
+(dp62
+g5
+S'Oakland'
+p63
+sg7
+S'94618'
+p64
+sg9
+S'5655 College Ave.'
+p65
+ssS'Parallel 37'
+p66
+(dp67
+g5
+S'San Francisco'
+p68
+sg7
+S'94108'
+p69
+sg9
+S'600 Stockton St.'
+p70
+ssS'Trabocco'
+p71
+(dp72
+g5
+S'Alameda'
+p73
+sg7
+S'94501'
+p74
+sg9
+S'2213 South Shore Center'
+p75
+ssS'Nopa'
+p76
+(dp77
+g5
+S'San Francisco'
+p78
+sg7
+S'94117'
+p79
+sg9
+S'560 Divisadero St.'
+p80
+ssS'Viva Goa'
+p81
+(dp82
+g5
+S'San Francisco'
+p83
+sg7
+S'94123'
+p84
+sg9
+S'2420 Lombard St.'
+p85
+ssS'Matador'
+p86
+(dp87
+g5
+S'San Francisco'
+p88
+sg7
+S'94102'
+p89
+sg9
+S'679 Sutter St.'
+p90
+ssS'Lolinda'
+p91
+(dp92
+g5
+S'San Francisco'
+p93
+sg7
+S'94110'
+p94
+sg9
+S'2518 Mission St.'
+p95
+ssS'Kokkari Estiatorio'
+p96
+(dp97
+g5
+S'San Francisco'
+p98
+sg7
+S'94111'
+p99
+sg9
+S'200 Jackson St.'
+p100
+ssS"Sutro's"
+p101
+(dp102
+g5
+S'San Francisco'
+p103
+sg7
+S'94121'
+p104
+sg9
+S'1090 Point Lobos Ave.'
+p105
+ssS'Chilli Padi'
+p106
+(dp107
+g5
+S'Oakland'
+p108
+sg7
+S'94607'
+p109
+sg9
+S'366 8th St.'
+p110
+ssS'Anchor Oyster Bar'
+p111
+(dp112
+g5
+S'San Francisco'
+p113
+sg7
+S'94114'
+p114
+sg9
+S'579 Castro St.'
+p115
+ssS'Atelier Crenn'
+p116
+(dp117
+g5
+S'San Francisco'
+p118
+sg7
+S'94123'
+p119
+sg9
+S'3127 Fillmore St.'
+p120
+ssS'Omakase'
+p121
+(dp122
+g5
+S'San Francisco'
+p123
+sg7
+S'94103'
+p124
+sg9
+S'665 Townsend St.'
+p125
+ssS'Nido'
+p126
+(dp127
+g5
+S'Oakland'
+p128
+sg7
+S'94607'
+p129
+sg9
+S'444 Oak St.'
+p130
+ssS'Kitchen Istanbul'
+p131
+(dp132
+g5
+S'San Francisco'
+p133
+sg7
+S'94118'
+p134
+sg9
+S'349 Clement St.'
+p135
+ssS'Twenty Five Lusk'
+p136
+(dp137
+g5
+S'San Francisco'
+p138
+sg7
+S'94107'
+p139
+sg9
+S'25 Lusk St.'
+p140
+ssS'Tacos Sinaloa'
+p141
+(dp142
+g5
+S'Berkeley'
+p143
+sg7
+S'94704'
+p144
+sg9
+S'2384 Telegraph Ave.'
+p145
+ssS'Kappou Gomi'
+p146
+(dp147
+g5
+S'San Francisco'
+p148
+sg7
+S'94121'
+p149
+sg9
+S'5524 Geary Blvd.'
+p150
+ssS'Commis'
+p151
+(dp152
+g5
+S'Oakland'
+p153
+sg7
+S'94611'
+p154
+sg9
+S'3859 Piedmont Ave.'
+p155
+ssS'Gaspar'
+p156
+(dp157
+g5
+S'San Francisco'
+p158
+sg7
+S'94104'
+p159
+sg9
+S'185 Sutter St.'
+p160
+ssS'Flavas Jamaican Grill'
+p161
+(dp162
+g5
+S'South San Francisco'
+p163
+sg7
+S'94080'
+p164
+sg9
+S'314 Linden Ave.'
+p165
+ssS'j\xc5\xab-ni'
+p166
+(dp167
+g5
+S'San Francisco'
+p168
+sg7
+S'94117'
+p169
+sg9
+S'1335 Fulton St.'
+p170
+ssS'Haven'
+p171
+(dp172
+g5
+S'Oakland'
+p173
+sg7
+S'94607'
+p174
+sg9
+S'44 Webster St.'
+p175
+ssS'Frascati'
+p176
+(dp177
+g5
+S'San Francisco'
+p178
+sg7
+S'94109'
+p179
+sg9
+S'1901 Hyde St.'
+p180
+ssS'Bar Agricole'
+p181
+(dp182
+g5
+S'San Francisco'
+p183
+sg7
+S'94103'
+p184
+sg9
+S'355 11th St.'
+p185
+ssS'Helmand Palace'
+p186
+(dp187
+g5
+S'San Francisco'
+p188
+sg7
+S'94109'
+p189
+sg9
+S'2424 Van Ness Ave.'
+p190
+ssS'Zero Zero'
+p191
+(dp192
+g5
+S'San Francisco'
+p193
+sg7
+S'94107'
+p194
+sg9
+S'826 Folsom St.'
+p195
+ssS'Frantoio'
+p196
+(dp197
+g5
+S'Mill Valley'
+p198
+sg7
+S'94941'
+p199
+sg9
+S'152 Shoreline Hwy.'
+p200
+ssS'1601 Bar & Kitchen'
+p201
+(dp202
+g5
+S'San Francisco'
+p203
+sg7
+S'94103'
+p204
+sg9
+S'1601 Howard St.'
+p205
+ssS'Fringale'
+p206
+(dp207
+g5
+S'San Francisco'
+p208
+sg7
+S'94107'
+p209
+sg9
+S'570 4th St.'
+p210
+ssS'Copita'
+p211
+(dp212
+g5
+S'Sausalito'
+p213
+sg7
+S'94965'
+p214
+sg9
+S'739 Bridgeway'
+p215
+ssS'Cosecha'
+p216
+(dp217
+g5
+S'Oakland'
+p218
+sg7
+S'94607'
+p219
+sg9
+S'907 Washington St.'
+p220
+ssS'Pl\xc3\xa4j'
+p221
+(dp222
+g5
+S'San Francisco'
+p223
+sg7
+S'94102'
+p224
+sg9
+S'333 Fulton St.'
+p225
+ssS'La Torta Gorda'
+p226
+(dp227
+g5
+S'San Francisco'
+p228
+sg7
+S'94001'
+p229
+sg9
+S'2833 24th St.'
+p230
+ssS'Una Pizza Napoletana'
+p231
+(dp232
+g5
+S'San Francisco'
+p233
+sg7
+S'94103'
+p234
+sg9
+S'210 11th St.'
+p235
+ssS'Barcote'
+p236
+(dp237
+g5
+S'San Francisco'
+p238
+sg7
+S'94609'
+p239
+sg9
+S'6430 Telegraph Ave.'
+p240
+ssS'Papito'
+p241
+(dp242
+g5
+S'San Francisco'
+p243
+sg7
+S'94107'
+p244
+sg9
+S'317 Connecticut St.'
+p245
+ssS'Mourad'
+p246
+(dp247
+g5
+S'San Francisco'
+p248
+sg7
+S'94105'
+p249
+sg9
+S'140 New Montgomery St.'
+p250
+ssS'Starbelly'
+p251
+(dp252
+g5
+S'San Francisco'
+p253
+sg7
+S'94114'
+p254
+sg9
+S'3583 16th St.'
+p255
+ssS'Belga'
+p256
+(dp257
+g5
+S'San Francisco'
+p258
+sg7
+S'94123'
+p259
+sg9
+S'2000 Union St.'
+p260
+ssS"Al's Place"
+p261
+(dp262
+g5
+S'San Francisco'
+p263
+sg7
+S'94110'
+p264
+sg9
+S'1499 Valencia St.'
+p265
+ssS'Trestle'
+p266
+(dp267
+g5
+S'San Francisco'
+p268
+sg7
+S'94133'
+p269
+sg9
+S'531 Jackson St.'
+p270
+ssS'Prubechu'
+p271
+(dp272
+g5
+S'San Francisco'
+p273
+sg7
+S'94110'
+p274
+sg9
+S'2847 Mission St.'
+p275
+ssS'Boiling Beijing'
+p276
+(dp277
+g5
+S'San Bruno'
+p278
+sg7
+S'94066'
+p279
+sg9
+S'649 San Mateo Ave.'
+p280
+ssS'Montesacro Pinseria-Enoteca'
+p281
+(dp282
+g5
+S'San Francisco'
+p283
+sg7
+S'94103'
+p284
+sg9
+S'510 Stevenson St.'
+p285
+ssS'The Cavalier'
+p286
+(dp287
+g5
+S'San Francisco'
+p288
+sg7
+S'94103'
+p289
+sg9
+S'360 Jessie St.'
+p290
+ssS'Tadu'
+p291
+(dp292
+g5
+S'San Francisco'
+p293
+sg7
+S'94102'
+p294
+sg9
+S'484 Ellis St.'
+p295
+ssS'Tacubaya'
+p296
+(dp297
+g5
+S'Berkeley'
+p298
+sg7
+S'94710'
+p299
+sg9
+S'1788 4th St.'
+p300
+ssS'Dosa'
+p301
+(dp302
+g5
+S'San Francisco'
+p303
+sg7
+S'94115'
+p304
+sg9
+S'1700 Fillmore St.'
+p305
+ssS'Delarosa'
+p306
+(dp307
+g5
+S'San Francisco'
+p308
+sg7
+S'94123'
+p309
+sg9
+S'2175 Chestnut St.'
+p310
+ssS'Jardini\xc3\xa8re'
+p311
+(dp312
+g5
+S'San Francisco'
+p313
+sg7
+S'94101'
+p314
+sg9
+S'300 Grove St.'
+p315
+ssS'Tamarind Hall'
+p316
+(dp317
+g5
+S'San Francisco'
+p318
+sg7
+S'94133'
+p319
+sg9
+S'1268 Grant Ave.'
+p320
+ssS'Yuzuki'
+p321
+(dp322
+g5
+S'San Francisco'
+p323
+sg7
+S'94110'
+p324
+sg9
+S'598 Guerrero St.'
+p325
+ssS'Yi Yuan'
+p326
+(dp327
+g5
+S'Millbrae'
+p328
+sg7
+S'94030'
+p329
+sg9
+S'1711 El Camino Real'
+p330
+ssS'Mela Tandoori Kitchen'
+p331
+(dp332
+g5
+S'San Francisco'
+p333
+sg7
+S'94102'
+p334
+sg9
+S'536 Golden Gate Ave.'
+p335
+ssS'Hamro Aangan'
+p336
+(dp337
+g5
+S'Albany'
+p338
+sg7
+S'94706'
+p339
+sg9
+S'856 San Pablo Ave.'
+p340
+ssS'Riva Cucina'
+p341
+(dp342
+g5
+S'Berkeley'
+p343
+sg7
+S'94710'
+p344
+sg9
+S'800 Heinz Ave.'
+p345
+ssS'Padrecito'
+p346
+(dp347
+g5
+S'San Francisco'
+p348
+sg7
+S'94117'
+p349
+sg9
+S'901 Cole St.'
+p350
+ssS'Tin Vietnamese'
+p351
+(dp352
+g5
+S'San Francisco'
+p353
+sg7
+S'94103'
+p354
+sg9
+S'937 Howard St.'
+p355
+ssS'Belotti Ristorante e Bottega'
+p356
+(dp357
+g5
+S'Oakland'
+p358
+sg7
+S'94618'
+p359
+sg9
+S'5403 College Ave.'
+p360
+ssS'Brown Sugar Kitchen'
+p361
+(dp362
+g5
+S'Oakland'
+p363
+sg7
+S'94607'
+p364
+sg9
+S'2534 Mandela Pkwy.'
+p365
+ssS'Nico'
+p366
+(dp367
+g5
+S'San Francisco'
+p368
+sg7
+S'94115'
+p369
+sg9
+S'3228 Sacramento St.'
+p370
+ssS'Great China'
+p371
+(dp372
+g5
+S'Berkeley'
+p373
+sg7
+S'94704'
+p374
+sg9
+S'2190 Bancroft Way'
+p375
+ssS'Pabu'
+p376
+(dp377
+g5
+S'San Francisco'
+p378
+sg7
+S'94102'
+p379
+sg9
+S'101 California St.'
+p380
+ssS'4505 Burgers & BBQ'
+p381
+(dp382
+g5
+S'San Francisco'
+p383
+sg7
+S'94117'
+p384
+sg9
+S'705 Divisadero St.'
+p385
+ssS'Hong Kong Lounge II'
+p386
+(dp387
+g5
+S'San Francisco'
+p388
+sg7
+S'94118'
+p389
+sg9
+S'3300 Geary Blvd.'
+p390
+ssS'Homage'
+p391
+(dp392
+g5
+S'San Francisco'
+p393
+sg7
+S'94108'
+p394
+sg9
+S'88 Hardie Pl.'
+p395
+ssS'An Japanese'
+p396
+(dp397
+g5
+S'Ste.'
+p398
+sg7
+S'94115'
+p399
+sg9
+S'22 Peace Plaza'
+p400
+ssS'Mama Papa Lithuania'
+p401
+(dp402
+g5
+S'Alameda'
+p403
+sg7
+S'94501'
+p404
+sg9
+S'1241 Park St.'
+p405
+ssS'Taqueria San Bruno'
+p406
+(dp407
+g5
+S'San Bruno'
+p408
+sg7
+S'94066'
+p409
+sg9
+S'1045 San Mateo Ave.'
+p410
+ssS'Michael Mina'
+p411
+(dp412
+g5
+S'San Francisco'
+p413
+sg7
+S'94102'
+p414
+sg9
+S'252 California St.'
+p415
+ssS'Pizzetta 211'
+p416
+(dp417
+g5
+S'San Francisco'
+p418
+sg7
+S'94121'
+p419
+sg9
+S'211 23rd Ave.'
+p420
+ssS'Monsieur Benjamin'
+p421
+(dp422
+g5
+S'San Francisco'
+p423
+sg7
+S'94102'
+p424
+sg9
+S'451 Gough St.'
+p425
+ssS'flour + water'
+p426
+(dp427
+g5
+S'San Francisco'
+p428
+sg7
+S'94110'
+p429
+sg9
+S'2401 Harrison St.'
+p430
+ssS'Boulevard'
+p431
+(dp432
+g5
+S'San Francisco'
+p433
+sg7
+S'94105'
+p434
+sg9
+S'1 Mission St.'
+p435
+ssS'Buckeye Roadhouse'
+p436
+(dp437
+g5
+S'Mill Valley'
+p438
+sg7
+S'94941'
+p439
+sg9
+S'15 Shoreline Hwy.'
+p440
+ssS'Orexi'
+p441
+(dp442
+g5
+S'San Francisco'
+p443
+sg7
+S'94127'
+p444
+sg9
+S'243 W. Portal Ave.'
+p445
+ssS'Grand Avenue Thai'
+p446
+(dp447
+g5
+S'Oakland'
+p448
+sg7
+S'94610'
+p449
+sg9
+S'384 Grand Ave.'
+p450
+ssS'Hina Yakitori'
+p451
+(dp452
+g5
+S'Oakland'
+p453
+sg7
+S'94609'
+p454
+sg9
+S'4828 Telegraph Ave.'
+p455
+ssS'Tycoon'
+p456
+(dp457
+g5
+S'San Francisco'
+p458
+sg7
+S'94109'
+p459
+sg9
+S'620 O\xe2\x80\x99Farrell St.'
+p460
+ssS'FIVE'
+p461
+(dp462
+g5
+S'Berkeley'
+p463
+sg7
+S'94704'
+p464
+sg9
+S'2086 Allston Way'
+p465
+ssS'Longbranch Saloon'
+p466
+(dp467
+g5
+S'Berkeley'
+p468
+sg7
+S'94702'
+p469
+sg9
+S'2512 San Pablo Ave.'
+p470
+ssS'Bar Tartine'
+p471
+(dp472
+g5
+S'San Francisco'
+p473
+sg7
+S'94110'
+p474
+sg9
+S'561 Valencia St.'
+p475
+ssS'SPQR'
+p476
+(dp477
+g5
+S'San Francisco'
+p478
+sg7
+S'94115'
+p479
+sg9
+S'1911 Fillmore St.'
+p480
+ssS'San Tung'
+p481
+(dp482
+g5
+S'San Francisco'
+p483
+sg7
+S'94122'
+p484
+sg9
+S'1031 Irving St.'
+p485
+ssS"L'Ardoise"
+p486
+(dp487
+g5
+S'San Francisco'
+p488
+sg7
+S'94114'
+p489
+sg9
+S'151 Noe St.'
+p490
+ssS'Aster'
+p491
+(dp492
+g5
+S'San Francisco'
+p493
+sg7
+S'94110'
+p494
+sg9
+S'1001 Guerrero St.'
+p495
+ssS"Brenda's"
+p496
+(dp497
+g5
+S'San Francisco'
+p498
+sg7
+S'94102'
+p499
+sg9
+S'652 Polk St.'
+p500
+ssS'Perbacco'
+p501
+(dp502
+g5
+S'San Francisco'
+p503
+sg7
+S'94111'
+p504
+sg9
+S'230 California St.'
+p505
+ssS'Sushi Ran'
+p506
+(dp507
+g5
+S'Sausalito'
+p508
+sg7
+S'94965'
+p509
+sg9
+S'107 Caledonia St.'
+p510
+ssS"Miss Ollie's"
+p511
+(dp512
+g5
+S'Oakland'
+p513
+sg7
+S'94607'
+p514
+sg9
+S'901 Washington St.'
+p515
+ssS'Bar Crudo'
+p516
+(dp517
+g5
+S'San Francisco'
+p518
+sg7
+S'94117'
+p519
+sg9
+S'655 Divisadero St.'
+p520
+ssS'Keiko \xc3\xa0 Nob Hill'
+p521
+(dp522
+g5
+S'San Francisco'
+p523
+sg7
+S'94109'
+p524
+sg9
+S'1250 Jones St.'
+p525
+ssS'the house'
+p526
+(dp527
+g5
+S'San Francisco'
+p528
+sg7
+S'94133'
+p529
+sg9
+S'1230 Grant Ave.'
+p530
+ssS'Picco'
+p531
+(dp532
+g5
+S'Larkspur'
+p533
+sg7
+S'94939'
+p534
+sg9
+S'320 Magnolia Ave.'
+p535
+ssS'Huxley'
+p536
+(dp537
+g5
+S'San Francisco'
+p538
+sg7
+S'94109'
+p539
+sg9
+S'846 Geary St.'
+p540
+ssS'Wako'
+p541
+(dp542
+g5
+S'San Francisco'
+p543
+sg7
+S'94118'
+p544
+sg9
+S'211 Clement St.'
+p545
+ssS'Imm Thai Street Food'
+p546
+(dp547
+g5
+S'Berkeley'
+p548
+sg7
+S'94704'
+p549
+sg9
+S'2068 University Ave.'
+p550
+ssS'Jannah'
+p551
+(dp552
+g5
+S'San Francisco'
+p553
+sg7
+S'94117'
+p554
+sg9
+S'1775 Fulton St.'
+p555
+ssS'M.Y. China'
+p556
+(dp557
+g5
+S'San Francisco'
+p558
+sg7
+S'94102'
+p559
+sg9
+S'845 Market St.'
+p560
+ssS'Greens'
+p561
+(dp562
+g5
+S'Fort Mason'
+p563
+sg7
+S'94123'
+p564
+sg9
+S'Building A'
+p565
+ssS'Heirloom Caf\xc3\xa9'
+p566
+(dp567
+g5
+S'San Francisco'
+p568
+sg7
+S'94110'
+p569
+sg9
+S'2500 Folsom St.'
+p570
+ssS'Calavera'
+p571
+(dp572
+g5
+S'Oakland'
+p573
+sg7
+S'94612'
+p574
+sg9
+S'2337 Broadway'
+p575
+ssS'Aatxe'
+p576
+(dp577
+g5
+S'San Francisco'
+p578
+sg7
+S'94114'
+p579
+sg9
+S'2174 Market St.'
+p580
+ssS'Bistro Aix'
+p581
+(dp582
+g5
+S'San Francisco'
+p583
+sg7
+S'94123'
+p584
+sg9
+S'3340 Steiner St.'
+p585
+ssS'Regalito'
+p586
+(dp587
+g5
+S'San Francisco'
+p588
+sg7
+S'94110'
+p589
+sg9
+S'3481 18th St.'
+p590
+ssS'Stones Throw'
+p591
+(dp592
+g5
+S'San Francisco'
+p593
+sg7
+S'94109'
+p594
+sg9
+S'1896 Hyde St.'
+p595
+ssS'Papalote'
+p596
+(dp597
+g5
+S'San Francisco'
+p598
+sg7
+S'94110'
+p599
+sg9
+S'3409 24th St.'
+p600
+ssS'Kamdesh'
+p601
+(dp602
+g5
+S'Oakland'
+p603
+sg7
+S'94612'
+p604
+sg9
+S'346 14th St.'
+p605
+ssS'Zuni Caf\xc3\xa9'
+p606
+(dp607
+g5
+S'San Francisco'
+p608
+sg7
+S'94101'
+p609
+sg9
+S'1658 Market St.'
+p610
+ssS'Hashiri'
+p611
+(dp612
+g5
+S'San Francisco'
+p613
+sg7
+S'94103'
+p614
+sg9
+S'4 Mint Plaza'
+p615
+ssS'Sons & Daughters'
+p616
+(dp617
+g5
+S'San Francisco'
+p618
+sg7
+S'94108'
+p619
+sg9
+S'708 Bush St.'
+p620
+ssS'Central Kitchen'
+p621
+(dp622
+g5
+S'San Francisco'
+p623
+sg7
+S'94110'
+p624
+sg9
+S'3000 20th St.'
+p625
+ssS'Cockscomb'
+p626
+(dp627
+g5
+S'San Francisco'
+p628
+sg7
+S'94107'
+p629
+sg9
+S'564 4th St.'
+p630
+ssS'Gary Danko'
+p631
+(dp632
+g5
+S'San Francisco'
+p633
+sg7
+S'94109'
+p634
+sg9
+S'800 North Point St.'
+p635
+ssS'La Folie'
+p636
+(dp637
+g5
+S'San Francisco'
+p638
+sg7
+S'94109'
+p639
+sg9
+S'2316 Polk St.'
+p640
+ssS'Sichuan Home'
+p641
+(dp642
+g5
+S'San Francisco'
+p643
+sg7
+S'94118'
+p644
+sg9
+S'5037 Geary Blvd.'
+p645
+ssS'Commonwealth'
+p646
+(dp647
+g5
+S'San Francisco'
+p648
+sg7
+S'94110'
+p649
+sg9
+S'2224 Mission St.'
+p650
+ssS'Piperade'
+p651
+(dp652
+g5
+S'San Francisco'
+p653
+sg7
+S'94111'
+p654
+sg9
+S'1015 Battery St.'
+p655
+ssS'Fish'
+p656
+(dp657
+g5
+S'Sausalito'
+p658
+sg7
+S'94965'
+p659
+sg9
+S'350 Harbor Dr.'
+p660
+ssS'Sahn Maru'
+p661
+(dp662
+g5
+S'Oakland'
+p663
+sg7
+S'94609'
+p664
+sg9
+S'4315 Telegraph Ave.'
+p665
+ssS'Hakkasan'
+p666
+(dp667
+g5
+S'San Francisco'
+p668
+sg7
+S'94108'
+p669
+sg9
+S'1 Kearny St.'
+p670
+ssS'Del Popolo'
+p671
+(dp672
+g5
+S'San Francisco'
+p673
+sg7
+S'94108'
+p674
+sg9
+S'855 Bush St.'
+p675
+ssS'Outerlands'
+p676
+(dp677
+g5
+S'San Francisco'
+p678
+sg7
+S'94122'
+p679
+sg9
+S'4001 Judah St.'
+p680
+ssS'Spruce'
+p681
+(dp682
+g5
+S'San Francisco'
+p683
+sg7
+S'94118'
+p684
+sg9
+S'3640 Sacramento St.'
+p685
+ssS'Barcha'
+p686
+(dp687
+g5
+S'San Francisco'
+p688
+sg7
+S'94105'
+p689
+sg9
+S'28 Fremont St.'
+p690
+ssS'Blue Plate'
+p691
+(dp692
+g5
+S'San Francisco'
+p693
+sg7
+S'94110'
+p694
+sg9
+S'3218 Mission St.'
+p695
+ssS'Blackwood'
+p696
+(dp697
+g5
+S'San Francisco'
+p698
+sg7
+S'94123'
+p699
+sg9
+S'2150 Chestnut St.'
+p700
+ssS'Kusakabe'
+p701
+(dp702
+g5
+S'San Francisco'
+p703
+sg7
+S'94111'
+p704
+sg9
+S'584 Washington St.'
+p705
+ssS'Burmatown'
+p706
+(dp707
+g5
+S'Corte Madera'
+p708
+sg7
+S'94925'
+p709
+sg9
+S'60 Corte Madera Ave.'
+p710
+ssS'Happy Sichuan'
+p711
+(dp712
+g5
+S'Millbrae'
+p713
+sg7
+S'94030'
+p714
+sg9
+S'1055 El Camino Real'
+p715
+ssS'Delage'
+p716
+(dp717
+g5
+S'Oakland'
+p718
+sg7
+S'94607'
+p719
+sg9
+S'536 9th St.'
+p720
+ssS'Florio'
+p721
+(dp722
+g5
+S'San Francisco'
+p723
+sg7
+S'94115'
+p724
+sg9
+S'1915 Fillmore St.'
+p725
+ssS'Okane'
+p726
+(dp727
+g5
+S'San Francisco'
+p728
+sg7
+S'94103'
+p729
+sg9
+S'669 Townsend St.'
+p730
+ssS'Shakewell'
+p731
+(dp732
+g5
+S'Oakland'
+p733
+sg7
+S'94610'
+p734
+sg9
+S'3407 Lakeshore Dr.'
+p735
+ssS'Le Garage'
+p736
+(dp737
+g5
+S''
+p738
+sg7
+S'94965'
+p739
+sg9
+S'85 Liberty Ship Way'
+p740
+ssS'Liholiho Yacht Club'
+p741
+(dp742
+g5
+S'San Francisco'
+p743
+sg7
+S'94109'
+p744
+sg9
+S'871 Sutter St.'
+p745
+ssS'Caf\xc3\xa9 Romanat'
+p746
+(dp747
+g5
+S'Oakland'
+p748
+sg7
+S'94610'
+p749
+sg9
+S'462 Santa Clara Ave.'
+p750
+ssS'Alta CA'
+p751
+(dp752
+g5
+S'San Francisco'
+p753
+sg7
+S'94102'
+p754
+sg9
+S'1420 Market St.'
+p755
+ssS'The Perennial'
+p756
+(dp757
+g5
+S'San Francisco'
+p758
+sg7
+S'94103'
+p759
+sg9
+S'59 9th St.'
+p760
+ssS'Myriad'
+p761
+(dp762
+g5
+S'San Francisco'
+p763
+sg7
+S'94110'
+p764
+sg9
+S'2491 Mission St.'
+p765
+ssS'Caf\xc3\xa9 Jacqueline'
+p766
+(dp767
+g5
+S'San Francisco'
+p768
+sg7
+S'94133'
+p769
+sg9
+S'1454 Grant Ave.'
+p770
+ssS'Millennium'
+p771
+(dp772
+g5
+S'Oakland'
+p773
+sg7
+S'94618'
+p774
+sg9
+S'5912 College Ave.'
+p775
+ssS'Quince'
+p776
+(dp777
+g5
+S'San Francisco'
+p778
+sg7
+S'94133'
+p779
+sg9
+S'470 Pacific Ave.'
+p780
+ssS'Duende'
+p781
+(dp782
+g5
+S'Oakland'
+p783
+sg7
+S'94612'
+p784
+sg9
+S'468 19th St.'
+p785
+ssS'Barrel House Tavern'
+p786
+(dp787
+g5
+S'Sausalito'
+p788
+sg7
+S'94965'
+p789
+sg9
+S'660 Bridgeway'
+p790
+ssS'Oriental Pearl'
+p791
+(dp792
+g5
+S'San Francisco'
+p793
+sg7
+S'94108'
+p794
+sg9
+S'760 Clay St.'
+p795
+ssS'La Marcha'
+p796
+(dp797
+g5
+S'Berkeley'
+p798
+sg7
+S'94702'
+p799
+sg9
+S'2026 San Pablo Ave.'
+p800
+ssS'Z & Y'
+p801
+(dp802
+g5
+S'San Francisco'
+p803
+sg7
+S'94133'
+p804
+sg9
+S'655 Jackson St.'
+p805
+ssS'Park Chow'
+p806
+(dp807
+g5
+S'San Francisco'
+p808
+sg7
+S'94122'
+p809
+sg9
+S'1240 9th Ave.'
+p810
+ssS'Khan Toke Thai House'
+p811
+(dp812
+g5
+S'San Francisco'
+p813
+sg7
+S'94121'
+p814
+sg9
+S'5937 Geary Blvd.'
+p815
+ssS'Seven Hills'
+p816
+(dp817
+g5
+S'San Francisco'
+p818
+sg7
+S'94109'
+p819
+sg9
+S'1550 Hyde St.'
+p820
+ssS'Cholita Linda'
+p821
+(dp822
+g5
+S'Oakland'
+p823
+sg7
+S'94609'
+p824
+sg9
+S'4923 Telegraph Ave.'
+p825
+ssS'Wayfare Tavern'
+p826
+(dp827
+g5
+S'San Francisco'
+p828
+sg7
+S'94111'
+p829
+sg9
+S'558 Sacramento St.'
+p830
+ssS'Tsubasa'
+p831
+(dp832
+g5
+S'San Francisco'
+p833
+sg7
+S'94102'
+p834
+sg9
+S'429 Gough St'
+p835
+ssS'Lai Hong Lounge'
+p836
+(dp837
+g5
+S'San Francisco'
+p838
+sg7
+S'94133'
+p839
+sg9
+S'1416 powell St.'
+p840
+ssS'Comal'
+p841
+(dp842
+g5
+S'Berkeley'
+p843
+sg7
+S'94706'
+p844
+sg9
+S'2020 Shattuck Ave.'
+p845
+ssS'Mosu'
+p846
+(dp847
+g5
+S'San Francisco'
+p848
+sg7
+S'94115'
+p849
+sg9
+S'1552 Fillmore St.'
+p850
+ssS'Mensho'
+p851
+(dp852
+g5
+S'San Francisco'
+p853
+sg7
+S'94102'
+p854
+sg9
+S'672 Geary St.'
+p855
+ssS'Corso'
+p856
+(dp857
+g5
+S'Berkeley'
+p858
+sg7
+S'94709'
+p859
+sg9
+S'1788 Shattuck Ave.'
+p860
+ssS'Boot and Shoe Service'
+p861
+(dp862
+g5
+S'Oakland'
+p863
+sg7
+S'94609'
+p864
+sg9
+S'3308 Grand Ave.'
+p865
+ssS'Battambang'
+p866
+(dp867
+g5
+S'Oakland'
+p868
+sg7
+S'94607'
+p869
+sg9
+S'850 Broadway'
+p870
+ssS"Mister Jiu's"
+p871
+(dp872
+g5
+S'San Francisco'
+p873
+sg7
+S'94108'
+p874
+sg9
+S'28 Waverly Pl.'
+p875
+ssS'Trou Normand'
+p876
+(dp877
+g5
+S'San Francisco'
+p878
+sg7
+S'94105'
+p879
+sg9
+S'140 New Montgomery St.'
+p880
+ssS"'\xc4\x81ina"
+p881
+(dp882
+g5
+S'San Francisco'
+p883
+sg7
+S'94107'
+p884
+sg9
+S'900 22nd St.'
+p885
+ssS'Do\xc3\xb1a Tom\xc3\xa1s'
+p886
+(dp887
+g5
+S'Oakland'
+p888
+sg7
+S'94609'
+p889
+sg9
+S'5004 Telegraph Ave.'
+p890
+ssS'Pizzaiolo'
+p891
+(dp892
+g5
+S'Oakland'
+p893
+sg7
+S'94609'
+p894
+sg9
+S'5008 Telegraph Ave.'
+p895
+ssS'Prospect'
+p896
+(dp897
+g5
+S'San Francisco'
+p898
+sg7
+S'94105'
+p899
+sg9
+S'300 Spear St.'
+p900
+ssS'Burma Superstar'
+p901
+(dp902
+g5
+S'San Francisco'
+p903
+sg7
+S'94118'
+p904
+sg9
+S'309 Clement St.'
+p905
+ssS'Gintei'
+p906
+(dp907
+g5
+S'San Bruno'
+p908
+sg7
+S'94066'
+p909
+sg9
+S'235 El Camino Real'
+p910
+ssS'Paprika'
+p911
+(dp912
+g5
+S'San Francisco'
+p913
+sg7
+S'94110'
+p914
+sg9
+S'3324 24th St.'
+p915
+ssS'China Village'
+p916
+(dp917
+g5
+S'Albany'
+p918
+sg7
+S'94706'
+p919
+sg9
+S'1335 Solano Ave.'
+p920
+ssS'Yank Sing'
+p921
+(dp922
+g5
+S'San Francisco'
+p923
+sg7
+S'94105'
+p924
+sg9
+S'101 Spear St.'
+p925
+ssS'Chapeau!'
+p926
+(dp927
+g5
+S'San Francisco'
+p928
+sg7
+S'94118'
+p929
+sg9
+S'126 Clement St.'
+p930
+ssS'Koi Palace'
+p931
+(dp932
+g5
+S'Daly City'
+p933
+sg7
+S'94015'
+p934
+sg9
+S'365 Gellert Blvd.'
+p935
+ssS'Tosca Caf\xc3\xa9'
+p936
+(dp937
+g5
+S'San Francisco'
+p938
+sg7
+S'94133'
+p939
+sg9
+S'242 Columbus Ave.'
+p940
+ssS'Per Diem'
+p941
+(dp942
+g5
+S'San Francisco'
+p943
+sg7
+S'94101'
+p944
+sg9
+S'43 Sutter St.'
+p945
+ssS'Piccino'
+p946
+(dp947
+g5
+S'San Francisco'
+p948
+sg7
+S'94107'
+p949
+sg9
+S'1001 Minnesota St.'
+p950
+ssS'Bellanico'
+p951
+(dp952
+g5
+S'Oakland'
+p953
+sg7
+S'94602'
+p954
+sg9
+S'4238 Park Blvd.'
+p955
+ssS'In Situ'
+p956
+(dp957
+g5
+S'San Francisco'
+p958
+sg7
+S'94103'
+p959
+sg9
+S'151 Third St.'
+p960
+ssS'Rivoli'
+p961
+(dp962
+g5
+S'Berkeley'
+p963
+sg7
+S'94707'
+p964
+sg9
+S'1539 Solano Ave.'
+p965
+ssS'Lavash'
+p966
+(dp967
+g5
+S'San Francisco'
+p968
+sg7
+S'94122'
+p969
+sg9
+S'511 Irving St.'
+p970
+ssS'Ramen Shop'
+p971
+(dp972
+g5
+S'Oakland'
+p973
+sg7
+S'94618'
+p974
+sg9
+S'5812 College Ave.'
+p975
+ssS'Delfina'
+p976
+(dp977
+g5
+S'San Francisco'
+p978
+sg7
+S'94110'
+p979
+sg9
+S'3621 18th St.'
+p980
+ssS'Yummy Szechuan'
+p981
+(dp982
+g5
+S'Millbrae'
+p983
+sg7
+S'94030'
+p984
+sg9
+S'1661 El Camino Real'
+p985
+ssS'The Commissary'
+p986
+(dp987
+g5
+S'San Francisco'
+p988
+sg7
+S'94129'
+p989
+sg9
+S'101 Montgomery St.'
+p990
+ssS'Waterbar'
+p991
+(dp992
+g5
+S'San Francisco'
+p993
+sg7
+S'94105'
+p994
+sg9
+S'399 The Embarcadero'
+p995
+ssS"Tony's Pizza Napoletana"
+p996
+(dp997
+g5
+S'San Francisco'
+p998
+sg7
+S'94113'
+p999
+sg9
+S'1570 Stockton St.'
+p1000
+ssS'Campton Place'
+p1001
+(dp1002
+g5
+S'San Francisco'
+p1003
+sg7
+S'94108'
+p1004
+sg9
+S'340 Stockton St.'
+p1005
+ssS'Saap Ver'
+p1006
+(dp1007
+g5
+S'San Francisco'
+p1008
+sg7
+S'94103'
+p1009
+sg9
+S'88 Division St.'
+p1010
+ssS'Fiorella'
+p1011
+(dp1012
+g5
+S'San Francisco'
+p1013
+sg7
+S'94121'
+p1014
+sg9
+S'2339 Clement St.'
+p1015
+ssS"Waxman's"
+p1016
+(dp1017
+g5
+S'San Francisco'
+p1018
+sg7
+S'94109'
+p1019
+sg9
+S'900 North Point St.'
+p1020
+ssS"Leopold's"
+p1021
+(dp1022
+g5
+S'San Francisco'
+p1023
+sg7
+S'94109'
+p1024
+sg9
+S'2400 Polk St.'
+p1025
+ssS'Homestead'
+p1026
+(dp1027
+g5
+S'Oakland'
+p1028
+sg7
+S'94611'
+p1029
+sg9
+S'4029 Piedmont Ave.'
+p1030
+ssS'Acquerello'
+p1031
+(dp1032
+g5
+S'San Francisco'
+p1033
+sg7
+S'94109'
+p1034
+sg9
+S'1722 Sacramento St.'
+p1035
+ssS'One Market'
+p1036
+(dp1037
+g5
+S'San Francisco'
+p1038
+sg7
+S'94105'
+p1039
+sg9
+S'1 Market St.'
+p1040
+ssS'Poggio'
+p1041
+(dp1042
+g5
+S'Sausalito'
+p1043
+sg7
+S'94965'
+p1044
+sg9
+S'777 Bridgeway'
+p1045
+ssS'Trattoria da Vittorio'
+p1046
+(dp1047
+g5
+S'San Francisco'
+p1048
+sg7
+S'94127'
+p1049
+sg9
+S'150 W. Portal Ave.'
+p1050
+ssS'Il Casaro'
+p1051
+(dp1052
+g5
+S'San Francisco'
+p1053
+sg7
+S'94133'
+p1054
+sg9
+S'348 Columbus Ave.'
+p1055
+ssS'Beretta'
+p1056
+(dp1057
+g5
+S'San Francisco'
+p1058
+sg7
+S'94110'
+p1059
+sg9
+S'1199 Valencia St.'
+p1060
+ssS'Farallon'
+p1061
+(dp1062
+g5
+S'San Francisco'
+p1063
+sg7
+S'94102'
+p1064
+sg9
+S'450 Post St.'
+p1065
+ssS'Los Cilantros'
+p1066
+(dp1067
+g5
+S'Berkeley'
+p1068
+sg7
+S'94705'
+p1069
+sg9
+S'3105 Shattuck Ave.'
+p1070
+ssS'PizzaHacker'
+p1071
+(dp1072
+g5
+S'San Francisco'
+p1073
+sg7
+S'94110'
+p1074
+sg9
+S'3299 Mission St.'
+p1075
+ssS'Bungalow 44'
+p1076
+(dp1077
+g5
+S'Mill Valley'
+p1078
+sg7
+S'94941'
+p1079
+sg9
+S'44 E. Blithedale Ave.'
+p1080
+ssS'aliment'
+p1081
+(dp1082
+g5
+S'San Francisco'
+p1083
+sg7
+S'94108'
+p1084
+sg9
+S'786 Bush St.'
+p1085
+ssS"Leo's Oyster Bar"
+p1086
+(dp1087
+g5
+S'San Francisco'
+p1088
+sg7
+S'94111'
+p1089
+sg9
+S'568 Sacramento St.'
+p1090
+ssS'La Ciccia'
+p1091
+(dp1092
+g5
+S'San Francisco'
+p1093
+sg7
+S'94131'
+p1094
+sg9
+S'291 30th St.'
+p1095
+ssS'Iyasare'
+p1096
+(dp1097
+g5
+S'Berkeley'
+p1098
+sg7
+S'94710'
+p1099
+sg9
+S'1830 4th St.'
+p1100
+ssS'Infinite Thai Eatery'
+p1101
+(dp1102
+g5
+S'Oakland'
+p1103
+sg7
+S'94611'
+p1104
+sg9
+S'4301 Piedmont Ave.'
+p1105
+ssS'Cala'
+p1106
+(dp1107
+g5
+S'San Francisco'
+p1108
+sg7
+S'94102'
+p1109
+sg9
+S'149 Fell St.'
+p1110
+ssS'Doc Ricketts'
+p1111
+(dp1112
+g5
+S'San Francisco'
+p1113
+sg7
+S'94133'
+p1114
+sg9
+S'124 Columbus Ave.'
+p1115
+ssS'Dragon Well'
+p1116
+(dp1117
+g5
+S'San Francisco'
+p1118
+sg7
+S'94123'
+p1119
+sg9
+S'2142 Chestnut St.'
+p1120
+ssS'Park Tavern'
+p1121
+(dp1122
+g5
+S'San Francisco'
+p1123
+sg7
+S'94133'
+p1124
+sg9
+S'1652 Stockton St.'
+p1125
+ssS'Saru'
+p1126
+(dp1127
+g5
+S'San Francisco'
+p1128
+sg7
+S'94114'
+p1129
+sg9
+S'3856 24th St.'
+p1130
+ssS'Wood Tavern'
+p1131
+(dp1132
+g5
+S'Oakland'
+p1133
+sg7
+S'94618'
+p1134
+sg9
+S'6317 College Ave.'
+p1135
+ssS'A16'
+p1136
+(dp1137
+g5
+S'San Francisco'
+p1138
+sg7
+S'94123'
+p1139
+sg9
+S'2355 Chestnut St.'
+p1140
+ssS'Boxing Room'
+p1141
+(dp1142
+g5
+S'San Francisco'
+p1143
+sg7
+S'94102'
+p1144
+sg9
+S'399 Grove St.'
+p1145
+ssS'Hopscotch'
+p1146
+(dp1147
+g5
+S'Oakland'
+p1148
+sg7
+S'94612'
+p1149
+sg9
+S'1915 San Pablo Ave.'
+p1150
+ssS'Contigo'
+p1151
+(dp1152
+g5
+S'San Francisco'
+p1153
+sg7
+S'94114'
+p1154
+sg9
+S'1320 Castro St.'
+p1155
+ssS'RN74'
+p1156
+(dp1157
+g5
+S'San Francisco'
+p1158
+sg7
+S'94105'
+p1159
+sg9
+S'301 Mission St.'
+p1160
+ssS'Frances'
+p1161
+(dp1162
+g5
+S'San Francisco'
+p1163
+sg7
+S'94114'
+p1164
+sg9
+S'3870 17th St.'
+p1165
+ssS'Farmhouse Kitchen Thai'
+p1166
+(dp1167
+g5
+S'San Francisco'
+p1168
+sg7
+S'94110'
+p1169
+sg9
+S'710 Florida St.'
+p1170
+ssS'Chez Panisse'
+p1171
+(dp1172
+g5
+S'Berkeley'
+p1173
+sg7
+S'94709'
+p1174
+sg9
+S'1517 Shattuck Ave.'
+p1175
+ssS'Coqueta'
+p1176
+(dp1177
+g5
+S'San Francisco'
+p1178
+sg7
+S'94111'
+p1179
+sg9
+S'Pier 5'
+p1180
+ssS'Saison'
+p1181
+(dp1182
+g5
+S'San Francisco'
+p1183
+sg7
+S'94107'
+p1184
+sg9
+S'178 Townsend St.'
+p1185
+ssS'Kiss'
+p1186
+(dp1187
+g5
+S'San Francisco'
+p1188
+sg7
+S'94115'
+p1189
+sg9
+S'1700 Laguna St.'
+p1190
+ssS'Carmel Pizza Company'
+p1191
+(dp1192
+g5
+S'San Francisco'
+p1193
+sg7
+S'94133'
+p1194
+sg9
+S'2826 Jones St.'
+p1195
+ssS'Ippuku'
+p1196
+(dp1197
+g5
+S'Berkeley'
+p1198
+sg7
+S'94704'
+p1199
+sg9
+S'2130 Center St.'
+p1200
+ssS'Bar Bocce'
+p1201
+(dp1202
+g5
+S'Sausalito'
+p1203
+sg7
+S'94965'
+p1204
+sg9
+S'1250 Bridgeway'
+p1205
+ssS'STEM Kitchen & Garden'
+p1206
+(dp1207
+g5
+S'San Francisco'
+p1208
+sg7
+S'94158'
+p1209
+sg9
+S'499 Illinois St.'
+p1210
+ssS'High Peaks Kitchen'
+p1211
+(dp1212
+g5
+S'Oakland'
+p1213
+sg7
+S'94618'
+p1214
+sg9
+S'5299 College Ave.'
+p1215
+ssS'Izakaya Rintaro'
+p1216
+(dp1217
+g5
+S'San Francisco'
+p1218
+sg7
+S'94103'
+p1219
+sg9
+S'82 14th St.'
+p1220
+ssS'Gather'
+p1221
+(dp1222
+g5
+S'Berkeley'
+p1223
+sg7
+S'94704'
+p1224
+sg9
+S'2200 Oxford St.'
+p1225
+ssS'Nopalito'
+p1226
+(dp1227
+g5
+S'San Francisco'
+p1228
+sg7
+S'94117'
+p1229
+sg9
+S'306 Broderick St.'
+p1230
+ssS'Thep Phanom'
+p1231
+(dp1232
+g5
+S'San Francisco'
+p1233
+sg7
+S'94101'
+p1234
+sg9
+S'400 Waller St.'
+p1235
+ssS'Kingston 11'
+p1236
+(dp1237
+g5
+S'Oakland'
+p1238
+sg7
+S'94601'
+p1239
+sg9
+S'2270 Telegraph Ave.'
+p1240
+ssS'Belcampo'
+p1241
+(dp1242
+g5
+S'San Francisco'
+p1243
+sg7
+S'94109'
+p1244
+sg9
+S'1998 Polk St.'
+p1245
+ssS'Ijji'
+p1246
+(dp1247
+g5
+S'San Francisco'
+p1248
+sg7
+S'94117'
+p1249
+sg9
+S'252 Divisadero St.'
+p1250
+ssS'Rich Table'
+p1251
+(dp1252
+g5
+S'San Francisco'
+p1253
+sg7
+S'94102'
+p1254
+sg9
+S'199 Gough St.'
+p1255
+ssS'Locanda'
+p1256
+(dp1257
+g5
+S'San Francisco'
+p1258
+sg7
+S'94110'
+p1259
+sg9
+S'557 Valencia St.'
+p1260
+ssS'Ohgane'
+p1261
+(dp1262
+g5
+S'Oakland'
+p1263
+sg7
+S'94611'
+p1264
+sg9
+S'3915 Broadway'
+p1265
+ssS'Luce'
+p1266
+(dp1267
+g5
+S'San Francisco'
+p1268
+sg7
+S'94103'
+p1269
+sg9
+S'888 Howard St.'
+p1270
+ssS'Octavia'
+p1271
+(dp1272
+g5
+S'San Francisco'
+p1273
+sg7
+S'94109'
+p1274
+sg9
+S'1701 Octavia St.'
+p1275
+ssS'El Paseo'
+p1276
+(dp1277
+g5
+S'Mill Valley'
+p1278
+sg7
+S'94941'
+p1279
+sg9
+S'17 Throckmorton Ave.'
+p1280
+ssS'Bellota'
+p1281
+(dp1282
+g5
+S'San Francisco'
+p1283
+sg7
+S'94103'
+p1284
+sg9
+S'888 Brannan St.'
+p1285
+ssS'Molina'
+p1286
+(dp1287
+g5
+S'Mill Valley'
+p1288
+sg7
+S'94941'
+p1289
+sg9
+S'17 Madrona St.'
+p1290
+ssS'Petit Crenn'
+p1291
+(dp1292
+g5
+S'San Francisco'
+p1293
+sg7
+S'94102'
+p1294
+sg9
+S'609 Hayes St.'
+p1295
+ssS'Coi'
+p1296
+(dp1297
+g5
+S'San Francisco'
+p1298
+sg7
+S'94133'
+p1299
+sg9
+S'373 Broadway'
+p1300
+ssS'Hog Island Oyster Co.'
+p1301
+(dp1302
+g5
+S'San Francisco'
+p1303
+sg7
+S'94111'
+p1304
+sg9
+S'1 Ferry Building'
+p1305
+ssS'Caf\xc3\xa9 Colucci'
+p1306
+(dp1307
+g5
+S'Oakland'
+p1308
+sg7
+S'94609'
+p1309
+sg9
+S'6427 Telegraph Ave.'
+p1310
+ssS'Mission Street Oyster Bar'
+p1311
+(dp1312
+g5
+S'San Francisco'
+p1313
+sg7
+S'94110'
+p1314
+sg9
+S'2282 Mission St.'
+p1315
+ssS'Lord Stanley'
+p1316
+(dp1317
+g5
+S'San Francisco'
+p1318
+sg7
+S'94109'
+p1319
+sg9
+S'2065 Polk St.'
+p1320
+ssS'Marlowe'
+p1321
+(dp1322
+g5
+S'San Francisco'
+p1323
+sg7
+S'94107'
+p1324
+sg9
+S'500 Brannan St.'
+p1325
+ssS'Modern Thai'
+p1326
+(dp1327
+g5
+S'San Francisco'
+p1328
+sg7
+S'94109'
+p1329
+sg9
+S'1247 Polk St.'
+p1330
+ssS'Sidebar'
+p1331
+(dp1332
+g5
+S'Oakland'
+p1333
+sg7
+S'94610'
+p1334
+sg9
+S'542 Grand Ave.'
+p1335
+ssS'Benu'
+p1336
+(dp1337
+g5
+S'San Francisco'
+p1338
+sg7
+S'94105'
+p1339
+sg9
+S'22 Hawthorne St.'
+p1340
+ssS'State Bird Provisions'
+p1341
+(dp1342
+g5
+S'San Francisco'
+p1343
+sg7
+S'94115'
+p1344
+sg9
+S'1529 Fillmore St.'
+p1345
+ssS'54 Mint'
+p1346
+(dp1347
+g5
+S'San Francisco'
+p1348
+sg7
+S'94103'
+p1349
+sg9
+S'16 Mint Plaza'
+p1350
+ssS'Sociale'
+p1351
+(dp1352
+g5
+S'San Francisco'
+p1353
+sg7
+S'94118'
+p1354
+sg9
+S'3665 Sacramento St.'
+p1355
+ssS'Californios'
+p1356
+(dp1357
+g5
+S'San Francisco'
+p1358
+sg7
+S'94110'
+p1359
+sg9
+S'3115 22nd St.'
+p1360
+ssS'Pancho Villa Taqueria'
+p1361
+(dp1362
+g5
+S'San Francisco'
+p1363
+sg7
+S'94103'
+p1364
+sg9
+S'3071 16th St.'
+p1365
+ssS'Iza Ramen'
+p1366
+(dp1367
+g5
+S'San Francisco'
+p1368
+sg7
+S'94117'
+p1369
+sg9
+S'237 Fillmore St.'
+p1370
+ssS'Lazy Bear'
+p1371
+(dp1372
+g5
+S'San Francisco'
+p1373
+sg7
+S'94110'
+p1374
+sg9
+S'3416 19th St.'
+p1375
+ssS'Mason Pacific'
+p1376
+(dp1377
+g5
+S'San Francisco'
+p1378
+sg7
+S'94133'
+p1379
+sg9
+S'1358 Mason St.'
+p1380
+ssS'Mamacita'
+p1381
+(dp1382
+g5
+S'San Francisco'
+p1383
+sg7
+S'94123'
+p1384
+sg9
+S'2317 Chestnut St.'
+p1385
+ssS'1760'
+p1386
+(dp1387
+g5
+S'San Francisco'
+p1388
+sg7
+S'94109'
+p1389
+sg9
+S'1760 Polk St.'
+p1390
+ssS"Rusty's Southern"
+p1391
+(dp1392
+g5
+S'San Francisco'
+p1393
+sg7
+S'94109'
+p1394
+sg9
+S'750 Ellis St.'
+p1395
+ssS'Cotogna'
+p1396
+(dp1397
+g5
+S'San Francisco'
+p1398
+sg7
+S'94133'
+p1399
+sg9
+S'490 Pacific Ave.'
+p1400
+ssS'Dragon Beaux'
+p1401
+(dp1402
+g5
+S'San Francisco'
+p1403
+sg7
+S'94121'
+p1404
+sg9
+S'5700 Geary Blvd.'
+p1405
+ssS'Prabh'
+p1406
+(dp1407
+g5
+S'Mill Valley'
+p1408
+sg7
+S'94941'
+p1409
+sg9
+S'24 Sunnyside Ave.'
+p1410
+sssS'chicago il'
+p1411
+(dp1412
+S'The Duck Inn'
+p1413
+(dp1414
+g5
+S'Chicago'
+p1415
+sg7
+S'60608'
+p1416
+sg9
+S'2701 S. Eleanor St.'
+p1417
+ssS'Ras Dashen'
+p1418
+(dp1419
+g5
+S'Chicago'
+p1420
+sg7
+S'60660'
+p1421
+sg9
+S'5846 N. Broadway'
+p1422
+ssS'Black Bull'
+p1423
+(dp1424
+g5
+S'Chicago'
+p1425
+sg7
+S'60622'
+p1426
+sg9
+S'1721 W. Division St.'
+p1427
+ssS'Rural Society'
+p1428
+(dp1429
+g5
+S'Chicago'
+p1430
+sg7
+S'60611'
+p1431
+sg9
+S'455 N. Park Dr.'
+p1432
+ssS'Nana'
+p1433
+(dp1434
+g5
+S'Chicago'
+p1435
+sg7
+S'60608'
+p1436
+sg9
+S'3267 S. Halsted St.'
+p1437
+ssS'La Petite Folie'
+p1438
+(dp1439
+g5
+S'Chicago'
+p1440
+sg7
+S'60615'
+p1441
+sg9
+S'1504 E. 55th St.'
+p1442
+ssS'Ada St.'
+p1443
+(dp1444
+g5
+S'Chicago'
+p1445
+sg7
+S'60622'
+p1446
+sg9
+S'1664 N. Ada St.'
+p1447
+ssS'Frontera Grill'
+p1448
+(dp1449
+g5
+S'Chicago'
+p1450
+sg7
+S'60654'
+p1451
+sg9
+S'445 N. Clark St.'
+p1452
+ssS'Terzo Piano'
+p1453
+(dp1454
+g5
+S'Chicago'
+p1455
+sg7
+S'60603'
+p1456
+sg9
+S'159 E. Monroe St.'
+p1457
+ssS'Salero'
+p1458
+(dp1459
+g5
+S'Chicago'
+p1460
+sg7
+S'60661'
+p1461
+sg9
+S'621 W. Randolph St.'
+p1462
+ssS'Gilt Bar'
+p1463
+(dp1464
+g5
+S'Chicago'
+p1465
+sg7
+S'60654'
+p1466
+sg9
+S'230 W. Kinzie St.'
+p1467
+ssS"Pequod's Pizza"
+p1468
+(dp1469
+g5
+S'Chicago'
+p1470
+sg7
+S'60614'
+p1471
+sg9
+S'2207 N. Clybourn Ave.'
+p1472
+ssS'The Publican'
+p1473
+(dp1474
+g5
+S'Chicago'
+p1475
+sg7
+S'60607'
+p1476
+sg9
+S'837 W. Fulton Market'
+p1477
+ssS'Maple & Ash'
+p1478
+(dp1479
+g5
+S'Chicago'
+p1480
+sg7
+S'60610'
+p1481
+sg9
+S'8 W. Maple St.'
+p1482
+ssS'Piccolo Sogno'
+p1483
+(dp1484
+g5
+S'Chicago'
+p1485
+sg7
+S'60642'
+p1486
+sg9
+S'464 N. Halsted St.'
+p1487
+ssS'Isla'
+p1488
+(dp1489
+g5
+S'Unit'
+p1490
+sg7
+S'60625'
+p1491
+sg9
+S'2501 W. Lawrence Ave.'
+p1492
+ssS'Pl-ze\xc5\x88'
+p1493
+(dp1494
+g5
+S'Chicago'
+p1495
+sg7
+S'60608'
+p1496
+sg9
+S'1519 W. 18th St.'
+p1497
+ssS'Greek Islands'
+p1498
+(dp1499
+g5
+S'Chicago'
+p1500
+sg7
+S'60661'
+p1501
+sg9
+S'200 S. Halsted St.'
+p1502
+ssS"Michael Jordan's"
+p1503
+(dp1504
+g5
+S'Chicago'
+p1505
+sg7
+S'60611'
+p1506
+sg9
+S'505 N. Michigan Ave.'
+p1507
+ssS'Beatrix'
+p1508
+(dp1509
+g5
+S'Chicago'
+p1510
+sg7
+S'60654'
+p1511
+sg9
+S'519 N Clark St.'
+p1512
+ssS'Girl & The Goat'
+p1513
+(dp1514
+g5
+S'Chicago'
+p1515
+sg7
+S'60607'
+p1516
+sg9
+S'809 W. Randolph St.'
+p1517
+ssS'Pelago'
+p1518
+(dp1519
+g5
+S'Chicago'
+p1520
+sg7
+S'60611'
+p1521
+sg9
+S'201 E. Delaware Pl.'
+p1522
+ssS'Ocean Cut'
+p1523
+(dp1524
+g5
+S'Chicago'
+p1525
+sg7
+S'60654'
+p1526
+sg9
+S'20 W. Kinzie St.'
+p1527
+ssS'Indian Garden'
+p1528
+(dp1529
+g5
+S'Chicago'
+p1530
+sg7
+S'60611'
+p1531
+sg9
+S'247 E. Ontario St.'
+p1532
+ssS'Nellc\xc3\xb4te'
+p1533
+(dp1534
+g5
+S'Chicago'
+p1535
+sg7
+S'60607'
+p1536
+sg9
+S'833 W. Randolph St.'
+p1537
+ssS'Gene & Georgetti'
+p1538
+(dp1539
+g5
+S'Chicago'
+p1540
+sg7
+S'60610'
+p1541
+sg9
+S'500 N. Franklin St.'
+p1542
+ssS'NEXT'
+p1543
+(dp1544
+g5
+S'Chicago'
+p1545
+sg7
+S'60607'
+p1546
+sg9
+S'953 W Fulton Market'
+p1547
+ssS'Aquitaine'
+p1548
+(dp1549
+g5
+S'Chicago'
+p1550
+sg7
+S'60614'
+p1551
+sg9
+S'2221 N. Lincoln Ave.'
+p1552
+ssS'Yuzu'
+p1553
+(dp1554
+g5
+S'Chicago'
+p1555
+sg7
+S'60622'
+p1556
+sg9
+S'1715 W. Chicago Ave.'
+p1557
+ssS'mfk.'
+p1558
+(dp1559
+g5
+S'Chicago'
+p1560
+sg7
+S'60614'
+p1561
+sg9
+S'432 W. Diversey Pkwy.'
+p1562
+ssS'Acadia'
+p1563
+(dp1564
+g5
+S'Ste.'
+p1565
+sg7
+S'60616'
+p1566
+sg9
+S'1639 S. Wabash Ave.'
+p1567
+ssS'Shokran Moroccan Grill'
+p1568
+(dp1569
+g5
+S'Chicago'
+p1570
+sg7
+S'60641'
+p1571
+sg9
+S'4027 W. Irving Park Rd.'
+p1572
+ssS'RL'
+p1573
+(dp1574
+g5
+S'Chicago'
+p1575
+sg7
+S'60611'
+p1576
+sg9
+S'115 E. Chicago Ave.'
+p1577
+ssS'Bar Pastoral'
+p1578
+(dp1579
+g5
+S'Chicago'
+p1580
+sg7
+S'60657'
+p1581
+sg9
+S'2947 N. Broadway'
+p1582
+ssS'Longman & Eagle'
+p1583
+(dp1584
+g5
+S'Chicago'
+p1585
+sg7
+S'60647'
+p1586
+sg9
+S'2657 N. Kedzie Ave.'
+p1587
+ssS'Sumi Robata Bar'
+p1588
+(dp1589
+g5
+S'Chicago'
+p1590
+sg7
+S'60654'
+p1591
+sg9
+S'702 N. Wells St.'
+p1592
+ssS'Summer House Santa Monica'
+p1593
+(dp1594
+g5
+S'Chicago'
+p1595
+sg7
+S'60614'
+p1596
+sg9
+S'1954 N. Halsted St.'
+p1597
+ssS'Travelle'
+p1598
+(dp1599
+g5
+S'Chicago'
+p1600
+sg7
+S'60611'
+p1601
+sg9
+S'330 N. Wabash Ave.'
+p1602
+ssS'Nico Osteria'
+p1603
+(dp1604
+g5
+S'Chicago'
+p1605
+sg7
+S'60611'
+p1606
+sg9
+S'1015 Rush St.'
+p1607
+ssS'The Bristol'
+p1608
+(dp1609
+g5
+S'Chicago'
+p1610
+sg7
+S'60647'
+p1611
+sg9
+S'2152 N. Damen Ave.'
+p1612
+ssS'Chicago Kalbi'
+p1613
+(dp1614
+g5
+S'Chicago'
+p1615
+sg7
+S'60625'
+p1616
+sg9
+S'3752 W. Lawrence Ave.'
+p1617
+ssS'Labriola'
+p1618
+(dp1619
+g5
+S'Chicago'
+p1620
+sg7
+S'60611'
+p1621
+sg9
+S'535 N. Michigan Ave.'
+p1622
+ssS'La Encantada'
+p1623
+(dp1624
+g5
+S'Chicago'
+p1625
+sg7
+S'60647'
+p1626
+sg9
+S'3437 W. North Ave.'
+p1627
+ssS'Green Zebra'
+p1628
+(dp1629
+g5
+S'Chicago'
+p1630
+sg7
+S'60622'
+p1631
+sg9
+S'1460 W. Chicago Ave.'
+p1632
+ssS'Prime & Provisions'
+p1633
+(dp1634
+g5
+S'Chicago'
+p1635
+sg7
+S'60601'
+p1636
+sg9
+S'222 N. LaSalle St.'
+p1637
+ssS'tocco'
+p1638
+(dp1639
+g5
+S'Chicago'
+p1640
+sg7
+S'60622'
+p1641
+sg9
+S'1266 N. Milwaukee Ave.'
+p1642
+ssS'Herb'
+p1643
+(dp1644
+g5
+S'Chicago'
+p1645
+sg7
+S'60640'
+p1646
+sg9
+S'5424 N. Broadway'
+p1647
+ssS'Cai'
+p1648
+(dp1649
+g5
+S'Chicago'
+p1650
+sg7
+S'60616'
+p1651
+sg9
+S'2100 S. Archer Ave.'
+p1652
+ssS'Takito Kitchen'
+p1653
+(dp1654
+g5
+S'Chicago'
+p1655
+sg7
+S'60622'
+p1656
+sg9
+S'2013 W. Division St.'
+p1657
+ssS'Slurping Turtle'
+p1658
+(dp1659
+g5
+S'Chicago'
+p1660
+sg7
+S'60654'
+p1661
+sg9
+S'116 W. Hubbard St.'
+p1662
+ssS'Mirai'
+p1663
+(dp1664
+g5
+S'Chicago'
+p1665
+sg7
+S'60622'
+p1666
+sg9
+S'2020 W. Division St.'
+p1667
+ssS'Elizabeth'
+p1668
+(dp1669
+g5
+S'Unit'
+p1670
+sg7
+S'60625'
+p1671
+sg9
+S'4835 N. Western'
+p1672
+ssS'Blackbird'
+p1673
+(dp1674
+g5
+S'Chicago'
+p1675
+sg7
+S'60661'
+p1676
+sg9
+S'619 W. Randolph St.'
+p1677
+ssS"Giordano's"
+p1678
+(dp1679
+g5
+S'Chicago'
+p1680
+sg7
+S'60611'
+p1681
+sg9
+S'730 N. Rush St.'
+p1682
+ssS'Tru'
+p1683
+(dp1684
+g5
+S'Chicago'
+p1685
+sg7
+S'60611'
+p1686
+sg9
+S'676 N. St. Clair St.'
+p1687
+ssS'Due Lire'
+p1688
+(dp1689
+g5
+S'Chicago'
+p1690
+sg7
+S'60625'
+p1691
+sg9
+S'4520 N. Lincoln Ave.'
+p1692
+ssS"Formento's"
+p1693
+(dp1694
+g5
+S'Chicago'
+p1695
+sg7
+S'60607'
+p1696
+sg9
+S'925 W. Randolph St.'
+p1697
+ssS'Riva'
+p1698
+(dp1699
+g5
+S'Chicago'
+p1700
+sg7
+S'60611'
+p1701
+sg9
+S'700 E. Grand Ave.'
+p1702
+ssS'Taste of Thai Town'
+p1703
+(dp1704
+g5
+S'Chicago'
+p1705
+sg7
+S'60630'
+p1706
+sg9
+S'4461 N. Pulaski Rd.'
+p1707
+ssS'Schwa'
+p1708
+(dp1709
+g5
+S'Chicago'
+p1710
+sg7
+S'60662'
+p1711
+sg9
+S'1466 N. Ashland Ave.'
+p1712
+ssS'Swift & Sons'
+p1713
+(dp1714
+g5
+S'Chicago'
+p1715
+sg7
+S'60607'
+p1716
+sg9
+S'1000 W. Fulton Market'
+p1717
+ssS'RPM Steak'
+p1718
+(dp1719
+g5
+S'Chicago'
+p1720
+sg7
+S'60654'
+p1721
+sg9
+S'66 W. Kinzie St.'
+p1722
+ssS'Bohemian House'
+p1723
+(dp1724
+g5
+S'Chicago'
+p1725
+sg7
+S'60654'
+p1726
+sg9
+S'11 W. Illinois St.'
+p1727
+ssS'EL Ideas'
+p1728
+(dp1729
+g5
+S'Chicago'
+p1730
+sg7
+S'60618'
+p1731
+sg9
+S'2419 W. 14th St.'
+p1732
+ssS'Caf\xc3\xa9 des Architectes'
+p1733
+(dp1734
+g5
+S'Chicago'
+p1735
+sg7
+S'60611'
+p1736
+sg9
+S'20 E. Chestnut St.'
+p1737
+ssS'Jin Thai'
+p1738
+(dp1739
+g5
+S'Chicago'
+p1740
+sg7
+S'60640'
+p1741
+sg9
+S'5458 N. Broadway'
+p1742
+ssS'Vincent'
+p1743
+(dp1744
+g5
+S'Chicago'
+p1745
+sg7
+S'60640'
+p1746
+sg9
+S'1475 W. Balmoral Ave.'
+p1747
+ssS'Prosecco'
+p1748
+(dp1749
+g5
+S'Chicago'
+p1750
+sg7
+S'60610'
+p1751
+sg9
+S'710 N. Wells St.'
+p1752
+ssS'Au Cheval'
+p1753
+(dp1754
+g5
+S'Chicago'
+p1755
+sg7
+S'60607'
+p1756
+sg9
+S'800 W. Randolph St.'
+p1757
+ssS'Monteverde'
+p1758
+(dp1759
+g5
+S'Chicago'
+p1760
+sg7
+S'60607'
+p1761
+sg9
+S'1020 W. Madison St.'
+p1762
+ssS'Boka'
+p1763
+(dp1764
+g5
+S'Chicago'
+p1765
+sg7
+S'60614'
+p1766
+sg9
+S'1729 N. Halsted St.'
+p1767
+ssS"Lou Mitchell's"
+p1768
+(dp1769
+g5
+S'Chicago'
+p1770
+sg7
+S'60661'
+p1771
+sg9
+S'565 W. Jackson Blvd.'
+p1772
+ssS'Masada'
+p1773
+(dp1774
+g5
+S'Chicago'
+p1775
+sg7
+S'60647'
+p1776
+sg9
+S'2206 N. California Ave.'
+p1777
+ssS'La Sardine'
+p1778
+(dp1779
+g5
+S'Chicago'
+p1780
+sg7
+S'60607'
+p1781
+sg9
+S'111 N. Carpenter St.'
+p1782
+ssS'Kanela'
+p1783
+(dp1784
+g5
+S'Chicago'
+p1785
+sg7
+S'60657'
+p1786
+sg9
+S'3231 N. Clark St.'
+p1787
+ssS'Fish Bar'
+p1788
+(dp1789
+g5
+S'Chicago'
+p1790
+sg7
+S'60657'
+p1791
+sg9
+S'2956 N.\xc2\xa0Sheffield Ave.'
+p1792
+ssS"Parson's Chicken & Fish"
+p1793
+(dp1794
+g5
+S'Chicago'
+p1795
+sg7
+S'60647'
+p1796
+sg9
+S'2952 W. Armitage Ave.'
+p1797
+ssS'Avec'
+p1798
+(dp1799
+g5
+S'Chicago'
+p1800
+sg7
+S'60661'
+p1801
+sg9
+S'615 W. Randolph St.'
+p1802
+ssS'Les Nomades'
+p1803
+(dp1804
+g5
+S'Chicago'
+p1805
+sg7
+S'60611'
+p1806
+sg9
+S'222 E. Ontario St.'
+p1807
+ssS'Le Bouchon'
+p1808
+(dp1809
+g5
+S'Chicago'
+p1810
+sg7
+S'60647'
+p1811
+sg9
+S'1958 N. Damen Ave.'
+p1812
+ssS"Mastro's"
+p1813
+(dp1814
+g5
+S'Chicago'
+p1815
+sg7
+S'60654'
+p1816
+sg9
+S'520 N. Dearborn St.'
+p1817
+ssS'Tuscany on Taylor'
+p1818
+(dp1819
+g5
+S'Chicago'
+p1820
+sg7
+S'60607'
+p1821
+sg9
+S'1014 W. Taylor St.'
+p1822
+ssS"Lillie's Q"
+p1823
+(dp1824
+g5
+S'Chicago'
+p1825
+sg7
+S'60622'
+p1826
+sg9
+S'1856 W. North Ave.'
+p1827
+ssS'Everest'
+p1828
+(dp1829
+g5
+S'Chicago'
+p1830
+sg7
+S'60605'
+p1831
+sg9
+S'440 S. LaSalle St.'
+p1832
+ssS'Smyth'
+p1833
+(dp1834
+g5
+S'Chicago'
+p1835
+sg7
+S'60607'
+p1836
+sg9
+S'177 N. Ada St.'
+p1837
+ssS'Coalfire Pizza'
+p1838
+(dp1839
+g5
+S'Chicago'
+p1840
+sg7
+S'60622'
+p1841
+sg9
+S'1321 W. Grand Ave.'
+p1842
+ssS'White Oak Tavern & Inn'
+p1843
+(dp1844
+g5
+S'Chicago'
+p1845
+sg7
+S'60614'
+p1846
+sg9
+S'1200 W. Webster Ave.'
+p1847
+ssS"Bavette's Bar & Boeuf"
+p1848
+(dp1849
+g5
+S'Chicago'
+p1850
+sg7
+S'60654'
+p1851
+sg9
+S'218 W. Kinzie St.'
+p1852
+ssS'The Blanchard'
+p1853
+(dp1854
+g5
+S'Chicago'
+p1855
+sg7
+S'60614'
+p1856
+sg9
+S'1935 N. Lincoln Park West'
+p1857
+ssS'Bar Marta'
+p1858
+(dp1859
+g5
+S'Chicago'
+p1860
+sg7
+S'60622'
+p1861
+sg9
+S'2700 W. Chicago Ave.'
+p1862
+ssS'de Quay'
+p1863
+(dp1864
+g5
+S'Chicago'
+p1865
+sg7
+S'60614'
+p1866
+sg9
+S'2470 N. Lincoln Ave.'
+p1867
+ssS'Han 202'
+p1868
+(dp1869
+g5
+S'Chicago'
+p1870
+sg7
+S'60616'
+p1871
+sg9
+S'605 W. 31st St.'
+p1872
+ssS'Grange Hall Burger Bar'
+p1873
+(dp1874
+g5
+S'Chicago'
+p1875
+sg7
+S'60607'
+p1876
+sg9
+S'844 W. Randolph St.'
+p1877
+ssS'North Pond'
+p1878
+(dp1879
+g5
+S'Chicago'
+p1880
+sg7
+S'60614'
+p1881
+sg9
+S'2610 N. Cannon Dr.'
+p1882
+ssS'Ixcateco Grill'
+p1883
+(dp1884
+g5
+S'Chicago'
+p1885
+sg7
+S'60618'
+p1886
+sg9
+S'3402 W. Montrose Ave.'
+p1887
+ssS'Homestyle Taste'
+p1888
+(dp1889
+g5
+S'Chicago'
+p1890
+sg7
+S'60608'
+p1891
+sg9
+S'3205 S. Halsted St.'
+p1892
+ssS'Little Goat Diner'
+p1893
+(dp1894
+g5
+S'Chicago'
+p1895
+sg7
+S'60607'
+p1896
+sg9
+S'820 W. Randolph St.'
+p1897
+ssS'Union Sushi + Barbeque Bar'
+p1898
+(dp1899
+g5
+S'Chicago'
+p1900
+sg7
+S'60654'
+p1901
+sg9
+S'230 W. Erie St.'
+p1902
+ssS"Gino's East"
+p1903
+(dp1904
+g5
+S'Chicago'
+p1905
+sg7
+S'60611'
+p1906
+sg9
+S'162 E. Superior St.'
+p1907
+ssS'Vera'
+p1908
+(dp1909
+g5
+S'Chicago'
+p1910
+sg7
+S'60607'
+p1911
+sg9
+S'1023 W. Lake St.'
+p1912
+ssS'Demera'
+p1913
+(dp1914
+g5
+S'Chicago'
+p1915
+sg7
+S'60640'
+p1916
+sg9
+S'4801 N. Broadway'
+p1917
+ssS'Intro'
+p1918
+(dp1919
+g5
+S'Chicago'
+p1920
+sg7
+S'60614'
+p1921
+sg9
+S'2300 Lincoln Park West'
+p1922
+ssS"Dove's Luncheonette"
+p1923
+(dp1924
+g5
+S'Chicago'
+p1925
+sg7
+S'60622'
+p1926
+sg9
+S'1545 N. Damen Ave.'
+p1927
+ssS'NAHA'
+p1928
+(dp1929
+g5
+S'Chicago'
+p1930
+sg7
+S'60610'
+p1931
+sg9
+S'500 N. Clark St.'
+p1932
+ssS'Gogi'
+p1933
+(dp1934
+g5
+S'Chicago'
+p1935
+sg7
+S'60659'
+p1936
+sg9
+S'6240 N.California Ave.'
+p1937
+ssS'The Rosebud'
+p1938
+(dp1939
+g5
+S'Chicago'
+p1940
+sg7
+S'60607'
+p1941
+sg9
+S'1500 W. Taylor St.'
+p1942
+ssS'Sable Kitchen & Bar'
+p1943
+(dp1944
+g5
+S'Chicago'
+p1945
+sg7
+S'60654'
+p1946
+sg9
+S'505 N. State St.'
+p1947
+ssS'Wyler Road'
+p1948
+(dp1949
+g5
+S'Chicago'
+p1950
+sg7
+S'60647'
+p1951
+sg9
+S'3581 W. Belden Ave.'
+p1952
+ssS'Noon-O-Kabab'
+p1953
+(dp1954
+g5
+S'Chicago'
+p1955
+sg7
+S'60625'
+p1956
+sg9
+S'4661 N. Kedzie Ave.'
+p1957
+ssS'Trenchermen'
+p1958
+(dp1959
+g5
+S'Chicago'
+p1960
+sg7
+S'60647'
+p1961
+sg9
+S'2039 W. North Ave.'
+p1962
+ssS'Oiistar'
+p1963
+(dp1964
+g5
+S'Chicago'
+p1965
+sg7
+S'60622'
+p1966
+sg9
+S'1385 N. Milwaukee Ave.'
+p1967
+ssS'Ruxbin'
+p1968
+(dp1969
+g5
+S'Chicago'
+p1970
+sg7
+S'60622'
+p1971
+sg9
+S'851 N. Ashland Ave.'
+p1972
+ssS'Kurah'
+p1973
+(dp1974
+g5
+S'Chicago'
+p1975
+sg7
+S'60605'
+p1976
+sg9
+S'1355 S. Michigan Ave.'
+p1977
+ssS'Coco Pazzo'
+p1978
+(dp1979
+g5
+S'Chicago'
+p1980
+sg7
+S'60654'
+p1981
+sg9
+S'300 W. Hubbard St.'
+p1982
+ssS'La Sirena Clandestina'
+p1983
+(dp1984
+g5
+S'Chicago'
+p1985
+sg7
+S'60607'
+p1986
+sg9
+S'954 W. Fulton Market'
+p1987
+ssS'Alinea'
+p1988
+(dp1989
+g5
+S'Chicago'
+p1990
+sg7
+S'60614'
+p1991
+sg9
+S'1723 N. Halsted St.'
+p1992
+ssS'\xc2\xa1Hello Tacos! De Cero'
+p1993
+(dp1994
+g5
+S'Chicago'
+p1995
+sg7
+S'60607'
+p1996
+sg9
+S'816 W. Randolph St.'
+p1997
+ssS'Tre Soldi'
+p1998
+(dp1999
+g5
+S'Chicago'
+p2000
+sg7
+S'60611'
+p2001
+sg9
+S'212 E. Ohio St.'
+p2002
+ssS'Goosefoot'
+p2003
+(dp2004
+g5
+S'Chicago'
+p2005
+sg7
+S'60625'
+p2006
+sg9
+S'2656 W. Lawrence Ave.'
+p2007
+ssS'Pho 777'
+p2008
+(dp2009
+g5
+S'Chicago'
+p2010
+sg7
+S'60640'
+p2011
+sg9
+S'1063-65 W. Argyle St.'
+p2012
+ssS'Bistro Campagne'
+p2013
+(dp2014
+g5
+S'Chicago'
+p2015
+sg7
+S'60625'
+p2016
+sg9
+S'4518 N. Lincoln Ave.'
+p2017
+ssS'The Gage'
+p2018
+(dp2019
+g5
+S'Chicago'
+p2020
+sg7
+S'60603'
+p2021
+sg9
+S'24 S. Michigan Ave.'
+p2022
+ssS'Frontier'
+p2023
+(dp2024
+g5
+S'Chicago'
+p2025
+sg7
+S'60642'
+p2026
+sg9
+S'1072 N. Milwaukee Ave.'
+p2027
+ssS'Mortar & Pestle'
+p2028
+(dp2029
+g5
+S'Chicago'
+p2030
+sg7
+S'60657'
+p2031
+sg9
+S'2209 W. Montrose Ave.'
+p2032
+ssS'Friendship'
+p2033
+(dp2034
+g5
+S'Chicago'
+p2035
+sg7
+S'60618'
+p2036
+sg9
+S'2830 N. Milwaukee Ave.'
+p2037
+ssS'The Angry Crab'
+p2038
+(dp2039
+g5
+S'Chicago'
+p2040
+sg7
+S'60659'
+p2041
+sg9
+S'5665 N. Lincoln Ave.'
+p2042
+ssS'Viceroy of India'
+p2043
+(dp2044
+g5
+S'Chicago'
+p2045
+sg7
+S'60659'
+p2046
+sg9
+S'2520 W. Devon Ave.'
+p2047
+ssS'Briciola'
+p2048
+(dp2049
+g5
+S'Chicago'
+p2050
+sg7
+S'60622'
+p2051
+sg9
+S'937 N. Damen Ave.'
+p2052
+ssS'Mott St.'
+p2053
+(dp2054
+g5
+S'Chicago'
+p2055
+sg7
+S'60622'
+p2056
+sg9
+S'1401 N. Ashland Ave.'
+p2057
+ssS"L' Patron"
+p2058
+(dp2059
+g5
+S'Chicago'
+p2060
+sg7
+S'60647'
+p2061
+sg9
+S'3749 W. Fullerton Ave.'
+p2062
+ssS'Table, Donkey and Stick'
+p2063
+(dp2064
+g5
+S'Chicago'
+p2065
+sg7
+S'60647'
+p2066
+sg9
+S'2728 W. Armitage Ave.'
+p2067
+ssS'DeCOLORES'
+p2068
+(dp2069
+g5
+S'Chicago'
+p2070
+sg7
+S'60609'
+p2071
+sg9
+S'1626 S. Halsted St.'
+p2072
+ssS'Siena Tavern'
+p2073
+(dp2074
+g5
+S'Chicago'
+p2075
+sg7
+S'60654'
+p2076
+sg9
+S'51 W. Kinzie St.'
+p2077
+ssS'42 Grams'
+p2078
+(dp2079
+g5
+S'Chicago'
+p2080
+sg7
+S'60640'
+p2081
+sg9
+S'4662 N. Broadway'
+p2082
+ssS'Caf\xc3\xa9 Marie-Jeanne'
+p2083
+(dp2084
+g5
+S'Chicago'
+p2085
+sg7
+S'60622'
+p2086
+sg9
+S'1001 N. California Ave.'
+p2087
+ssS'Owen & Engine'
+p2088
+(dp2089
+g5
+S'Chicago'
+p2090
+sg7
+S'60647'
+p2091
+sg9
+S'2700 N. Western Ave.'
+p2092
+ssS'Miku Sushi'
+p2093
+(dp2094
+g5
+S'Chicago'
+p2095
+sg7
+S'60625'
+p2096
+sg9
+S'4514 N. Lincoln Ave.'
+p2097
+ssS"Ceres' Table"
+p2098
+(dp2099
+g5
+S'Chicago'
+p2100
+sg7
+S'60640'
+p2101
+sg9
+S'4882 N. Clark St.'
+p2102
+ssS'Cochon Volant'
+p2103
+(dp2104
+g5
+S'Chicago'
+p2105
+sg7
+S'60603'
+p2106
+sg9
+S'100 W. Monroe St.'
+p2107
+ssS'Frasca'
+p2108
+(dp2109
+g5
+S'Chicago'
+p2110
+sg7
+S'60657'
+p2111
+sg9
+S'3358 N. Paulina St.'
+p2112
+ssS'Paramount Room'
+p2113
+(dp2114
+g5
+S'Chicago'
+p2115
+sg7
+S'60654'
+p2116
+sg9
+S'415 N. Milwaukee Ave.'
+p2117
+ssS'Giant'
+p2118
+(dp2119
+g5
+S'Chicago'
+p2120
+sg7
+S'60647'
+p2121
+sg9
+S'3209 W. Armitage Ave.'
+p2122
+ssS'Sabri Nihari'
+p2123
+(dp2124
+g5
+S'Chicago'
+p2125
+sg7
+S'60659'
+p2126
+sg9
+S'2500-2502 W. Devon Ave.'
+p2127
+ssS'Arya Bhavan'
+p2128
+(dp2129
+g5
+S'Chicago'
+p2130
+sg7
+S'60659'
+p2131
+sg9
+S'2508 W. Devon Ave.'
+p2132
+ssS'Sushi Dokku'
+p2133
+(dp2134
+g5
+S'Chicago'
+p2135
+sg7
+S'60607'
+p2136
+sg9
+S'823 W. Randolph St.'
+p2137
+ssS'Coast Sushi Bar'
+p2138
+(dp2139
+g5
+S'Chicago'
+p2140
+sg7
+S'60647'
+p2141
+sg9
+S'2045 N. Damen Ave.'
+p2142
+ssS'Home Bistro'
+p2143
+(dp2144
+g5
+S'Chicago'
+p2145
+sg7
+S'60657'
+p2146
+sg9
+S'3404 N. Halsted St.'
+p2147
+ssS'Mon Ami Gabi'
+p2148
+(dp2149
+g5
+S'Chicago'
+p2150
+sg7
+S'60614'
+p2151
+sg9
+S'2300 N. Lincoln Park West'
+p2152
+ssS'The Dawson'
+p2153
+(dp2154
+g5
+S'Chicago'
+p2155
+sg7
+S'60654'
+p2156
+sg9
+S'730 W. Grand Ave.'
+p2157
+ssS'Chicago Diner'
+p2158
+(dp2159
+g5
+S'Chicago'
+p2160
+sg7
+S'60657'
+p2161
+sg9
+S'3411 N. Halsted St.'
+p2162
+ssS'Untitled Supper Club'
+p2163
+(dp2164
+g5
+g738
+sg7
+S'Chicago'
+p2165
+sg9
+S'111 W. Kinzie St.'
+p2166
+ssS"Mindy's Hot Chocolate"
+p2167
+(dp2168
+g5
+S'Chicago'
+p2169
+sg7
+S'60647'
+p2170
+sg9
+S'1747 N. Damen Ave.'
+p2171
+ssS'En Hakkore'
+p2172
+(dp2173
+g5
+S'Chicago'
+p2174
+sg7
+S'60647'
+p2175
+sg9
+S'1840 N. Damen Ave.'
+p2176
+ssS'Riccardo Trattoria'
+p2177
+(dp2178
+g5
+S'Chicago'
+p2179
+sg7
+S'60614'
+p2180
+sg9
+S'2119 N. Clark St.'
+p2181
+ssS'Chez Jo\xc3\xabl'
+p2182
+(dp2183
+g5
+S'Chicago'
+p2184
+sg7
+S'60607'
+p2185
+sg9
+S'1119 W. Taylor St.'
+p2186
+ssS'Antique Taco'
+p2187
+(dp2188
+g5
+S'Chicago'
+p2189
+sg7
+S'60622'
+p2190
+sg9
+S'1360 N. Milwaukee Ave.'
+p2191
+ssS'Ramen-san'
+p2192
+(dp2193
+g5
+S'Chicago'
+p2194
+sg7
+S'60654'
+p2195
+sg9
+S'59 W. Hubbard St.'
+p2196
+ssS'RPM Italian'
+p2197
+(dp2198
+g5
+S'Chicago'
+p2199
+sg7
+S'60654'
+p2200
+sg9
+S'52 W. Illinois St.'
+p2201
+ssS'Mexique'
+p2202
+(dp2203
+g5
+S'Chicago'
+p2204
+sg7
+S'60622'
+p2205
+sg9
+S'1529 W. Chicago Ave.'
+p2206
+ssS'Juno'
+p2207
+(dp2208
+g5
+S'Chicago'
+p2209
+sg7
+S'60614'
+p2210
+sg9
+S'2638 N. Lincoln Ave.'
+p2211
+ssS'Sticky Rice'
+p2212
+(dp2213
+g5
+S'Chicago'
+p2214
+sg7
+S'60618'
+p2215
+sg9
+S'4018 N. Western Ave.'
+p2216
+ssS'Kai Zan'
+p2217
+(dp2218
+g5
+S'Chicago'
+p2219
+sg7
+S'60622'
+p2220
+sg9
+S'2557 \xc2\xbd W. Chicago Ave.'
+p2221
+ssS'Nando Milano Trattoria'
+p2222
+(dp2223
+g5
+S'Chicago'
+p2224
+sg7
+S'60622'
+p2225
+sg9
+S'2114 W. Division St.'
+p2226
+ssS'Dos Urban Cantina'
+p2227
+(dp2228
+g5
+S'Chicago'
+p2229
+sg7
+S'60647'
+p2230
+sg9
+S'2829 W. Armitage Ave.'
+p2231
+ssS'GreenRiver'
+p2232
+(dp2233
+g5
+S'18th'
+p2234
+sg7
+S'60611'
+p2235
+sg9
+S'259 E. Erie St.'
+p2236
+ssS'Brindille'
+p2237
+(dp2238
+g5
+S'Chicago'
+p2239
+sg7
+S'60654'
+p2240
+sg9
+S'534 N. Clark St.'
+p2241
+ssS'Saigon Sisters'
+p2242
+(dp2243
+g5
+S'Chicago'
+p2244
+sg7
+S'60661'
+p2245
+sg9
+S'567 W. Lake St.'
+p2246
+ssS"David Burke's Primehouse"
+p2247
+(dp2248
+g5
+S'Chicago'
+p2249
+sg7
+S'60611'
+p2250
+sg9
+S'616 N. Rush St.'
+p2251
+ssS"Fat Willy's"
+p2252
+(dp2253
+g5
+S'Chicago'
+p2254
+sg7
+S'60647'
+p2255
+sg9
+S'2416 W. Schubert St.'
+p2256
+ssS'Roister'
+p2257
+(dp2258
+g5
+S'Chicago'
+p2259
+sg7
+S'60607'
+p2260
+sg9
+S'951 W. Fulton Market'
+p2261
+ssS'Parachute'
+p2262
+(dp2263
+g5
+S'Chicago'
+p2264
+sg7
+S'60618'
+p2265
+sg9
+S'3500 N. Elston Ave.'
+p2266
+ssS'Sixteen'
+p2267
+(dp2268
+g5
+S'Chicago'
+p2269
+sg7
+S'60611'
+p2270
+sg9
+S'401 N. Wabash Ave.'
+p2271
+ssS'Pho Xe Tang - Tank Noodle'
+p2272
+(dp2273
+g5
+S'Chicago'
+p2274
+sg7
+S'60640'
+p2275
+sg9
+S'4953-55 N. Broadway'
+p2276
+ssS'Three Aces'
+p2277
+(dp2278
+g5
+S'Chicago'
+p2279
+sg7
+S'60607'
+p2280
+sg9
+S'1321 W. Taylor St.'
+p2281
+ssS'MingHin'
+p2282
+(dp2283
+g5
+S'Chicago'
+p2284
+sg7
+S'60616'
+p2285
+sg9
+S'2168 S. Archer Ave.'
+p2286
+ssS'Duck Duck Goat'
+p2287
+(dp2288
+g5
+S'Chicago'
+p2289
+sg7
+S'60607'
+p2290
+sg9
+S'857 W. Fulton Market'
+p2291
+ssS'Stax Caf\xc3\xa9'
+p2292
+(dp2293
+g5
+S'Chicago'
+p2294
+sg7
+S'60607'
+p2295
+sg9
+S'1401 W. Taylor St.'
+p2296
+ssS'Taxim'
+p2297
+(dp2298
+g5
+S'Chicago'
+p2299
+sg7
+S'60622'
+p2300
+sg9
+S'1558 N. Milwaukee Ave.'
+p2301
+ssS'Pump Room'
+p2302
+(dp2303
+g5
+S'Chicago'
+p2304
+sg7
+S'60610'
+p2305
+sg9
+S'1301 N. State Pkwy.'
+p2306
+ssS'NoMI Kitchen'
+p2307
+(dp2308
+g5
+S'Chicago'
+p2309
+sg7
+S'60611'
+p2310
+sg9
+S'800 N. Michigan Ave.'
+p2311
+ssS'La Casa De Samuel'
+p2312
+(dp2313
+g5
+S'Chicago'
+p2314
+sg7
+S'60623'
+p2315
+sg9
+S'2834 W. Cermak Rd.'
+p2316
+ssS'DMK Burger Bar'
+p2317
+(dp2318
+g5
+S'Chicago'
+p2319
+sg7
+S'60657'
+p2320
+sg9
+S'2954 N. Sheffield Ave.'
+p2321
+ssS'Balena'
+p2322
+(dp2323
+g5
+S'Chicago'
+p2324
+sg7
+S'60610'
+p2325
+sg9
+S'1633 N. Halsted St.'
+p2326
+ssS'Smoque BBQ'
+p2327
+(dp2328
+g5
+S'Chicago'
+p2329
+sg7
+S'60641'
+p2330
+sg9
+S'3800 N. Pulaski Rd.'
+p2331
+ssS'The Franklin Room'
+p2332
+(dp2333
+g5
+S'Chicago'
+p2334
+sg7
+S'60654'
+p2335
+sg9
+S'675 N. Franklin St.'
+p2336
+ssS'Merlo on Maple'
+p2337
+(dp2338
+g5
+S'Chicago'
+p2339
+sg7
+S'60610'
+p2340
+sg9
+S'16 W. Maple St.'
+p2341
+ssS'The Piggery'
+p2342
+(dp2343
+g5
+S'Chicago'
+p2344
+sg7
+S'60613'
+p2345
+sg9
+S'1625 W. Irving Park Rd.'
+p2346
+ssS'Tortoise Club'
+p2347
+(dp2348
+g5
+S'Chicago'
+p2349
+sg7
+S'60654'
+p2350
+sg9
+S'350 N. State St.'
+p2351
+ssS'San Soo Gab San'
+p2352
+(dp2353
+g5
+S'Chicago'
+p2354
+sg7
+S'60625'
+p2355
+sg9
+S'5247 N. Western Ave.'
+p2356
+ssS'Bistrot Zinc'
+p2357
+(dp2358
+g5
+S'Chicago'
+p2359
+sg7
+S'60610'
+p2360
+sg9
+S'1131 N. State St.'
+p2361
+ssS'Side Door'
+p2362
+(dp2363
+g5
+S'Chicago'
+p2364
+sg7
+S'60611'
+p2365
+sg9
+S'100 E. Ontario St.'
+p2366
+ssS'Izakaya Mita'
+p2367
+(dp2368
+g5
+S'Chicago'
+p2369
+sg7
+S'60647'
+p2370
+sg9
+S'1960 N. Damen Ave.'
+p2371
+ssS'Momotaro'
+p2372
+(dp2373
+g5
+S'Chicago'
+p2374
+sg7
+S'60607'
+p2375
+sg9
+S'820 W. Lake St.'
+p2376
+ssS'Taketei'
+p2377
+(dp2378
+g5
+S'Chicago'
+p2379
+sg7
+S'60640'
+p2380
+sg9
+S'1111 W. Berwyn Ave.'
+p2381
+ssS'High Five Ramen'
+p2382
+(dp2383
+g5
+S'Chicago'
+p2384
+sg7
+S'60607'
+p2385
+sg9
+S'112 N. Green St.'
+p2386
+ssS'Charlatan'
+p2387
+(dp2388
+g5
+S'Chicago'
+p2389
+sg7
+S'60642'
+p2390
+sg9
+S'1329 W. Chicago Ave.'
+p2391
+ssS'Rojo Gusano'
+p2392
+(dp2393
+g5
+S'Chicago'
+p2394
+sg7
+S'60625'
+p2395
+sg9
+S'3830 W. Lawrence Ave.'
+p2396
+ssS'Las Palmas'
+p2397
+(dp2398
+g5
+S'Chicago'
+p2399
+sg7
+S'60622'
+p2400
+sg9
+S'1835 W. North Ave.'
+p2401
+ssS'Cafe Spiaggia'
+p2402
+(dp2403
+g5
+S'Chicago'
+p2404
+sg7
+S'60611'
+p2405
+sg9
+S'980 N. Michigan Ave.'
+p2406
+ssS'TAC Quick'
+p2407
+(dp2408
+g5
+S'Chicago'
+p2409
+sg7
+S'60613'
+p2410
+sg9
+S'3930 N. Sheridan Rd.'
+p2411
+ssS'Farmhouse'
+p2412
+(dp2413
+g5
+S'Chicago'
+p2414
+sg7
+S'60610'
+p2415
+sg9
+S'228 W. Chicago Ave.'
+p2416
+ssS'The Kitchen'
+p2417
+(dp2418
+g5
+S'Chicago'
+p2419
+sg7
+S'60654'
+p2420
+sg9
+S'316 N. Clark St.'
+p2421
+ssS'Dixie'
+p2422
+(dp2423
+g5
+S'Chicago'
+p2424
+sg7
+S'60647'
+p2425
+sg9
+S'1952 N. Damen Ave.'
+p2426
+ssS"Remington's"
+p2427
+(dp2428
+g5
+S'Chicago'
+p2429
+sg7
+S'60602'
+p2430
+sg9
+S'20 N. Michigan Ave.'
+p2431
+ssS'Sepia'
+p2432
+(dp2433
+g5
+S'Chicago'
+p2434
+sg7
+S'60661'
+p2435
+sg9
+S'123 N. Jefferson'
+p2436
+ssS"Kuma's Corner"
+p2437
+(dp2438
+g5
+S'Chicago'
+p2439
+sg7
+S'60618'
+p2440
+sg9
+S'2900 W. Belmont Ave.'
+p2441
+ssS"Pizano's"
+p2442
+(dp2443
+g5
+S'Chicago'
+p2444
+sg7
+S'60610'
+p2445
+sg9
+S'864 N. State St.'
+p2446
+ssS'mk'
+p2447
+(dp2448
+g5
+S'Chicago'
+p2449
+sg7
+S'60610'
+p2450
+sg9
+S'868 N. Franklin St.'
+p2451
+ssS'Grace'
+p2452
+(dp2453
+g5
+S'Chicago'
+p2454
+sg7
+S'60661'
+p2455
+sg9
+S'652 W. Randolph St.'
+p2456
+ssS'Acanto'
+p2457
+(dp2458
+g5
+S'Chicago'
+p2459
+sg7
+S'60602'
+p2460
+sg9
+S'18 S. Michigan Ave.'
+p2461
+ssS'Staropolska'
+p2462
+(dp2463
+g5
+S'Chicago'
+p2464
+sg7
+S'60618'
+p2465
+sg9
+S'3030 N. Milwaukee Ave.'
+p2466
+ssS'Le\xc3\xb1a Brava'
+p2467
+(dp2468
+g5
+S'Chicago'
+p2469
+sg7
+S'60607'
+p2470
+sg9
+S'900 W. Randolph St.'
+p2471
+ssS'Big Star'
+p2472
+(dp2473
+g5
+S'Chicago'
+p2474
+sg7
+S'60622'
+p2475
+sg9
+S'1531 N. Damen Ave.'
+p2476
+ssS'Chilam Balam'
+p2477
+(dp2478
+g5
+S'Chicago'
+p2479
+sg7
+S'60657'
+p2480
+sg9
+S'3023 N. Broadway'
+p2481
+ssS'Twin Anchors'
+p2482
+(dp2483
+g5
+S'Chicago'
+p2484
+sg7
+S'60614'
+p2485
+sg9
+S'1655 N. Sedgwick St.'
+p2486
+ssS'Lula Cafe'
+p2487
+(dp2488
+g5
+S'Chicago'
+p2489
+sg7
+S'60647'
+p2490
+sg9
+S'2537 N. Kedzie Ave.'
+p2491
+ssS'Hubbard Inn'
+p2492
+(dp2493
+g5
+S'Chicago'
+p2494
+sg7
+S'60640'
+p2495
+sg9
+S'110 W. Hubbard St.'
+p2496
+ssS'The Purple Pig'
+p2497
+(dp2498
+g5
+S'Chicago'
+p2499
+sg7
+S'60611'
+p2500
+sg9
+S'500 N. Michigan Ave.'
+p2501
+ssS'Jin Ju'
+p2502
+(dp2503
+g5
+S'Chicago'
+p2504
+sg7
+S'60640'
+p2505
+sg9
+S'5203 N. Clark St.'
+p2506
+ssS'Chicago Cut'
+p2507
+(dp2508
+g5
+S'Chicago'
+p2509
+sg7
+S'60654'
+p2510
+sg9
+S'300 N. LaSalle St.'
+p2511
+ssS'Jaipur'
+p2512
+(dp2513
+g5
+S'Chicago'
+p2514
+sg7
+S'60607'
+p2515
+sg9
+S'847 W. Randolph St.'
+p2516
+ssS'Old Jerusalem'
+p2517
+(dp2518
+g5
+S'Chicago'
+p2519
+sg7
+S'60610'
+p2520
+sg9
+S'1411 N. Wells St.'
+p2521
+ssS'Mana Food Bar'
+p2522
+(dp2523
+g5
+S'Chicago'
+p2524
+sg7
+S'60622'
+p2525
+sg9
+S'1742 W. Division St.'
+p2526
+ssS'Sunda'
+p2527
+(dp2528
+g5
+S'Chicago'
+p2529
+sg7
+S'60654'
+p2530
+sg9
+S'110 W. Illinois St.'
+p2531
+ssS'TWO'
+p2532
+(dp2533
+g5
+S'Chicago'
+p2534
+sg7
+S'60642'
+p2535
+sg9
+S'1132 W. Grand Ave.'
+p2536
+ssS'Big Jones'
+p2537
+(dp2538
+g5
+S'Chicago'
+p2539
+sg7
+S'60640'
+p2540
+sg9
+S'5347 N. Clark St.'
+p2541
+ssS'Il Porcellino'
+p2542
+(dp2543
+g5
+S'Chicago'
+p2544
+sg7
+S'60654'
+p2545
+sg9
+S'59 W. Hubbard St.'
+p2546
+ssS'Jam'
+p2547
+(dp2548
+g5
+S'Chicago'
+p2549
+sg7
+S'60647'
+p2550
+sg9
+S'3057 W. Logan Blvd.'
+p2551
+ssS'Eleven City Diner'
+p2552
+(dp2553
+g5
+S'Chicago'
+p2554
+sg7
+S'60605'
+p2555
+sg9
+S'1112 S. Wabash Ave.'
+p2556
+ssS'Wood'
+p2557
+(dp2558
+g5
+S'Chicago'
+p2559
+sg7
+S'60657'
+p2560
+sg9
+S'3335 N. Halsted St.'
+p2561
+ssS'The Lobby'
+p2562
+(dp2563
+g5
+S'Chicago'
+p2564
+sg7
+S'60611'
+p2565
+sg9
+S'108 E. Superior St.'
+p2566
+ssS'Cho Sun Ok'
+p2567
+(dp2568
+g5
+S'Chicago'
+p2569
+sg7
+S'60618'
+p2570
+sg9
+S'4200 N. Lincoln Ave.'
+p2571
+ssS'Ramen Takeya'
+p2572
+(dp2573
+g5
+S'Chicago'
+p2574
+sg7
+S'60607'
+p2575
+sg9
+S'819 W. Fulton Market'
+p2576
+ssS'Arami'
+p2577
+(dp2578
+g5
+S'Chicago'
+p2579
+sg7
+S'60622'
+p2580
+sg9
+S'1829 W. Chicago Ave.'
+p2581
+ssS'Southport Grocery'
+p2582
+(dp2583
+g5
+S'Chicago'
+p2584
+sg7
+S'60657'
+p2585
+sg9
+S'3552 N. Southport Ave.'
+p2586
+ssS'Bangers & Lace'
+p2587
+(dp2588
+g5
+S'Chicago'
+p2589
+sg7
+S'60622'
+p2590
+sg9
+S'1670 W. Division St.'
+p2591
+ssS'Honky Tonk BBQ'
+p2592
+(dp2593
+g5
+S'Chicago'
+p2594
+sg7
+S'60608'
+p2595
+sg9
+S'1800 S. Racine Ave.'
+p2596
+ssS'The Promontory'
+p2597
+(dp2598
+g5
+S'Chicago'
+p2599
+sg7
+S'60615'
+p2600
+sg9
+S'5311 S. Lake Park Ave. West'
+p2601
+ssS"Ahjoomah's Apron"
+p2602
+(dp2603
+g5
+S'Chicago'
+p2604
+sg7
+S'60616'
+p2605
+sg9
+S'218 W. Cermak Rd.'
+p2606
+ssS'Dolce'
+p2607
+(dp2608
+g5
+S'Chicago'
+p2609
+sg7
+S'60654'
+p2610
+sg9
+S'127 W. Huron St.'
+p2611
+ssS'The Boarding House'
+p2612
+(dp2613
+g5
+S'Chicago'
+p2614
+sg7
+S'60654'
+p2615
+sg9
+S'720 N. Wells St.'
+p2616
+ssS'Jerk'
+p2617
+(dp2618
+g5
+S'Chicago'
+p2619
+sg7
+S'60622'
+p2620
+sg9
+S'811 W. Chicago Ave.'
+p2621
+ssS'Osteria Langhe'
+p2622
+(dp2623
+g5
+S'Chicago'
+p2624
+sg7
+S'60647'
+p2625
+sg9
+S'2824 W. Armitage Ave.'
+p2626
+ssS'bellyQ'
+p2627
+(dp2628
+g5
+S'Chicago'
+p2629
+sg7
+S'60607'
+p2630
+sg9
+S'1400 W. Randolph St.'
+p2631
+ssS"Frances' Deli"
+p2632
+(dp2633
+g5
+S'Chicago'
+p2634
+sg7
+S'60614'
+p2635
+sg9
+S'2552 N. Clark St.'
+p2636
+ssS'Fat Rice'
+p2637
+(dp2638
+g5
+S'Chicago'
+p2639
+sg7
+S'60647'
+p2640
+sg9
+S'2957 W. Diversey Ave.'
+p2641
+ssS"Luella's Southern Kitchen"
+p2642
+(dp2643
+g5
+S'Chicago'
+p2644
+sg7
+S'60625'
+p2645
+sg9
+S'4609 N. Lincoln Ave.'
+p2646
+ssS'GT Fish & Oyster'
+p2647
+(dp2648
+g5
+S'Chicago'
+p2649
+sg7
+S'60654'
+p2650
+sg9
+S'531 N. Wells St.'
+p2651
+ssS'Rosebud Prime'
+p2652
+(dp2653
+g5
+S'Chicago'
+p2654
+sg7
+S'60603'
+p2655
+sg9
+S'1 S. Dearborn St.'
+p2656
+ssS"Joe's"
+p2657
+(dp2658
+g5
+S'Chicago'
+p2659
+sg7
+S'60611'
+p2660
+sg9
+S'60 E. Grand Ave.'
+p2661
+ssS'La Plena'
+p2662
+(dp2663
+g5
+S'Chicago'
+p2664
+sg7
+S'60622'
+p2665
+sg9
+S'2617 W. Division St.'
+p2666
+ssS"Maude's Liquor Bar"
+p2667
+(dp2668
+g5
+S'Chicago'
+p2669
+sg7
+S'60607'
+p2670
+sg9
+S'840 W. Randolph St.'
+p2671
+ssS'Hopleaf'
+p2672
+(dp2673
+g5
+S'Chicago'
+p2674
+sg7
+S'60640'
+p2675
+sg9
+S'5148 N. Clark St.'
+p2676
+ssS'ampersand wine bar'
+p2677
+(dp2678
+g5
+S'Chicago'
+p2679
+sg7
+S'60625'
+p2680
+sg9
+S'4845 N. Damen Ave.'
+p2681
+ssS"Dusek's (Board & Beer)"
+p2682
+(dp2683
+g5
+S'Chicago'
+p2684
+sg7
+S'60608'
+p2685
+sg9
+S'1227 W. 18th St.'
+p2686
+ssS'New Rebozo'
+p2687
+(dp2688
+g5
+S'Chicago'
+p2689
+sg7
+S'60611'
+p2690
+sg9
+S'www.newrebozo.com'
+p2691
+ssS'Rickshaw Republic'
+p2692
+(dp2693
+g5
+S'Chicago'
+p2694
+sg7
+S'60614'
+p2695
+sg9
+S'2312 N. Lincoln Ave.'
+p2696
+ssS'Via Lima'
+p2697
+(dp2698
+g5
+S'Chicago'
+p2699
+sg7
+S'60618'
+p2700
+sg9
+S'4024 N. Lincoln Ave.'
+p2701
+ssS"Pearl's Southern Comfort"
+p2702
+(dp2703
+g5
+S'Chicago'
+p2704
+sg7
+S'60640'
+p2705
+sg9
+S'5352 N. Broadway'
+p2706
+ssS'Fulton Market Kitchen'
+p2707
+(dp2708
+g5
+S'Chicago'
+p2709
+sg7
+S'60607'
+p2710
+sg9
+S'311 N. Sangamon St.'
+p2711
+ssS'Chicago Curry House'
+p2712
+(dp2713
+g5
+S'Chicago'
+p2714
+sg7
+S'60605'
+p2715
+sg9
+S'899 S. Plymouth Ct.'
+p2716
+ssS'Cumin'
+p2717
+(dp2718
+g5
+S'Chicago'
+p2719
+sg7
+S'60622'
+p2720
+sg9
+S'1414 N. Milwaukee Ave.'
+p2721
+ssS"Benny's Chop House"
+p2722
+(dp2723
+g5
+S'Chicago'
+p2724
+sg7
+S'60611'
+p2725
+sg9
+S'444 N. Wabash Ave.'
+p2726
+ssS'El Tipico Mexican Grill'
+p2727
+(dp2728
+g5
+S'Chicago'
+p2729
+sg7
+S'60640'
+p2730
+sg9
+S'1905 W. Foster Ave.'
+p2731
+ssS'Atwood'
+p2732
+(dp2733
+g5
+S'Chicago'
+p2734
+sg7
+S'60602'
+p2735
+sg9
+S'1 W. Washington St.'
+p2736
+ssS'Band of Bohemia'
+p2737
+(dp2738
+g5
+S'Chicago'
+p2739
+sg7
+S'60640'
+p2740
+sg9
+S'4710 N. Ravenswood Ave.'
+p2741
+ssS'Paprika'
+p2742
+(dp2743
+g5
+S'Chicago'
+p2744
+sg7
+S'60625'
+p2745
+sg9
+S'2547 W. Lawrence Ave.'
+p2746
+ssS'El Che Bar'
+p2747
+(dp2748
+g5
+S'Chicago'
+p2749
+sg7
+S'60607'
+p2750
+sg9
+S'845 W. Washington Blvd.'
+p2751
+ssS"Hugo's Frog Bar & Fish House"
+p2752
+(dp2753
+g5
+S'Chicago'
+p2754
+sg7
+S'60611'
+p2755
+sg9
+S'1024 N. Rush St.'
+p2756
+ssS'A10'
+p2757
+(dp2758
+g5
+S'Chicago'
+p2759
+sg7
+S'60615'
+p2760
+sg9
+S'1462 E. 53rd St.'
+p2761
+ssS'Sol de Mexico'
+p2762
+(dp2763
+g5
+S'Chicago'
+p2764
+sg7
+S'60641'
+p2765
+sg9
+S'3018 N. Cicero Ave.'
+p2766
+ssS'Kimski'
+p2767
+(dp2768
+g5
+S'Chicago'
+p2769
+sg7
+S'60608'
+p2770
+sg9
+S'960 W. 31st St.'
+p2771
+ssS'Royal Thai'
+p2772
+(dp2773
+g5
+S'Chicago'
+p2774
+sg7
+S'60618'
+p2775
+sg9
+S'2209 W. Montrose Ave.'
+p2776
+ssS'Phoenix'
+p2777
+(dp2778
+g5
+S'Chicago'
+p2779
+sg7
+S'60616'
+p2780
+sg9
+S'2131 S. Archer Ave.'
+p2781
+ssS'Alice & Friends'
+p2782
+(dp2783
+g5
+S'Chicago'
+p2784
+sg7
+S'60660'
+p2785
+sg9
+S'5812 N. Broadway'
+p2786
+ssS'Taste of Peru'
+p2787
+(dp2788
+g5
+S'Chicago'
+p2789
+sg7
+S'60626'
+p2790
+sg9
+S'6545 N. Clark St.'
+p2791
+ssS'Celeste'
+p2792
+(dp2793
+g5
+S'Chicago'
+p2794
+sg7
+S'60622'
+p2795
+sg9
+S'111 W. Hubbard St.'
+p2796
+ssS'gather'
+p2797
+(dp2798
+g5
+S'Chicago'
+p2799
+sg7
+S'60625'
+p2800
+sg9
+S'4539 N. Lincoln Ave.'
+p2801
+ssS'Bistronomic'
+p2802
+(dp2803
+g5
+S'Chicago'
+p2804
+sg7
+S'60611'
+p2805
+sg9
+S'840 N. Wabash Ave.'
+p2806
+ssS'La Storia'
+p2807
+(dp2808
+g5
+S'Chicago'
+p2809
+sg7
+S'60610'
+p2810
+sg9
+S'1154 N. Dearborn St.'
+p2811
+ssS'The Radler'
+p2812
+(dp2813
+g5
+S'Chicago'
+p2814
+sg7
+S'60647'
+p2815
+sg9
+S'N. 2375 Milwaukee Ave.'
+p2816
+ssS'Taus Authentic'
+p2817
+(dp2818
+g5
+S'Chicago'
+p2819
+sg7
+S'60622'
+p2820
+sg9
+S'1846 W. Division St.'
+p2821
+ssS'Ssyal Ginseng House'
+p2822
+(dp2823
+g5
+S'Chicago'
+p2824
+sg7
+S'60630'
+p2825
+sg9
+S'4201 W. Lawrence Ave.'
+p2826
+ssS'Yusho'
+p2827
+(dp2828
+g5
+S'Chicago'
+p2829
+sg7
+S'60618'
+p2830
+sg9
+S'2853 N. Kedzie Ave.'
+p2831
+ssS'Red Door'
+p2832
+(dp2833
+g5
+S'Chicago'
+p2834
+sg7
+S'60647'
+p2835
+sg9
+S'2118 N. Damen Ave.'
+p2836
+ssS'Spiaggia'
+p2837
+(dp2838
+g5
+S'Chicago'
+p2839
+sg7
+S'60611'
+p2840
+sg9
+S'980 N. Michigan Ave.'
+p2841
+ssS'Adobo Grill'
+p2842
+(dp2843
+g5
+S'Chicago'
+p2844
+sg7
+S'60610'
+p2845
+sg9
+S'215 W. North Ave.'
+p2846
+ssS'Anteprima'
+p2847
+(dp2848
+g5
+S'Chicago'
+p2849
+sg7
+S'60640'
+p2850
+sg9
+S'5316 N. Clark St.'
+p2851
+ssS'Oriole'
+p2852
+(dp2853
+g5
+S'Chicago'
+p2854
+sg7
+S'60661'
+p2855
+sg9
+S'661 W. Walnut St.'
+p2856
+ssS'Pizzeria da Nella'
+p2857
+(dp2858
+g5
+S'Chicago'
+p2859
+sg7
+S'60614'
+p2860
+sg9
+S'1443 W. Fullerton Ave.'
+p2861
+ssS'Topolobampo'
+p2862
+(dp2863
+g5
+S'Chicago'
+p2864
+sg7
+S'60654'
+p2865
+sg9
+S'445 N. Clark St.'
+p2866
+sssS'new york ny'
+p2867
+(dp2868
+S'Casa del Chef Bistro'
+p2869
+(dp2870
+g5
+S'Woodside'
+p2871
+sg7
+S'11377'
+p2872
+sg9
+S'39-06 64th St.'
+p2873
+ssS'Vai'
+p2874
+(dp2875
+g5
+S'New York'
+p2876
+sg7
+S'10024'
+p2877
+sg9
+S'429 Amsterdam Ave.'
+p2878
+ssS'Fung Tu'
+p2879
+(dp2880
+g5
+S'New York'
+p2881
+sg7
+S'10002'
+p2882
+sg9
+S'22 Orchard St.'
+p2883
+ssS'Jubilee'
+p2884
+(dp2885
+g5
+S'New York'
+p2886
+sg7
+S'10022'
+p2887
+sg9
+S'948 First Ave.'
+p2888
+ssS'Frankies 457 Spuntino'
+p2889
+(dp2890
+g5
+S'Brooklyn'
+p2891
+sg7
+S'11231'
+p2892
+sg9
+S'457 Court St.'
+p2893
+ssS'La Masseria'
+p2894
+(dp2895
+g5
+S'New York'
+p2896
+sg7
+S'10036'
+p2897
+sg9
+S'235 W. 48th St.'
+p2898
+ssS'Hunan Kitchen of Grand Sichuan'
+p2899
+(dp2900
+g5
+S'Flushing'
+p2901
+sg7
+S'11355'
+p2902
+sg9
+S'42-47 Main Street'
+p2903
+ssS'Nom Wah Tea Parlor'
+p2904
+(dp2905
+g5
+S'New York'
+p2906
+sg7
+S'10013'
+p2907
+sg9
+S'13 Doyers St.'
+p2908
+ssS'Houdini Kitchen Laboratory'
+p2909
+(dp2910
+g5
+S'Ridgewood'
+p2911
+sg7
+S'11385'
+p2912
+sg9
+S'15-63 Decatur St.'
+p2913
+ssS'Turkish Kitchen'
+p2914
+(dp2915
+g5
+S'New York'
+p2916
+sg7
+S'10016'
+p2917
+sg9
+S'386 Third Ave.'
+p2918
+ssS'Caviar Russe'
+p2919
+(dp2920
+g5
+S'New York'
+p2921
+sg7
+S'10022'
+p2922
+sg9
+S'538 Madison Ave.'
+p2923
+ssS'Yakitori Totto'
+p2924
+(dp2925
+g5
+S'New York'
+p2926
+sg7
+S'10019'
+p2927
+sg9
+S'251 W. 55th St.'
+p2928
+ssS'Oiji'
+p2929
+(dp2930
+g5
+S'New York'
+p2931
+sg7
+S'10003'
+p2932
+sg9
+S'119 First Ave.'
+p2933
+ssS'Tastings Social Presents Mountain Bird'
+p2934
+(dp2935
+g5
+S'New York'
+p2936
+sg7
+S'10029'
+p2937
+sg9
+S'251 E. 110th St.'
+p2938
+ssS'Mr. Taka'
+p2939
+(dp2940
+g5
+S'New York'
+p2941
+sg7
+S'10002'
+p2942
+sg9
+S'170 Allen St.'
+p2943
+ssS'Root & Bone'
+p2944
+(dp2945
+g5
+S'New York'
+p2946
+sg7
+S'10009'
+p2947
+sg9
+S'200 E. 3rd St.'
+p2948
+ssS'Maison Harlem'
+p2949
+(dp2950
+g5
+S'New York'
+p2951
+sg7
+S'10027'
+p2952
+sg9
+S'341 St. Nicholas Ave.'
+p2953
+ssS'Maialino'
+p2954
+(dp2955
+g5
+S'New York'
+p2956
+sg7
+S'10010'
+p2957
+sg9
+S'2 Lexington Ave.'
+p2958
+ssS"Ed's Lobster Bar"
+p2959
+(dp2960
+g5
+S'New York'
+p2961
+sg7
+S'10012'
+p2962
+sg9
+S'222 Lafayette St.'
+p2963
+ssS'Mythos'
+p2964
+(dp2965
+g5
+S'Flushing'
+p2966
+sg7
+S'11358'
+p2967
+sg9
+S'196-29 Northern Blvd.'
+p2968
+ssS'Kiin Thai'
+p2969
+(dp2970
+g5
+S'New York'
+p2971
+sg7
+S'10003'
+p2972
+sg9
+S'36 E. 8th St.'
+p2973
+ssS'Palo Santo'
+p2974
+(dp2975
+g5
+S'Brooklyn'
+p2976
+sg7
+S'11215'
+p2977
+sg9
+S'652 Union St.'
+p2978
+ssS'Junoon'
+p2979
+(dp2980
+g5
+S'New York'
+p2981
+sg7
+S'10010'
+p2982
+sg9
+S'27 W. 24th St.'
+p2983
+ssS'Kingsley'
+p2984
+(dp2985
+g5
+S'New York'
+p2986
+sg7
+S'10009'
+p2987
+sg9
+S'190 Avenue B'
+p2988
+ssS"L'Artusi"
+p2989
+(dp2990
+g5
+S'New York'
+p2991
+sg7
+S'10014'
+p2992
+sg9
+S'228 W. 10th St.'
+p2993
+ssS'Upland'
+p2994
+(dp2995
+g5
+S'New York'
+p2996
+sg7
+S'10019'
+p2997
+sg9
+S'345 Park Ave. South'
+p2998
+ssS'Yopparai'
+p2999
+(dp3000
+g5
+S'New York'
+p3001
+sg7
+S'10002'
+p3002
+sg9
+S'151 Rivington St.'
+p3003
+ssS'Momokawa'
+p3004
+(dp3005
+g5
+S'New York'
+p3006
+sg7
+S'10016'
+p3007
+sg9
+S'157 E. 28th St.'
+p3008
+ssS'Aldea'
+p3009
+(dp3010
+g5
+S'New York'
+p3011
+sg7
+S'10011'
+p3012
+sg9
+S'31 W. 17th St.'
+p3013
+ssS'The Modern'
+p3014
+(dp3015
+g5
+S'New York'
+p3016
+sg7
+S'10019'
+p3017
+sg9
+S'9 W. 53rd St.'
+p3018
+ssS'Balaboosta'
+p3019
+(dp3020
+g5
+S'New York'
+p3021
+sg7
+S'10012'
+p3022
+sg9
+S'214 Mulberry St.'
+p3023
+ssS'East Pole'
+p3024
+(dp3025
+g5
+S'New York'
+p3026
+sg7
+S'10021'
+p3027
+sg9
+S'133 E. 65th St.'
+p3028
+ssS'Tanoreen'
+p3029
+(dp3030
+g5
+S'Brooklyn'
+p3031
+sg7
+S'11209'
+p3032
+sg9
+S'7523 Third Ave.'
+p3033
+ssS'Bukhara Grill'
+p3034
+(dp3035
+g5
+S'New York'
+p3036
+sg7
+S'10017'
+p3037
+sg9
+S'217 E. 49th St.'
+p3038
+ssS'ABC Kitchen'
+p3039
+(dp3040
+g5
+S'New York'
+p3041
+sg7
+S'10014'
+p3042
+sg9
+S'35 E. 18th St.'
+p3043
+ssS'Legend Bar & Restaurant'
+p3044
+(dp3045
+g5
+S'New York'
+p3046
+sg7
+S'10011'
+p3047
+sg9
+S'88 Seventh Ave.'
+p3048
+ssS'Babbalucci'
+p3049
+(dp3050
+g5
+S'New York'
+p3051
+sg7
+S'10027'
+p3052
+sg9
+S'331 Lenox Ave.'
+p3053
+ssS'Molyvos'
+p3054
+(dp3055
+g5
+S'New York'
+p3056
+sg7
+S'10019'
+p3057
+sg9
+S'871 Seventh Ave.'
+p3058
+ssS'Sessanta'
+p3059
+(dp3060
+g5
+S'New York'
+p3061
+sg7
+S'10012'
+p3062
+sg9
+S'60 Thompson St.'
+p3063
+ssS'Clover Club'
+p3064
+(dp3065
+g5
+S'Brooklyn'
+p3066
+sg7
+S'11201'
+p3067
+sg9
+S'210 Smith St.'
+p3068
+ssS'Sutton Inn'
+p3069
+(dp3070
+g5
+S'New York'
+p3071
+sg7
+S'10022'
+p3072
+sg9
+S'347 E 54th St.'
+p3073
+ssS'Chomp Chomp'
+p3074
+(dp3075
+g5
+S'New York'
+p3076
+sg7
+S'10014'
+p3077
+sg9
+S'7 Cornelia St.'
+p3078
+ssS'Casa Mono'
+p3079
+(dp3080
+g5
+S'New York'
+p3081
+sg7
+S'10003'
+p3082
+sg9
+S'52 Irving Pl.'
+p3083
+ssS'Soba Totto'
+p3084
+(dp3085
+g5
+S'New York'
+p3086
+sg7
+S'10017'
+p3087
+sg9
+S'211 E. 43rd St.'
+p3088
+ssS'Hunan House'
+p3089
+(dp3090
+g5
+S'Flushing'
+p3091
+sg7
+S'11354'
+p3092
+sg9
+S'137-40 Northern Blvd.'
+p3093
+ssS'Porter House'
+p3094
+(dp3095
+g5
+S'New York'
+p3096
+sg7
+S'10019'
+p3097
+sg9
+S'10 Columbus Circle'
+p3098
+ssS'Standard Grill'
+p3099
+(dp3100
+g5
+S'New York'
+p3101
+sg7
+S'10014'
+p3102
+sg9
+S'848 Washington St.'
+p3103
+ssS'The River Caf\xc3\xa9'
+p3104
+(dp3105
+g5
+S'Brooklyn'
+p3106
+sg7
+S'11201'
+p3107
+sg9
+S'1 Water St.'
+p3108
+ssS'Cookshop'
+p3109
+(dp3110
+g5
+S'New York'
+p3111
+sg7
+S'10011'
+p3112
+sg9
+S'156 Tenth Ave.'
+p3113
+ssS'Congee Village'
+p3114
+(dp3115
+g5
+S'New York'
+p3116
+sg7
+S'10002'
+p3117
+sg9
+S'100 Allen St.'
+p3118
+ssS'Kang Suh'
+p3119
+(dp3120
+g5
+S'New York'
+p3121
+sg7
+S'10001'
+p3122
+sg9
+S'1250 Broadway'
+p3123
+ssS'Il Buco Alimentari e Vineria'
+p3124
+(dp3125
+g5
+S'New York'
+p3126
+sg7
+S'10012'
+p3127
+sg9
+S'53 Great Jones St.'
+p3128
+ssS'The Clam'
+p3129
+(dp3130
+g5
+S'New York'
+p3131
+sg7
+S'10014'
+p3132
+sg9
+S'420 Hudson St.'
+p3133
+ssS'Barrel & Fare'
+p3134
+(dp3135
+g5
+S'Brooklyn'
+p3136
+sg7
+S'11215'
+p3137
+sg9
+S'494 Fourth Ave.'
+p3138
+ssS'Sushi Nakazawa'
+p3139
+(dp3140
+g5
+S'New York'
+p3141
+sg7
+S'10014'
+p3142
+sg9
+S'23 Commerce St.'
+p3143
+ssS"Seamore's"
+p3144
+(dp3145
+g5
+S'New York'
+p3146
+sg7
+S'10013'
+p3147
+sg9
+S'390 Broome St.'
+p3148
+ssS'The Lambs Club'
+p3149
+(dp3150
+g5
+S'New York'
+p3151
+sg7
+S'10036'
+p3152
+sg9
+S'132 W. 44th St.'
+p3153
+ssS'East Harbor Seafood Palace'
+p3154
+(dp3155
+g5
+S'Brooklyn'
+p3156
+sg7
+S'11220'
+p3157
+sg9
+S'714-726 65th St.'
+p3158
+ssS'Margaux'
+p3159
+(dp3160
+g5
+S'New York'
+p3161
+sg7
+S'10011'
+p3162
+sg9
+S'5 W. 8th St.'
+p3163
+ssS'Fushimi'
+p3164
+(dp3165
+g5
+S'Staten Island'
+p3166
+sg7
+S'10306'
+p3167
+sg9
+S'2110 Richmond Rd.'
+p3168
+ssS'Oriental Garden'
+p3169
+(dp3170
+g5
+S'New York'
+p3171
+sg7
+S'10013'
+p3172
+sg9
+S'14 Elizabeth St.'
+p3173
+ssS'Yefsi'
+p3174
+(dp3175
+g5
+S'New York'
+p3176
+sg7
+S'10079'
+p3177
+sg9
+S'1481 York Ave.'
+p3178
+ssS'Africa Kine'
+p3179
+(dp3180
+g5
+S'New York'
+p3181
+sg7
+S'10030'
+p3182
+sg9
+S'2267 7th Ave.'
+p3183
+ssS'Agern'
+p3184
+(dp3185
+g5
+S'New York'
+p3186
+sg7
+S'10017'
+p3187
+sg9
+S'89 E. 42nd St.'
+p3188
+ssS'Contra'
+p3189
+(dp3190
+g5
+S'New York'
+p3191
+sg7
+S'10002'
+p3192
+sg9
+S'138 Orchard St.'
+p3193
+ssS'Wassail'
+p3194
+(dp3195
+g5
+S'New York'
+p3196
+sg7
+S'10002'
+p3197
+sg9
+S'162 Orchard St.'
+p3198
+ssS"Carol's Cafe"
+p3199
+(dp3200
+g5
+S'New York'
+p3201
+sg7
+S'10304'
+p3202
+sg9
+S'1571 Richmond Rd.'
+p3203
+ssS'Caf\xc3\xa9 Steinhof'
+p3204
+(dp3205
+g5
+S'Brooklyn'
+p3206
+sg7
+S'11215'
+p3207
+sg9
+S'422 Seventh Ave.'
+p3208
+ssS'Sakagura'
+p3209
+(dp3210
+g5
+S'New York'
+p3211
+sg7
+S'10017'
+p3212
+sg9
+S'211 E. 43rd St.'
+p3213
+ssS'Rider'
+p3214
+(dp3215
+g5
+S'Brooklyn'
+p3216
+sg7
+S'11249'
+p3217
+sg9
+S'80 N. 6th St.'
+p3218
+ssS'Settepani'
+p3219
+(dp3220
+g5
+S'New York'
+p3221
+sg7
+S'10023'
+p3222
+sg9
+S'196 Lenox Ave.'
+p3223
+ssS'Bar Boulud'
+p3224
+(dp3225
+g5
+S'New York'
+p3226
+sg7
+S'10023'
+p3227
+sg9
+S'1900 Broadway'
+p3228
+ssS'Fort Defiance'
+p3229
+(dp3230
+g5
+S'Brooklyn'
+p3231
+sg7
+S'11231'
+p3232
+sg9
+S'365 Van Brunt St.'
+p3233
+ssS'Peter Luger'
+p3234
+(dp3235
+g5
+S'New York'
+p3236
+sg7
+S'11211'
+p3237
+sg9
+S'178 Broadway'
+p3238
+ssS'Toloache'
+p3239
+(dp3240
+g5
+S'New York'
+p3241
+sg7
+S'10019'
+p3242
+sg9
+S'251 W. 50th St.'
+p3243
+ssS'Cho Dang Gol'
+p3244
+(dp3245
+g5
+S'New York'
+p3246
+sg7
+S'10001'
+p3247
+sg9
+S'55 W. 35th St.'
+p3248
+ssS'Asian Jewels'
+p3249
+(dp3250
+g5
+S'Flushing'
+p3251
+sg7
+S'11354'
+p3252
+sg9
+S'133-30 39th Ave.'
+p3253
+ssS'Stella 34'
+p3254
+(dp3255
+g5
+S'New York'
+p3256
+sg7
+S'10001'
+p3257
+sg9
+S'151 W. 34th St.'
+p3258
+ssS'Forcella'
+p3259
+(dp3260
+g5
+S'Brooklyn'
+p3261
+sg7
+S'11211'
+p3262
+sg9
+S'485 Lorimer St.'
+p3263
+ssS'Eli\xc3\xa1'
+p3264
+(dp3265
+g5
+S'New York'
+p3266
+sg7
+S'11209'
+p3267
+sg9
+S'8611 Third Ave.'
+p3268
+ssS'Wa Jeal'
+p3269
+(dp3270
+g5
+S'New York'
+p3271
+sg7
+S'10028'
+p3272
+sg9
+S'1588 Second Ave.'
+p3273
+ssS'Blue Water Grill'
+p3274
+(dp3275
+g5
+S'New York'
+p3276
+sg7
+S'10003'
+p3277
+sg9
+S'31 Union Sq. West'
+p3278
+ssS'Hill Country'
+p3279
+(dp3280
+g5
+S'New York'
+p3281
+sg7
+S'10010'
+p3282
+sg9
+S'30 W. 26th St.'
+p3283
+ssS'Flat Top'
+p3284
+(dp3285
+g5
+S'New York'
+p3286
+sg7
+S'10027'
+p3287
+sg9
+S'1241 Amsterdam Ave.'
+p3288
+ssS'Hasaki'
+p3289
+(dp3290
+g5
+S'New York'
+p3291
+sg7
+S'10003'
+p3292
+sg9
+S'210 E. 9th St.'
+p3293
+ssS'Nougatine'
+p3294
+(dp3295
+g5
+S'New York'
+p3296
+sg7
+S'10023'
+p3297
+sg9
+S'1 Central Park West'
+p3298
+ssS'Spotted Pig'
+p3299
+(dp3300
+g5
+S'New York'
+p3301
+sg7
+S'10014'
+p3302
+sg9
+S'314 W. 11th St.'
+p3303
+ssS'Bowery Meat Company'
+p3304
+(dp3305
+g5
+S'New York'
+p3306
+sg7
+S'10003'
+p3307
+sg9
+S'9 E. 1st St.'
+p3308
+ssS'Vaucluse'
+p3309
+(dp3310
+g5
+S'New'
+p3311
+sg7
+S'York'
+p3312
+sg9
+S'100 E. 63rd St.'
+p3313
+ssS'Oda House'
+p3314
+(dp3315
+g5
+S'New York'
+p3316
+sg7
+S'10009'
+p3317
+sg9
+S'76 Ave. B'
+p3318
+ssS'Extra Virgin'
+p3319
+(dp3320
+g5
+S'New York'
+p3321
+sg7
+S'10014'
+p3322
+sg9
+S'259 W. 4th St.'
+p3323
+ssS'Atrium'
+p3324
+(dp3325
+g5
+S'Brooklyn'
+p3326
+sg7
+S'11201'
+p3327
+sg9
+S'15 Main St.'
+p3328
+ssS"Roman's"
+p3329
+(dp3330
+g5
+S'New York'
+p3331
+sg7
+S'11205'
+p3332
+sg9
+S'243 DeKalb Ave.'
+p3333
+ssS'Mari Vanna'
+p3334
+(dp3335
+g5
+S'New York'
+p3336
+sg7
+S'10001'
+p3337
+sg9
+S'41 E. 20th St.'
+p3338
+ssS'Malagueta'
+p3339
+(dp3340
+g5
+S'Astoria'
+p3341
+sg7
+S'11106'
+p3342
+sg9
+S'25-35 36th Ave.'
+p3343
+ssS'Radiance Tea House'
+p3344
+(dp3345
+g5
+S'New York'
+p3346
+sg7
+S'10019'
+p3347
+sg9
+S'158 W. 55th St.'
+p3348
+ssS'Marta'
+p3349
+(dp3350
+g5
+S'New York'
+p3351
+sg7
+S'10016'
+p3352
+sg9
+S'29 E. 29th St.'
+p3353
+ssS'Novit\xc3\xa1'
+p3354
+(dp3355
+g5
+S'New York'
+p3356
+sg7
+S'10010'
+p3357
+sg9
+S'102 E. 22nd St.'
+p3358
+ssS'Blue Ribbon'
+p3359
+(dp3360
+g5
+S'New York'
+p3361
+sg7
+S'10012'
+p3362
+sg9
+S'97 Sullivan St.'
+p3363
+ssS'Arharn Thai'
+p3364
+(dp3365
+g5
+S'Astoria'
+p3366
+sg7
+S'11106'
+p3367
+sg9
+S'32-05 36th Ave.'
+p3368
+ssS'Gastroteca'
+p3369
+(dp3370
+g5
+S'Astoria'
+p3371
+sg7
+S'11106'
+p3372
+sg9
+S'33-02 34th Ave.'
+p3373
+ssS'Shanghai Caf\xc3\xa9'
+p3374
+(dp3375
+g5
+S'New York'
+p3376
+sg7
+S'10013'
+p3377
+sg9
+S'100 Mott St.'
+p3378
+ssS'Vinegar Hill House'
+p3379
+(dp3380
+g5
+S'Brooklyn'
+p3381
+sg7
+S'11201'
+p3382
+sg9
+S'72 Hudson Ave.'
+p3383
+ssS'Lilia'
+p3384
+(dp3385
+g5
+S'Brooklyn'
+p3386
+sg7
+S'11222'
+p3387
+sg9
+S'567 Union Ave.'
+p3388
+ssS'Taqueria Tlaxcalli'
+p3389
+(dp3390
+g5
+S'Bronx'
+p3391
+sg7
+S'10462'
+p3392
+sg9
+S'2103 Starling Ave.'
+p3393
+ssS'Casa Enr\xc3\xadque'
+p3394
+(dp3395
+g5
+S'Long Island City'
+p3396
+sg7
+S'11101'
+p3397
+sg9
+S'5-48 49th Ave.'
+p3398
+ssS'Sushi Inoue'
+p3399
+(dp3400
+g5
+S'New York'
+p3401
+sg7
+S'10027'
+p3402
+sg9
+S'381 Lenox Ave.'
+p3403
+ssS'Uva'
+p3404
+(dp3405
+g5
+S'New York'
+p3406
+sg7
+S'10021'
+p3407
+sg9
+S'1486 Second Ave.'
+p3408
+ssS'The Clocktower'
+p3409
+(dp3410
+g5
+S'New York'
+p3411
+sg7
+S'10010'
+p3412
+sg9
+S'5 Madison Ave.'
+p3413
+ssS'Piora'
+p3414
+(dp3415
+g5
+S'New York'
+p3416
+sg7
+S'10014'
+p3417
+sg9
+S'430 Hudson St.'
+p3418
+ssS'Gramercy Tavern'
+p3419
+(dp3420
+g5
+S'New York'
+p3421
+sg7
+S'10003'
+p3422
+sg9
+S'42 E. 20th St.'
+p3423
+ssS"Mario's"
+p3424
+(dp3425
+g5
+S'Staten Island'
+p3426
+sg7
+S'10304'
+p3427
+sg9
+S'1657 Richmond Rd.'
+p3428
+ssS'Le Garage'
+p3429
+(dp3430
+g5
+S'Brooklyn'
+p3431
+sg7
+S'11221'
+p3432
+sg9
+S'159B Central Ave.'
+p3433
+ssS'Blossom'
+p3434
+(dp3435
+g5
+S'New York'
+p3436
+sg7
+S'10011'
+p3437
+sg9
+S'187 Ninth Ave.'
+p3438
+ssS'Amaranto'
+p3439
+(dp3440
+g5
+S'Brooklyn'
+p3441
+sg7
+S'11237'
+p3442
+sg9
+S'887 Hart St.'
+p3443
+ssS'Mr Chow'
+p3444
+(dp3445
+g5
+S'New York'
+p3446
+sg7
+S'10022'
+p3447
+sg9
+S'324 E. 57th St.'
+p3448
+ssS'Russian Samovar'
+p3449
+(dp3450
+g5
+S'New York'
+p3451
+sg7
+S'10019'
+p3452
+sg9
+S'256 W. 52nd St.'
+p3453
+ssS'Carbone'
+p3454
+(dp3455
+g5
+S'New York'
+p3456
+sg7
+S'10003'
+p3457
+sg9
+S'181 Thompson St.'
+p3458
+ssS'Lucky Luna'
+p3459
+(dp3460
+g5
+S'Brooklyn'
+p3461
+sg7
+S'11222'
+p3462
+sg9
+S'167 Nassau Ave.'
+p3463
+ssS"Enzo's of Arthur Ave"
+p3464
+(dp3465
+g5
+S'Bronx'
+p3466
+sg7
+S'10458'
+p3467
+sg9
+S'2339 Arthur Ave.'
+p3468
+ssS'El Paso'
+p3469
+(dp3470
+g5
+S'New York'
+p3471
+sg7
+S'10029'
+p3472
+sg9
+S'1643 Lexington Ave.'
+p3473
+ssS'Sushi Yasuda'
+p3474
+(dp3475
+g5
+S'New York'
+p3476
+sg7
+S'10017'
+p3477
+sg9
+S'204 E. 43rd St.'
+p3478
+ssS'Sobakoh'
+p3479
+(dp3480
+g5
+S'New York'
+p3481
+sg7
+S'10003'
+p3482
+sg9
+S'309 E. 5th St.'
+p3483
+ssS'EN Japanese Brasserie'
+p3484
+(dp3485
+g5
+S'New York'
+p3486
+sg7
+S'10014'
+p3487
+sg9
+S'435\xc2\xa0Hudson St.'
+p3488
+ssS'Lulu & Po'
+p3489
+(dp3490
+g5
+S'Brooklyn'
+p3491
+sg7
+S'11205'
+p3492
+sg9
+S'154 Carlton Ave.'
+p3493
+ssS'Krupa Grocery'
+p3494
+(dp3495
+g5
+S'Brooklyn'
+p3496
+sg7
+S'11215'
+p3497
+sg9
+S'231 Prospect Park West'
+p3498
+ssS'Macchina'
+p3499
+(dp3500
+g5
+S'New York'
+p3501
+sg7
+S'10025'
+p3502
+sg9
+S'2758 Broadway'
+p3503
+ssS'Barawine'
+p3504
+(dp3505
+g5
+S'New York'
+p3506
+sg7
+S'10027'
+p3507
+sg9
+S'200 Lenox Ave.'
+p3508
+ssS'Tra Di Noi'
+p3509
+(dp3510
+g5
+S'Bronx'
+p3511
+sg7
+S'10458'
+p3512
+sg9
+S'622 E. 187th St.'
+p3513
+ssS'Alobar'
+p3514
+(dp3515
+g5
+S'Long Island City'
+p3516
+sg7
+S'11101'
+p3517
+sg9
+S'46-42 Vernon Blvd.'
+p3518
+ssS'Supper'
+p3519
+(dp3520
+g5
+S'New York'
+p3521
+sg7
+S'10003'
+p3522
+sg9
+S'156 E. 2nd St.'
+p3523
+ssS'Sushi Ginza Onodera'
+p3524
+(dp3525
+g5
+S'New York'
+p3526
+sg7
+S'10017'
+p3527
+sg9
+S'461 Fifth Ave.'
+p3528
+ssS'Pylos'
+p3529
+(dp3530
+g5
+S'New York'
+p3531
+sg7
+S'10009'
+p3532
+sg9
+S'128 E. 7th St.'
+p3533
+ssS'Aita'
+p3534
+(dp3535
+g5
+S'Brooklyn'
+p3536
+sg7
+S'11238'
+p3537
+sg9
+S'132 Greene Ave.'
+p3538
+ssS'Clement'
+p3539
+(dp3540
+g5
+S'New York'
+p3541
+sg7
+S'10019'
+p3542
+sg9
+S'700 Fifth Ave.'
+p3543
+ssS'Haldi'
+p3544
+(dp3545
+g5
+S'New York'
+p3546
+sg7
+S'10016'
+p3547
+sg9
+S'102 Lexington Ave.'
+p3548
+ssS'Osteria al Doge'
+p3549
+(dp3550
+g5
+S'New York'
+p3551
+sg7
+S'10036'
+p3552
+sg9
+S'142 W. 44th St.'
+p3553
+ssS'M\xc3\xa1L\xc3\xa0 Project'
+p3554
+(dp3555
+g5
+S'New York'
+p3556
+sg7
+S'10009'
+p3557
+sg9
+S'122 First Ave.'
+p3558
+ssS'Masa'
+p3559
+(dp3560
+g5
+S'New York'
+p3561
+sg7
+S'10019'
+p3562
+sg9
+S'10 Columbus Circle'
+p3563
+ssS'Olmstead'
+p3564
+(dp3565
+g5
+S'Brooklyn'
+p3566
+sg7
+S'11238'
+p3567
+sg9
+S'659 Vanderbilt Ave.'
+p3568
+ssS'Le Coq Rico'
+p3569
+(dp3570
+g5
+S'New York'
+p3571
+sg7
+S'10003'
+p3572
+sg9
+S'32 W. 20th St.'
+p3573
+ssS'Caravaggio'
+p3574
+(dp3575
+g5
+S'New York'
+p3576
+sg7
+S'10021'
+p3577
+sg9
+S'23 E. 74th St.'
+p3578
+ssS'Edi & The Wolf'
+p3579
+(dp3580
+g5
+S'New York'
+p3581
+sg7
+S'10009'
+p3582
+sg9
+S'102 Ave. C'
+p3583
+ssS'Malaparte'
+p3584
+(dp3585
+g5
+S'New York'
+p3586
+sg7
+S'10014'
+p3587
+sg9
+S'753 Washington St.'
+p3588
+ssS'Risotteria Melotti'
+p3589
+(dp3590
+g5
+S'New York'
+p3591
+sg7
+S'10003'
+p3592
+sg9
+S'309 E. 5th St.'
+p3593
+ssS'Del Posto'
+p3594
+(dp3595
+g5
+S'New York'
+p3596
+sg7
+S'10011'
+p3597
+sg9
+S'85 Tenth Ave.'
+p3598
+ssS'Beyoglu'
+p3599
+(dp3600
+g5
+S'New York'
+p3601
+sg7
+S'10028'
+p3602
+sg9
+S'1431\xc2\xa0Third Ave.'
+p3603
+ssS'Kaia'
+p3604
+(dp3605
+g5
+S'New York'
+p3606
+sg7
+S'10128'
+p3607
+sg9
+S'1614 Third Ave.'
+p3608
+ssS'O Ya'
+p3609
+(dp3610
+g5
+S'New York'
+p3611
+sg7
+S'10016'
+p3612
+sg9
+S'120 E. 28th St.'
+p3613
+ssS'Prime Meats'
+p3614
+(dp3615
+g5
+S'Brooklyn'
+p3616
+sg7
+S'11231'
+p3617
+sg9
+S'465 Court St.'
+p3618
+ssS'Pachanga Patterson'
+p3619
+(dp3620
+g5
+S'Astoria'
+p3621
+sg7
+S'11103'
+p3622
+sg9
+S'33-17 31st Ave.'
+p3623
+ssS'Maizal'
+p3624
+(dp3625
+g5
+S'Staten Island'
+p3626
+sg7
+S'10305'
+p3627
+sg9
+S'990 Bay St.'
+p3628
+ssS'Le Gigot'
+p3629
+(dp3630
+g5
+S'New York'
+p3631
+sg7
+S'10014'
+p3632
+sg9
+S'18 Cornelia St.'
+p3633
+ssS'Xixa'
+p3634
+(dp3635
+g5
+S'Brooklyn'
+p3636
+sg7
+S'11211'
+p3637
+sg9
+S'241 S. 4th St.'
+p3638
+ssS'Bocelli'
+p3639
+(dp3640
+g5
+S'Staten Island'
+p3641
+sg7
+S'10305'
+p3642
+sg9
+S'1250 Hylan Blvd.'
+p3643
+ssS'Armani Ristorante'
+p3644
+(dp3645
+g5
+S'New York'
+p3646
+sg7
+S'10022'
+p3647
+sg9
+S'717 5th Ave.'
+p3648
+ssS'Szechuan Gourmet'
+p3649
+(dp3650
+g5
+S'New York'
+p3651
+sg7
+S'10018'
+p3652
+sg9
+S'21 W. 39th St.'
+p3653
+ssS'Hirohisa'
+p3654
+(dp3655
+g5
+S'New York'
+p3656
+sg7
+S'10012'
+p3657
+sg9
+S'73 Thompson St.'
+p3658
+ssS'Tori Shin'
+p3659
+(dp3660
+g5
+S'New York'
+p3661
+sg7
+S'10019'
+p3662
+sg9
+S'362 W. 53rd St.'
+p3663
+ssS'Hanjan'
+p3664
+(dp3665
+g5
+S'New York'
+p3666
+sg7
+S'10010'
+p3667
+sg9
+S'36 W. 26th St.'
+p3668
+ssS'Golden Unicorn'
+p3669
+(dp3670
+g5
+S'New York'
+p3671
+sg7
+S'10002'
+p3672
+sg9
+S'18 East Broadway'
+p3673
+ssS'Le Coucou'
+p3674
+(dp3675
+g5
+S'New York'
+p3676
+sg7
+S'10013'
+p3677
+sg9
+S'138 Lafayette St.'
+p3678
+ssS'Glasserie'
+p3679
+(dp3680
+g5
+S'Brooklyn'
+p3681
+sg7
+S'11222'
+p3682
+sg9
+S'95 Commercial St.'
+p3683
+ssS'New Wonjo'
+p3684
+(dp3685
+g5
+S'New York'
+p3686
+sg7
+S'10001'
+p3687
+sg9
+S'23 W. 32nd St.'
+p3688
+ssS'Taboon'
+p3689
+(dp3690
+g5
+S'New York'
+p3691
+sg7
+S'10019'
+p3692
+sg9
+S'773 Tenth Ave.'
+p3693
+ssS'Noreetuh'
+p3694
+(dp3695
+g5
+S'New York'
+p3696
+sg7
+S'10009'
+p3697
+sg9
+S'128 First Ave.'
+p3698
+ssS'Chaiwali'
+p3699
+(dp3700
+g5
+S'New York'
+p3701
+sg7
+S'10027'
+p3702
+sg9
+S'274 Lenox Ave.'
+p3703
+ssS'Anella'
+p3704
+(dp3705
+g5
+S'Brooklyn'
+p3706
+sg7
+S'11222'
+p3707
+sg9
+S'222 Franklin St.'
+p3708
+ssS'Himalayan Yak'
+p3709
+(dp3710
+g5
+S'Jackson Heights'
+p3711
+sg7
+S'11372'
+p3712
+sg9
+S'72-20 Roosevelt Ave.'
+p3713
+ssS'The Saint Austere'
+p3714
+(dp3715
+g5
+S'Brooklyn'
+p3716
+sg7
+S'11211'
+p3717
+sg9
+S'613 Grand St.'
+p3718
+ssS'Atoboy'
+p3719
+(dp3720
+g5
+S'New York'
+p3721
+sg7
+S'10016'
+p3722
+sg9
+S'43 E. 28th St.'
+p3723
+ssS'Coppelia'
+p3724
+(dp3725
+g5
+S'New York'
+p3726
+sg7
+S'10011'
+p3727
+sg9
+S'207 W. 14th St.'
+p3728
+ssS'Gnocco'
+p3729
+(dp3730
+g5
+S'New York'
+p3731
+sg7
+S'10009'
+p3732
+sg9
+S'337 E. 10th St.'
+p3733
+ssS'BLT Prime'
+p3734
+(dp3735
+g5
+S'New York'
+p3736
+sg7
+S'10010'
+p3737
+sg9
+S'111 E. 22nd St.'
+p3738
+ssS'High Street on Hudson'
+p3739
+(dp3740
+g5
+S'New York'
+p3741
+sg7
+S'10014'
+p3742
+sg9
+S'637 Hudson St.'
+p3743
+ssS'The Musket Room'
+p3744
+(dp3745
+g5
+S'New York'
+p3746
+sg7
+S'10012'
+p3747
+sg9
+S'265 Elizabeth St.'
+p3748
+ssS'Loi Estiatorio'
+p3749
+(dp3750
+g5
+S'New York'
+p3751
+sg7
+S'10019'
+p3752
+sg9
+S'132 W. 58th St.'
+p3753
+ssS'Balthazar'
+p3754
+(dp3755
+g5
+S'New York'
+p3756
+sg7
+S'10012'
+p3757
+sg9
+S'80 Spring St.'
+p3758
+ssS'Barraca'
+p3759
+(dp3760
+g5
+S'New York'
+p3761
+sg7
+S'10014'
+p3762
+sg9
+S'81 Greenwich Ave.'
+p3763
+ssS'Alcala'
+p3764
+(dp3765
+g5
+S'New York'
+p3766
+sg7
+S'10017'
+p3767
+sg9
+S'246 E. 44th St.'
+p3768
+ssS'Tang'
+p3769
+(dp3770
+g5
+S'Flushing'
+p3771
+sg7
+S'11358'
+p3772
+sg9
+S'196-50 Northern Blvd.'
+p3773
+ssS"Trattoria L'incontro"
+p3774
+(dp3775
+g5
+S'Astoria'
+p3776
+sg7
+S'11105'
+p3777
+sg9
+S'21-76 31st St.'
+p3778
+ssS'Mapo Tofu'
+p3779
+(dp3780
+g5
+S'New York'
+p3781
+sg7
+S'10016'
+p3782
+sg9
+S'338 Lexington Ave.'
+p3783
+ssS'Saxon + Parole'
+p3784
+(dp3785
+g5
+S'New York'
+p3786
+sg7
+S'10012'
+p3787
+sg9
+S'316 Bowery'
+p3788
+ssS"Frankie & Johnnie's"
+p3789
+(dp3790
+g5
+S'New York'
+p3791
+sg7
+S'10018'
+p3792
+sg9
+S'32 W. 37th St.'
+p3793
+ssS'John Brown Smokehouse'
+p3794
+(dp3795
+g5
+S'Long Island City'
+p3796
+sg7
+S'11101'
+p3797
+sg9
+S'10-43 44th Dr.'
+p3798
+ssS'ABV'
+p3799
+(dp3800
+g5
+S'New York'
+p3801
+sg7
+S'10029'
+p3802
+sg9
+S'1504 Lexington Ave.'
+p3803
+ssS'Santina'
+p3804
+(dp3805
+g5
+S'New York'
+p3806
+sg7
+S'10014'
+p3807
+sg9
+S'820 Washington St.'
+p3808
+ssS'Park Asia'
+p3809
+(dp3810
+g5
+S'Brooklyn'
+p3811
+sg7
+S'11220'
+p3812
+sg9
+S'6521 Eighth Ave.'
+p3813
+ssS'Arrogant Swine'
+p3814
+(dp3815
+g5
+S'Brooklyn'
+p3816
+sg7
+S'11237'
+p3817
+sg9
+S'173 Morgan Ave.'
+p3818
+ssS"Spitzer's Corner"
+p3819
+(dp3820
+g5
+S'New York'
+p3821
+sg7
+S'10002'
+p3822
+sg9
+S'101 Rivington St.'
+p3823
+ssS'Laut'
+p3824
+(dp3825
+g5
+S'New York'
+p3826
+sg7
+S'10003'
+p3827
+sg9
+S'15 E. 17th St.'
+p3828
+ssS'Karczma'
+p3829
+(dp3830
+g5
+S'Brooklyn'
+p3831
+sg7
+S'11222'
+p3832
+sg9
+S'136 Greenpoint Ave.'
+p3833
+ssS'Bocca'
+p3834
+(dp3835
+g5
+S'New York'
+p3836
+sg7
+S'10003'
+p3837
+sg9
+S'39 E. 19th St.'
+p3838
+ssS'C\xc3\xb2m tam Ninh-Kieu'
+p3839
+(dp3840
+g5
+S'Bronx'
+p3841
+sg7
+S'10468'
+p3842
+sg9
+S'2641 Jerome Ave.'
+p3843
+ssS'Cafe Katja'
+p3844
+(dp3845
+g5
+S'New York'
+p3846
+sg7
+S'10002'
+p3847
+sg9
+S'79 Orchard St.'
+p3848
+ssS'Cata'
+p3849
+(dp3850
+g5
+S'New York'
+p3851
+sg7
+S'10002'
+p3852
+sg9
+S'245 Bowery'
+p3853
+ssS'Salinas'
+p3854
+(dp3855
+g5
+S'New York'
+p3856
+sg7
+S'10011'
+p3857
+sg9
+S'136 Ninth Ave.'
+p3858
+ssS'Hahm Ji Bach'
+p3859
+(dp3860
+g5
+S'Flushing'
+p3861
+sg7
+S'11355'
+p3862
+sg9
+S'40-11 149th Pl.'
+p3863
+ssS"Maria's Bistro Mexicano"
+p3864
+(dp3865
+g5
+S'Brooklyn'
+p3866
+sg7
+S'11232'
+p3867
+sg9
+S'886 Fifth Ave.'
+p3868
+ssS'Persepolis'
+p3869
+(dp3870
+g5
+S'New York'
+p3871
+sg7
+S'10021'
+p3872
+sg9
+S'1407 Second Ave.'
+p3873
+ssS'Pagani'
+p3874
+(dp3875
+g5
+S'New York'
+p3876
+sg7
+S'10014'
+p3877
+sg9
+S'289 Bleecker St.'
+p3878
+ssS"ZZ's Clam Bar"
+p3879
+(dp3880
+g5
+S'New York'
+p3881
+sg7
+S'10012'
+p3882
+sg9
+S'169 Thompson St.'
+p3883
+ssS"Le Relais de Venise (L'Entrec\xc3\xb4te)"
+p3884
+(dp3885
+g5
+S'New York'
+p3886
+sg7
+S'10022'
+p3887
+sg9
+S'590 Lexington Ave.'
+p3888
+ssS'Noche Mexicana II'
+p3889
+(dp3890
+g5
+S'New York'
+p3891
+sg7
+S'10025'
+p3892
+sg9
+S'842 Amsterdam Ave.'
+p3893
+ssS'The Nuaa'
+p3894
+(dp3895
+g5
+S'New York'
+p3896
+sg7
+S'10065'
+p3897
+sg9
+S'1122 First Ave.'
+p3898
+ssS'Il Poeta'
+p3899
+(dp3900
+g5
+S'Forest Hills'
+p3901
+sg7
+S'11375'
+p3902
+sg9
+S'98-04 Metropolitan Ave.'
+p3903
+ssS'The Simone'
+p3904
+(dp3905
+g5
+S'New York'
+p3906
+sg7
+S'10028'
+p3907
+sg9
+S'151 E. 82nd St.'
+p3908
+ssS'Pastai'
+p3909
+(dp3910
+g5
+S'New York'
+p3911
+sg7
+S'10011'
+p3912
+sg9
+S'186 Ninth Ave.'
+p3913
+ssS'Awadh'
+p3914
+(dp3915
+g5
+S'New York'
+p3916
+sg7
+S'10025'
+p3917
+sg9
+S'2588 Broadway'
+p3918
+ssS'Mu Ramen'
+p3919
+(dp3920
+g5
+S'Long Island City'
+p3921
+sg7
+S'11101'
+p3922
+sg9
+S'12-09 Jackson Ave.'
+p3923
+ssS'Chop-Shop'
+p3924
+(dp3925
+g5
+S'New York'
+p3926
+sg7
+S'10001'
+p3927
+sg9
+S'254 Tenth Ave.'
+p3928
+ssS'The Ribbon'
+p3929
+(dp3930
+g5
+S'New York'
+p3931
+sg7
+S'10023'
+p3932
+sg9
+S'20 W. 72nd St.'
+p3933
+ssS'Dim Sum Go Go'
+p3934
+(dp3935
+g5
+S'New York'
+p3936
+sg7
+S'10038'
+p3937
+sg9
+S'5 East Broadway'
+p3938
+ssS'zero otto nove'
+p3939
+(dp3940
+g5
+S'Bronx'
+p3941
+sg7
+S'10458'
+p3942
+sg9
+S'2357 Arthur Ave.'
+p3943
+ssS'ChikaLicious'
+p3944
+(dp3945
+g5
+S'New York'
+p3946
+sg7
+S'10003'
+p3947
+sg9
+S'203 E. 10th St.'
+p3948
+ssS'Hibino'
+p3949
+(dp3950
+g5
+S'Brooklyn'
+p3951
+sg7
+S'11201'
+p3952
+sg9
+S'333 Henry St.'
+p3953
+ssS'Blue Ribbon Bakery'
+p3954
+(dp3955
+g5
+S'New York'
+p3956
+sg7
+S'10014'
+p3957
+sg9
+S'35 Downing St.'
+p3958
+ssS"Nick's Pizza"
+p3959
+(dp3960
+g5
+S'Forest Hills'
+p3961
+sg7
+S'11375'
+p3962
+sg9
+S'108-26 Ascan Ave.'
+p3963
+ssS'DBGB Kitchen & Bar'
+p3964
+(dp3965
+g5
+S'New York'
+p3966
+sg7
+S'10003'
+p3967
+sg9
+S'299 Bowery'
+p3968
+ssS'Nan Xiang Xiao Long Bao'
+p3969
+(dp3970
+g5
+S'Flushing'
+p3971
+sg7
+S'11354'
+p3972
+sg9
+S'38-12 Prince St.'
+p3973
+ssS'Yuzu'
+p3974
+(dp3975
+g5
+S'New York'
+p3976
+sg7
+S'10027'
+p3977
+sg9
+S'350 Lenox Ave.'
+p3978
+ssS'Nazca'
+p3979
+(dp3980
+g5
+S'Astoria'
+p3981
+sg7
+S'11106'
+p3982
+sg9
+S'34-20 Broadway'
+p3983
+ssS'Bar Primi'
+p3984
+(dp3985
+g5
+S'New York'
+p3986
+sg7
+S'10013'
+p3987
+sg9
+S'325 Bowery'
+p3988
+ssS'Momofuku Noodle Bar'
+p3989
+(dp3990
+g5
+S'New York'
+p3991
+sg7
+S'10003'
+p3992
+sg9
+S'171\xc2\xa0First Ave.'
+p3993
+ssS'De Mole'
+p3994
+(dp3995
+g5
+S'Woodside'
+p3996
+sg7
+S'11377'
+p3997
+sg9
+S'45-02 48th Ave.'
+p3998
+ssS'Panca'
+p3999
+(dp4000
+g5
+S'New York'
+p4001
+sg7
+S'10014'
+p4002
+sg9
+S'92 Seventh Ave. South'
+p4003
+ssS'Sushi Katsuei'
+p4004
+(dp4005
+g5
+S'Brooklyn'
+p4006
+sg7
+S'11215'
+p4007
+sg9
+S'210 Seventh Ave.'
+p4008
+ssS'Natural Tofu & Noodles'
+p4009
+(dp4010
+g5
+S'Sunnyside'
+p4011
+sg7
+S'11104'
+p4012
+sg9
+S'40-06 Queens Blvd.'
+p4013
+ssS'JoJo'
+p4014
+(dp4015
+g5
+S'New York'
+p4016
+sg7
+S'10021'
+p4017
+sg9
+S'160 E. 64th St.'
+p4018
+ssS'Aureole'
+p4019
+(dp4020
+g5
+S'New York'
+p4021
+sg7
+S'10036'
+p4022
+sg9
+S'135 W. 42nd St.'
+p4023
+ssS'Jora'
+p4024
+(dp4025
+g5
+S'Long Island City'
+p4026
+sg7
+S'11101'
+p4027
+sg9
+S'47-46 11th St'
+p4028
+ssS'Sauvage'
+p4029
+(dp4030
+g5
+S'Brooklyn'
+p4031
+sg7
+S'11222'
+p4032
+sg9
+S'905 Lorimer St.'
+p4033
+ssS'Uncle Boons'
+p4034
+(dp4035
+g5
+S'New York'
+p4036
+sg7
+S'10012'
+p4037
+sg9
+S'7 Spring St.'
+p4038
+ssS"Bobby Van's"
+p4039
+(dp4040
+g5
+S'New York'
+p4041
+sg7
+S'10169'
+p4042
+sg9
+S'230 Park Ave.'
+p4043
+ssS'Boulud Sud'
+p4044
+(dp4045
+g5
+S'New York'
+p4046
+sg7
+S'10023'
+p4047
+sg9
+S'20 W. 64th St.'
+p4048
+ssS'The Bao'
+p4049
+(dp4050
+g5
+S'New York'
+p4051
+sg7
+S'10003'
+p4052
+sg9
+S'13 St. Marks Pl.'
+p4053
+ssS'Caf\xc3\xa9 China'
+p4054
+(dp4055
+g5
+S'New York'
+p4056
+sg7
+S'10016'
+p4057
+sg9
+S'13 E. 37th St.'
+p4058
+ssS"Mar's"
+p4059
+(dp4060
+g5
+S'Astoria'
+p4061
+sg7
+S'11106'
+p4062
+sg9
+S'34-21 34th Ave.'
+p4063
+ssS'Il Riccio'
+p4064
+(dp4065
+g5
+S'New York'
+p4066
+sg7
+S'10021'
+p4067
+sg9
+S'152 E. 79th St.'
+p4068
+ssS'Sik Gaek'
+p4069
+(dp4070
+g5
+S'Flushing'
+p4071
+sg7
+S'11358'
+p4072
+sg9
+S'161-29 Crocheron Ave.'
+p4073
+ssS'cocoron'
+p4074
+(dp4075
+g5
+S'New York'
+p4076
+sg7
+S'10002'
+p4077
+sg9
+S'61 Delancey St.'
+p4078
+ssS'Payag'
+p4079
+(dp4080
+g5
+S'Woodside'
+p4081
+sg7
+S'11377'
+p4082
+sg9
+S'51-34 Roosevelt Ave.'
+p4083
+ssS"Emilio's Ballato"
+p4084
+(dp4085
+g5
+S'New York'
+p4086
+sg7
+S'10012'
+p4087
+sg9
+S'55 E. Houston St.'
+p4088
+ssS'Osteria Laguna'
+p4089
+(dp4090
+g5
+S'New York'
+p4091
+sg7
+S'10017'
+p4092
+sg9
+S'209 E. 42nd St.'
+p4093
+ssS'The Farm on Adderley'
+p4094
+(dp4095
+g5
+S'Brooklyn'
+p4096
+sg7
+S'11218'
+p4097
+sg9
+S'1108 Cortelyou Rd.'
+p4098
+ssS'Houseman'
+p4099
+(dp4100
+g5
+S'New York'
+p4101
+sg7
+S'10018'
+p4102
+sg9
+S'508 Greenwich St.'
+p4103
+ssS'Sevilla'
+p4104
+(dp4105
+g5
+S'New York'
+p4106
+sg7
+S'10014'
+p4107
+sg9
+S'62 Charles St.'
+p4108
+ssS'Timna'
+p4109
+(dp4110
+g5
+S'New York'
+p4111
+sg7
+S'10009'
+p4112
+sg9
+S'109 St. Marks Pl.'
+p4113
+ssS'Corner Social'
+p4114
+(dp4115
+g5
+S'New York'
+p4116
+sg7
+S'10027'
+p4117
+sg9
+S'321 Lenox Ave.'
+p4118
+ssS'Quatorze Bis'
+p4119
+(dp4120
+g5
+S'New York'
+p4121
+sg7
+S'10021'
+p4122
+sg9
+S'323 E. 79th St.'
+p4123
+ssS"L'Antagoniste"
+p4124
+(dp4125
+g5
+S'Brooklyn'
+p4126
+sg7
+S'11221'
+p4127
+sg9
+S'238 Malcom X Blvd.'
+p4128
+ssS'Lavagna'
+p4129
+(dp4130
+g5
+S'New York'
+p4131
+sg7
+S'10009'
+p4132
+sg9
+S'545 E. 5th St.'
+p4133
+ssS'Pera'
+p4134
+(dp4135
+g5
+S'New York'
+p4136
+sg7
+S'10017'
+p4137
+sg9
+S'303 Madison Ave.'
+p4138
+ssS'Foragers City Table'
+p4139
+(dp4140
+g5
+S'New York'
+p4141
+sg7
+S'10011'
+p4142
+sg9
+S'300 W. 22nd St.'
+p4143
+ssS'Empell\xc3\xb3n Taqueria'
+p4144
+(dp4145
+g5
+S'New York'
+p4146
+sg7
+S'10014'
+p4147
+sg9
+S'230 W. 4th St.'
+p4148
+ssS'Madangsui'
+p4149
+(dp4150
+g5
+S'New York'
+p4151
+sg7
+S'10001'
+p4152
+sg9
+S'35 W. 35th St.'
+p4153
+ssS'Buvette'
+p4154
+(dp4155
+g5
+S'New York'
+p4156
+sg7
+S'10014'
+p4157
+sg9
+S'42 Grove St.'
+p4158
+ssS'Ristorante Morini'
+p4159
+(dp4160
+g5
+S'New York'
+p4161
+sg7
+S'10028'
+p4162
+sg9
+S'1167 Madison Ave.'
+p4163
+ssS'Print'
+p4164
+(dp4165
+g5
+S'New York'
+p4166
+sg7
+S'10036'
+p4167
+sg9
+S'653 Eleventh Ave.'
+p4168
+ssS'Cacio e Pepe'
+p4169
+(dp4170
+g5
+S'New York'
+p4171
+sg7
+S'10003'
+p4172
+sg9
+S'182 Second Ave.'
+p4173
+ssS"Melba's"
+p4174
+(dp4175
+g5
+S'New York'
+p4176
+sg7
+S'10026'
+p4177
+sg9
+S'300 W. 114th St.'
+p4178
+ssS'Alma'
+p4179
+(dp4180
+g5
+S'Brooklyn'
+p4181
+sg7
+S'11231'
+p4182
+sg9
+S'187 Columbia St.'
+p4183
+ssS'Phil Am Kusina'
+p4184
+(dp4185
+g5
+S'Staten Island'
+p4186
+sg7
+S'10301'
+p4187
+sg9
+S'556 Tompkins Ave.'
+p4188
+ssS'Burger & Barrel'
+p4189
+(dp4190
+g5
+S'New York'
+p4191
+sg7
+S'10012'
+p4192
+sg9
+S'25 W. Houston St.'
+p4193
+ssS'Kung Fu Little Steamed Buns Ramen'
+p4194
+(dp4195
+g5
+S'New York'
+p4196
+sg7
+S'10019'
+p4197
+sg9
+S'811 Eighth Ave.'
+p4198
+ssS'Fatty Fish'
+p4199
+(dp4200
+g5
+S'New York'
+p4201
+sg7
+S'10065'
+p4202
+sg9
+S'406 E. 64th St.'
+p4203
+ssS'O Lavrador'
+p4204
+(dp4205
+g5
+S'Jamaica'
+p4206
+sg7
+S'11435'
+p4207
+sg9
+S'138-40 101st Ave.'
+p4208
+ssS'La Pecora Bianca'
+p4209
+(dp4210
+g5
+S'New York'
+p4211
+sg7
+S'10010'
+p4212
+sg9
+S'1133 Broadway'
+p4213
+ssS'Red Rooster'
+p4214
+(dp4215
+g5
+S'New York'
+p4216
+sg7
+S'10027'
+p4217
+sg9
+S'310 Lenox Ave.'
+p4218
+ssS'Pippali'
+p4219
+(dp4220
+g5
+S'New York'
+p4221
+sg7
+S'10016'
+p4222
+sg9
+S'129 E. 27th St.'
+p4223
+ssS'Caf\xc3\xa9 Boulud'
+p4224
+(dp4225
+g5
+S'New York'
+p4226
+sg7
+S'10021'
+p4227
+sg9
+S'20 E. 76th St.'
+p4228
+ssS'da Umberto'
+p4229
+(dp4230
+g5
+S'New York'
+p4231
+sg7
+S'10011'
+p4232
+sg9
+S'107 W. 17th St.'
+p4233
+ssS'Snack EOS'
+p4234
+(dp4235
+g5
+S'New York'
+p4236
+sg7
+S'10018'
+p4237
+sg9
+S'522 Ninth Ave.'
+p4238
+ssS'Mandoo Bar'
+p4239
+(dp4240
+g5
+S'New York'
+p4241
+sg7
+S'10001'
+p4242
+sg9
+S'2 W. 32nd St.'
+p4243
+ssS'Buttermilk Channel'
+p4244
+(dp4245
+g5
+S'Brooklyn'
+p4246
+sg7
+S'11231'
+p4247
+sg9
+S'524 Court St.'
+p4248
+ssS'Flinders Lane'
+p4249
+(dp4250
+g5
+S'New York'
+p4251
+sg7
+S'10009'
+p4252
+sg9
+S'162 Ave. A'
+p4253
+ssS'Ayada'
+p4254
+(dp4255
+g5
+S'Elmhurst'
+p4256
+sg7
+S'11373'
+p4257
+sg9
+S'77-08 Woodside Ave.'
+p4258
+ssS'The Little Beet Table'
+p4259
+(dp4260
+g5
+S'New York'
+p4261
+sg7
+S'10010'
+p4262
+sg9
+S'333 Park Ave. South'
+p4263
+ssS'Parlor Steak & Fish'
+p4264
+(dp4265
+g5
+S'New York'
+p4266
+sg7
+S'10128'
+p4267
+sg9
+S'1600 Third Ave.'
+p4268
+ssS'El Nuevo Boh\xc3\xado'
+p4269
+(dp4270
+g5
+S'Bronx'
+p4271
+sg7
+S'10460'
+p4272
+sg9
+S'791 E. Tremont Ave.'
+p4273
+ssS'Casa Lever'
+p4274
+(dp4275
+g5
+S'New York'
+p4276
+sg7
+S'10022'
+p4277
+sg9
+S'390 Park Ave.'
+p4278
+ssS'Bamboo Garden'
+p4279
+(dp4280
+g5
+S'Brooklyn'
+p4281
+sg7
+S'11220'
+p4282
+sg9
+S'6409 Eighth Ave.'
+p4283
+ssS'Jean-Georges'
+p4284
+(dp4285
+g5
+S'New York'
+p4286
+sg7
+S'10023'
+p4287
+sg9
+S'1 Central Park West'
+p4288
+ssS'Bacaro'
+p4289
+(dp4290
+g5
+S'New York'
+p4291
+sg7
+S'10002'
+p4292
+sg9
+S'136 Division St.'
+p4293
+ssS'Beso'
+p4294
+(dp4295
+g5
+S'Staten Island'
+p4296
+sg7
+S'10301'
+p4297
+sg9
+S'11 Schuyler St.'
+p4298
+ssS'Il Gattopardo'
+p4299
+(dp4300
+g5
+S'New York'
+p4301
+sg7
+S'10019'
+p4302
+sg9
+S'13 W. 54th St.'
+p4303
+ssS'Egg'
+p4304
+(dp4305
+g5
+S'Brooklyn'
+p4306
+sg7
+S'11249'
+p4307
+sg9
+S'109 N. Third St.'
+p4308
+ssS'Autre Kyo Ya'
+p4309
+(dp4310
+g5
+S'New York'
+p4311
+sg7
+S'10003'
+p4312
+sg9
+S'10 Stuyvesant St.'
+p4313
+ssS'Papatzul'
+p4314
+(dp4315
+g5
+S'New York'
+p4316
+sg7
+S'10013'
+p4317
+sg9
+S'55 Grand St.'
+p4318
+ssS'Little Pepper'
+p4319
+(dp4320
+g5
+S'College Point'
+p4321
+sg7
+S'11356'
+p4322
+sg9
+S'18-24 College Point Blvd.'
+p4323
+ssS"Miss Mamie's Spoonbread Too"
+p4324
+(dp4325
+g5
+S'New York'
+p4326
+sg7
+S'10025'
+p4327
+sg9
+S'366 W. 110th St./Cathedral Pkwy.'
+p4328
+ssS'Pampano'
+p4329
+(dp4330
+g5
+S'New York'
+p4331
+sg7
+S'10017'
+p4332
+sg9
+S'209 E. 49th St.'
+p4333
+ssS'La Morada'
+p4334
+(dp4335
+g5
+S'Bronx'
+p4336
+sg7
+S'10454'
+p4337
+sg9
+S'308 Willis Ave.'
+p4338
+ssS'Kurumazushi'
+p4339
+(dp4340
+g5
+S'2nd'
+p4341
+sg7
+S'10017'
+p4342
+sg9
+S'7 E. 47th St.'
+p4343
+ssS'Le Fond'
+p4344
+(dp4345
+g5
+S'Brooklyn'
+p4346
+sg7
+S'11222'
+p4347
+sg9
+S'105 Norman Ave.'
+p4348
+ssS'Cosme'
+p4349
+(dp4350
+g5
+S'New York'
+p4351
+sg7
+S'10010'
+p4352
+sg9
+S'35 E. 21st St.'
+p4353
+ssS'Imperial Palace'
+p4354
+(dp4355
+g5
+S'Flushing'
+p4356
+sg7
+S'11354'
+p4357
+sg9
+S'136-13 37th Ave.'
+p4358
+ssS'BG'
+p4359
+(dp4360
+g5
+S'New York'
+p4361
+sg7
+S'10019'
+p4362
+sg9
+S'754 Fifth Ave.'
+p4363
+ssS'The Sea Grill'
+p4364
+(dp4365
+g5
+S'New York'
+p4366
+sg7
+S'10020'
+p4367
+sg9
+S'19 W. 49th St.'
+p4368
+ssS"Joe's Place"
+p4369
+(dp4370
+g5
+S'Bronx'
+p4371
+sg7
+S'10472'
+p4372
+sg9
+S'1841 Westchester Ave.'
+p4373
+ssS'Atlantic Grill'
+p4374
+(dp4375
+g5
+S'New York'
+p4376
+sg7
+S'10021'
+p4377
+sg9
+S'1341 Third Ave.'
+p4378
+ssS'Gennaro'
+p4379
+(dp4380
+g5
+S'New York'
+p4381
+sg7
+S'10025'
+p4382
+sg9
+S'665 Amsterdam Ave.'
+p4383
+ssS'Blanca'
+p4384
+(dp4385
+g5
+S'Brooklyn'
+p4386
+sg7
+S'11206'
+p4387
+sg9
+S'261 Moore St.'
+p4388
+ssS'Samurai Mama'
+p4389
+(dp4390
+g5
+S'Brooklyn'
+p4391
+sg7
+S'11211'
+p4392
+sg9
+S'205 Grand St.'
+p4393
+ssS'00 + Co.'
+p4394
+(dp4395
+g5
+S'New York'
+p4396
+sg7
+S'10003'
+p4397
+sg9
+S'65 Second Ave.'
+p4398
+ssS'Urubamba'
+p4399
+(dp4400
+g5
+S'Jackson Heights'
+p4401
+sg7
+S'11372'
+p4402
+sg9
+S'86-20\xc2\xa037th Ave.'
+p4403
+ssS'Bahari estiatorio'
+p4404
+(dp4405
+g5
+S'Astoria'
+p4406
+sg7
+S'11105'
+p4407
+sg9
+S'31-14 Broadway'
+p4408
+ssS"Kiki's"
+p4409
+(dp4410
+g5
+S'New York'
+p4411
+sg7
+S'10002'
+p4412
+sg9
+S'130 Division St.'
+p4413
+ssS"Lusardi's"
+p4414
+(dp4415
+g5
+S'New York'
+p4416
+sg7
+S'10021'
+p4417
+sg9
+S'1494 Second Ave.'
+p4418
+ssS'Kest\xc3\xa9 Pizza & Vino'
+p4419
+(dp4420
+g5
+S'New York'
+p4421
+sg7
+S'10014'
+p4422
+sg9
+S'271 Bleecker St.'
+p4423
+ssS'Rebelle'
+p4424
+(dp4425
+g5
+S'New York'
+p4426
+sg7
+S'10012'
+p4427
+sg9
+S'218 Bowery'
+p4428
+ssS'Tre Otto'
+p4429
+(dp4430
+g5
+S'New York'
+p4431
+sg7
+S'10029'
+p4432
+sg9
+S'1410 Madison Ave.'
+p4433
+ssS'Delhi Masala'
+p4434
+(dp4435
+g5
+S'New York'
+p4436
+sg7
+S'10027'
+p4437
+sg9
+S'2077 Adam Clayton Powell Jr. Blvd'
+p4438
+ssS'Aquavit'
+p4439
+(dp4440
+g5
+S'New York'
+p4441
+sg7
+S'10022'
+p4442
+sg9
+S'65 E. 55th St.'
+p4443
+ssS'Momoya'
+p4444
+(dp4445
+g5
+S'New York'
+p4446
+sg7
+S'10024'
+p4447
+sg9
+S'427 Amsterdam Ave.'
+p4448
+ssS'The Good Fork'
+p4449
+(dp4450
+g5
+S'Brooklyn'
+p4451
+sg7
+S'11231'
+p4452
+sg9
+S'391 Van Brunt St.'
+p4453
+ssS'Emily'
+p4454
+(dp4455
+g5
+S'Brooklyn'
+p4456
+sg7
+S'11238'
+p4457
+sg9
+S'919 Fulton St.'
+p4458
+ssS'Faro'
+p4459
+(dp4460
+g5
+S'Brooklyn'
+p4461
+sg7
+S'11237'
+p4462
+sg9
+S'436 Jefferson St.'
+p4463
+ssS'Nightingale Nine'
+p4464
+(dp4465
+g5
+S'Brooklyn'
+p4466
+sg7
+S'11231'
+p4467
+sg9
+S'329 Smith St.'
+p4468
+ssS'Gastronomia Culinaria'
+p4469
+(dp4470
+g5
+S'New York'
+p4471
+sg7
+S'10025'
+p4472
+sg9
+S'53 W. 106th St.'
+p4473
+ssS'Estrellita Poblana III'
+p4474
+(dp4475
+g5
+S'Bronx'
+p4476
+sg7
+S'10458'
+p4477
+sg9
+S'2328 Arthur Ave.'
+p4478
+ssS'Pearl Oyster Bar'
+p4479
+(dp4480
+g5
+S'New York'
+p4481
+sg7
+S'10014'
+p4482
+sg9
+S'18 Cornelia St.'
+p4483
+ssS'Paradou'
+p4484
+(dp4485
+g5
+S'New York'
+p4486
+sg7
+S'10014'
+p4487
+sg9
+S'8 Little W. 12th St.'
+p4488
+ssS'Goemon Curry'
+p4489
+(dp4490
+g5
+S'New York'
+p4491
+sg7
+S'10012'
+p4492
+sg9
+S'29 Kenmare St.'
+p4493
+ssS'Land of Plenty'
+p4494
+(dp4495
+g5
+S'New York'
+p4496
+sg7
+S'10022'
+p4497
+sg9
+S'204 E. 58th St.'
+p4498
+ssS'Lincoln'
+p4499
+(dp4500
+g5
+S'New York'
+p4501
+sg7
+S'10023'
+p4502
+sg9
+S'142 W. 65th St.'
+p4503
+ssS'Sushi Seki'
+p4504
+(dp4505
+g5
+S'New York'
+p4506
+sg7
+S'10021'
+p4507
+sg9
+S'1143 First Ave.'
+p4508
+ssS'Prune'
+p4509
+(dp4510
+g5
+S'New York'
+p4511
+sg7
+S'10003'
+p4512
+sg9
+S'54 E. 1st St.'
+p4513
+ssS'Mercato'
+p4514
+(dp4515
+g5
+S'New York'
+p4516
+sg7
+S'10018'
+p4517
+sg9
+S'352 W. 39th St.'
+p4518
+ssS'Boathouse Central Park'
+p4519
+(dp4520
+g5
+S'New York'
+p4521
+sg7
+S'10021'
+p4522
+sg9
+S'The Lake at Central Park'
+p4523
+ssS'Narcissa'
+p4524
+(dp4525
+g5
+S'New York'
+p4526
+sg7
+S'10005'
+p4527
+sg9
+S'21 Cooper Sq.'
+p4528
+ssS'Andanada'
+p4529
+(dp4530
+g5
+S'New York'
+p4531
+sg7
+S'10023'
+p4532
+sg9
+S'141 W. 69th St.'
+p4533
+ssS'Ko'
+p4534
+(dp4535
+g5
+S'New York'
+p4536
+sg7
+S'10003'
+p4537
+sg9
+S'8 Extra Pl.'
+p4538
+ssS'Kura'
+p4539
+(dp4540
+g5
+S'New York'
+p4541
+sg7
+S'10009'
+p4542
+sg9
+S'130 St. Marks Pl.'
+p4543
+ssS'Runner & Stone'
+p4544
+(dp4545
+g5
+S'Brooklyn'
+p4546
+sg7
+S'11215'
+p4547
+sg9
+S'285 Third Ave.'
+p4548
+ssS'Il Salumaio'
+p4549
+(dp4550
+g5
+S'New York'
+p4551
+sg7
+S'10028'
+p4552
+sg9
+S'1731 Second Ave.'
+p4553
+ssS'Kyo Ya'
+p4554
+(dp4555
+g5
+S'New York'
+p4556
+sg7
+S'10009'
+p4557
+sg9
+S'94 E. 7th St.'
+p4558
+ssS'Zizi Limona'
+p4559
+(dp4560
+g5
+S'Brooklyn'
+p4561
+sg7
+S'11211'
+p4562
+sg9
+S'129 Havemeyer St.'
+p4563
+ssS'Flex Mussels'
+p4564
+(dp4565
+g5
+S'New York'
+p4566
+sg7
+S'10028'
+p4567
+sg9
+S'174 E. 82nd St.'
+p4568
+ssS'Moti Mahal Delux'
+p4569
+(dp4570
+g5
+S'New York'
+p4571
+sg7
+S'10065'
+p4572
+sg9
+S'1149 First Ave.'
+p4573
+ssS'15 East'
+p4574
+(dp4575
+g5
+S'New York'
+p4576
+sg7
+S'10003'
+p4577
+sg9
+S'15 E. 15th St.'
+p4578
+ssS'Barbuto'
+p4579
+(dp4580
+g5
+S'New York'
+p4581
+sg7
+S'10014'
+p4582
+sg9
+S'775 Washington St.'
+p4583
+ssS'The Little Owl'
+p4584
+(dp4585
+g5
+S'New York'
+p4586
+sg7
+S'10014'
+p4587
+sg9
+S'90 Bedford St.'
+p4588
+ssS'Mercer Kitchen'
+p4589
+(dp4590
+g5
+S'New York'
+p4591
+sg7
+S'10012'
+p4592
+sg9
+S'99 Prince St.'
+p4593
+ssS'Crispo'
+p4594
+(dp4595
+g5
+S'New York'
+p4596
+sg7
+S'10011'
+p4597
+sg9
+S'240 W. 14th St.'
+p4598
+ssS'Brasserie Ruhlmann'
+p4599
+(dp4600
+g5
+S'New York'
+p4601
+sg7
+S'10111'
+p4602
+sg9
+S'45 Rockefeller Plaza'
+p4603
+ssS"P.J. Clarke's"
+p4604
+(dp4605
+g5
+S'New York'
+p4606
+sg7
+S'10022'
+p4607
+sg9
+S'915 Third Ave.'
+p4608
+ssS'Maison Premiere'
+p4609
+(dp4610
+g5
+S'Brooklyn'
+p4611
+sg7
+S'11211'
+p4612
+sg9
+S'298 Bedford Ave.'
+p4613
+ssS'Bin 71'
+p4614
+(dp4615
+g5
+S'New York'
+p4616
+sg7
+S'10023'
+p4617
+sg9
+S'237 Columbus Ave.'
+p4618
+ssS'SakaMai'
+p4619
+(dp4620
+g5
+S'New York'
+p4621
+sg7
+S'10002'
+p4622
+sg9
+S'157 Ludlow St.'
+p4623
+ssS'Bistro Vend\xc3\xb4me'
+p4624
+(dp4625
+g5
+S'New York'
+p4626
+sg7
+S'10022'
+p4627
+sg9
+S'405 E. 58th St.'
+p4628
+ssS'Porsena'
+p4629
+(dp4630
+g5
+S'New York'
+p4631
+sg7
+S'10003'
+p4632
+sg9
+S'21 E. 7th St.'
+p4633
+ssS'Greenpoint Fish & Lobster Co.'
+p4634
+(dp4635
+g5
+S'Brooklyn'
+p4636
+sg7
+S'11222'
+p4637
+sg9
+S'114 Nassau Ave.'
+p4638
+ssS'Hometown Bar-B-Que'
+p4639
+(dp4640
+g5
+S'Brooklyn'
+p4641
+sg7
+S'11231'
+p4642
+sg9
+S'454 Van Brunt St.'
+p4643
+ssS'Christos'
+p4644
+(dp4645
+g5
+S'Astoria'
+p4646
+sg7
+S'11105'
+p4647
+sg9
+S'41-08 23rd Ave.'
+p4648
+ssS'Toro'
+p4649
+(dp4650
+g5
+S'New York'
+p4651
+sg7
+S'10011'
+p4652
+sg9
+S'85 Tenth Ave.'
+p4653
+ssS'Samudra'
+p4654
+(dp4655
+g5
+S'Jackson Heights'
+p4656
+sg7
+S'11372'
+p4657
+sg9
+S'75-18 37th Ave.'
+p4658
+ssS'Patroon'
+p4659
+(dp4660
+g5
+S'New York'
+p4661
+sg7
+S'10017'
+p4662
+sg9
+S'160 E. 46th St.'
+p4663
+ssS'Ootoya'
+p4664
+(dp4665
+g5
+S'New York'
+p4666
+sg7
+S'10011'
+p4667
+sg9
+S'8 W. 18th St.'
+p4668
+ssS'Jun-Men Ramen Bar'
+p4669
+(dp4670
+g5
+S'New York'
+p4671
+sg7
+S'10001'
+p4672
+sg9
+S'249 Ninth Ave.'
+p4673
+ssS'Braai'
+p4674
+(dp4675
+g5
+S'New York'
+p4676
+sg7
+S'10018'
+p4677
+sg9
+S'329 W. 51st St.'
+p4678
+ssS'The Breslin'
+p4679
+(dp4680
+g5
+S'New York'
+p4681
+sg7
+S'10001'
+p4682
+sg9
+S'16 W. 29th St.'
+p4683
+ssS'Chez Napol\xc3\xa9on'
+p4684
+(dp4685
+g5
+S'New York'
+p4686
+sg7
+S'10023'
+p4687
+sg9
+S'365 W. 50th St.'
+p4688
+ssS'BLVD Bistro'
+p4689
+(dp4690
+g5
+S'New York'
+p4691
+sg7
+S'10027'
+p4692
+sg9
+S'239 Lenox Ave.'
+p4693
+ssS'Park Avenue'
+p4694
+(dp4695
+g5
+S'New York'
+p4696
+sg7
+S'10010'
+p4697
+sg9
+S'360 Park Ave. South'
+p4698
+ssS'Extra Fancy'
+p4699
+(dp4700
+g5
+S'Brooklyn'
+p4701
+sg7
+S'11211'
+p4702
+sg9
+S'302 Metropolitan Ave.'
+p4703
+ssS'C\xc3\xb3modo'
+p4704
+(dp4705
+g5
+S'New York'
+p4706
+sg7
+S'10012'
+p4707
+sg9
+S'58 MacDougal St.'
+p4708
+ssS'Happy Family Hotpot'
+p4709
+(dp4710
+g5
+S'Flushing'
+p4711
+sg7
+S'11354'
+p4712
+sg9
+S'36-35 Main St.'
+p4713
+ssS'Mozzarella & Vino'
+p4714
+(dp4715
+g5
+S'New York'
+p4716
+sg7
+S'10019'
+p4717
+sg9
+S'33 W. 54th St.'
+p4718
+ssS'Nix'
+p4719
+(dp4720
+g5
+S'New York'
+p4721
+sg7
+S'10003'
+p4722
+sg9
+S'72 University Pl.'
+p4723
+ssS'Meijin Ramen'
+p4724
+(dp4725
+g5
+S'New York'
+p4726
+sg7
+S'10028'
+p4727
+sg9
+S'1574 Second Ave.'
+p4728
+ssS'Ramen Yebisu'
+p4729
+(dp4730
+g5
+S'Brooklyn'
+p4731
+sg7
+S'11211'
+p4732
+sg9
+S'126 N. 6th St.'
+p4733
+ssS'al Bustan'
+p4734
+(dp4735
+g5
+S'New York'
+p4736
+sg7
+S'10022'
+p4737
+sg9
+S'319 E. 53rd St.'
+p4738
+ssS'Nusara'
+p4739
+(dp4740
+g5
+S'Elmhurst'
+p4741
+sg7
+S'11373'
+p4742
+sg9
+S'82-80 Broadway'
+p4743
+ssS'Agnanti'
+p4744
+(dp4745
+g5
+S'Astoria'
+p4746
+sg7
+S'11102'
+p4747
+sg9
+S'19-06 Ditmars Blvd.'
+p4748
+ssS'Inatteso Pizzabar Casano'
+p4749
+(dp4750
+g5
+S'New York'
+p4751
+sg7
+S'10004'
+p4752
+sg9
+S'28 West St.'
+p4753
+ssS'Tsushima'
+p4754
+(dp4755
+g5
+S'New York'
+p4756
+sg7
+S'10017'
+p4757
+sg9
+S'210 E. 44th St.'
+p4758
+ssS'Periyali'
+p4759
+(dp4760
+g5
+S'New York'
+p4761
+sg7
+S'10011'
+p4762
+sg9
+S'35 W. 20th St.'
+p4763
+ssS'Takashi'
+p4764
+(dp4765
+g5
+S'New York'
+p4766
+sg7
+S'10014'
+p4767
+sg9
+S'456 Hudson St.'
+p4768
+ssS'Take Root'
+p4769
+(dp4770
+g5
+S'Brooklyn'
+p4771
+sg7
+S'11231'
+p4772
+sg9
+S'187 Sackett St.'
+p4773
+ssS'Lafayette'
+p4774
+(dp4775
+g5
+S'New York'
+p4776
+sg7
+S'10003'
+p4777
+sg9
+S'380 Lafayette St.'
+p4778
+ssS'Limani'
+p4779
+(dp4780
+g5
+S'New York'
+p4781
+sg7
+S'10111'
+p4782
+sg9
+S'45 Rockefeller Plaza'
+p4783
+ssS'Degustation'
+p4784
+(dp4785
+g5
+S'New York'
+p4786
+sg7
+S'10003'
+p4787
+sg9
+S'239 E. 5th St.'
+p4788
+ssS'Achilles Heel'
+p4789
+(dp4790
+g5
+S'Brooklyn'
+p4791
+sg7
+S'11222'
+p4792
+sg9
+S'180 West St.'
+p4793
+ssS'Ceetay'
+p4794
+(dp4795
+g5
+S'Bronx'
+p4796
+sg7
+S'10454'
+p4797
+sg9
+S'129 Alexander Ave.'
+p4798
+ssS'Mtskheta Caf\xc3\xa9'
+p4799
+(dp4800
+g5
+S'Brooklyn'
+p4801
+sg7
+S'11214'
+p4802
+sg9
+S'2568 86th St.'
+p4803
+ssS'Lupulo'
+p4804
+(dp4805
+g5
+S'New York'
+p4806
+sg7
+S'10001'
+p4807
+sg9
+S'835 Sixth Ave.'
+p4808
+ssS'F & J Pine Restaurant'
+p4809
+(dp4810
+g5
+S'Bronx'
+p4811
+sg7
+S'10462'
+p4812
+sg9
+S'1913 Bronxdale Ave.'
+p4813
+ssS'Trattoria Romana da Vittorio'
+p4814
+(dp4815
+g5
+S'Staten Island'
+p4816
+sg7
+S'10305'
+p4817
+sg9
+S'1476 Hylan Blvd.'
+p4818
+ssS'SoCo'
+p4819
+(dp4820
+g5
+S'Brooklyn'
+p4821
+sg7
+S'11205'
+p4822
+sg9
+S'509 Myrtle Ave.'
+p4823
+ssS'Bhatti'
+p4824
+(dp4825
+g5
+S'New York'
+p4826
+sg7
+S'10016'
+p4827
+sg9
+S'100 Lexington Ave.'
+p4828
+ssS'HinoMaru Ramen'
+p4829
+(dp4830
+g5
+S'Astoria'
+p4831
+sg7
+S'11105'
+p4832
+sg9
+S'33-18 Ditmars Blvd.'
+p4833
+ssS'Miss Korea'
+p4834
+(dp4835
+g5
+S'New York'
+p4836
+sg7
+S'10001'
+p4837
+sg9
+S'10 W. 32nd St.'
+p4838
+ssS'Maysville'
+p4839
+(dp4840
+g5
+S'New York'
+p4841
+sg7
+S'10010'
+p4842
+sg9
+S'17 W. 26th St.'
+p4843
+ssS'Manila Social Club'
+p4844
+(dp4845
+g5
+S'Brooklyn'
+p4846
+sg7
+S'11211'
+p4847
+sg9
+S'2 Hope St.'
+p4848
+ssS'HanGawi'
+p4849
+(dp4850
+g5
+S'New York'
+p4851
+sg7
+S'10016'
+p4852
+sg9
+S'12 E. 32nd St.'
+p4853
+ssS'Schilling'
+p4854
+(dp4855
+g5
+S'New York'
+p4856
+sg7
+S'10006'
+p4857
+sg9
+S'109 Washington St.'
+p4858
+ssS'Xe Lua'
+p4859
+(dp4860
+g5
+S'New York'
+p4861
+sg7
+S'10013'
+p4862
+sg9
+S'86 Mulberry St.'
+p4863
+ssS'Sushi Yasaka'
+p4864
+(dp4865
+g5
+S'New York'
+p4866
+sg7
+S'10024'
+p4867
+sg9
+S'251 W. 72nd St.'
+p4868
+ssS'Cherche Midi'
+p4869
+(dp4870
+g5
+S'New York'
+p4871
+sg7
+S'10012'
+p4872
+sg9
+S'282 Bowery'
+p4873
+ssS"Roberta's"
+p4874
+(dp4875
+g5
+S'Brooklyn'
+p4876
+sg7
+S'11206'
+p4877
+sg9
+S'261 Moore St.'
+p4878
+ssS'Fedora'
+p4879
+(dp4880
+g5
+S'New York'
+p4881
+sg7
+S'10014'
+p4882
+sg9
+S'239 W. 4th St.'
+p4883
+ssS'The Gander'
+p4884
+(dp4885
+g5
+S'New York'
+p4886
+sg7
+S'10011'
+p4887
+sg9
+S'15 W. 18th St.'
+p4888
+ssS"Miss Lily's"
+p4889
+(dp4890
+g5
+S'New York'
+p4891
+sg7
+S'10012'
+p4892
+sg9
+S'132 W. Houston St.'
+p4893
+ssS'Spicy Lanka'
+p4894
+(dp4895
+g5
+S'Jamaica'
+p4896
+sg7
+S'11432'
+p4897
+sg9
+S'159-23 Hillside Ave.'
+p4898
+ssS"Harry's Cafe & Steak"
+p4899
+(dp4900
+g5
+S'New York'
+p4901
+sg7
+S'10004'
+p4902
+sg9
+S'1 Hanover Sq.'
+p4903
+ssS'Marcha Cocina'
+p4904
+(dp4905
+g5
+S'New York'
+p4906
+sg7
+S'10032'
+p4907
+sg9
+S'4055 Broadway'
+p4908
+ssS'Gato'
+p4909
+(dp4910
+g5
+S'New York'
+p4911
+sg7
+S'10012'
+p4912
+sg9
+S'324 Lafayette St.'
+p4913
+ssS'Robataya'
+p4914
+(dp4915
+g5
+S'New York'
+p4916
+sg7
+S'10003'
+p4917
+sg9
+S'231 E. 9th St.'
+p4918
+ssS'bi\xc3\xa1ng!'
+p4919
+(dp4920
+g5
+S'New York'
+p4921
+sg7
+S'10003'
+p4922
+sg9
+S'175 Second Ave.'
+p4923
+ssS'Giorgione'
+p4924
+(dp4925
+g5
+S'New York'
+p4926
+sg7
+S'10012'
+p4927
+sg9
+S'307 Spring St.'
+p4928
+ssS'Public'
+p4929
+(dp4930
+g5
+S'New York'
+p4931
+sg7
+S'10012'
+p4932
+sg9
+S'210 Elizabeth St.'
+p4933
+ssS'La Esquina'
+p4934
+(dp4935
+g5
+S'New York'
+p4936
+sg7
+S'10012'
+p4937
+sg9
+S'114 Kenmare St.'
+p4938
+ssS'Uncle Zhou'
+p4939
+(dp4940
+g5
+S'Elmhurst'
+p4941
+sg7
+S'11373'
+p4942
+sg9
+S'83-29 Broadway'
+p4943
+ssS'The Eddy'
+p4944
+(dp4945
+g5
+S'New York'
+p4946
+sg7
+S'10003'
+p4947
+sg9
+S'342 E. 6th St.'
+p4948
+ssS'Nargis Cafe'
+p4949
+(dp4950
+g5
+S'Brooklyn'
+p4951
+sg7
+S'11235'
+p4952
+sg9
+S'2818 Coney Island Ave.'
+p4953
+ssS'Estiatorio Milos'
+p4954
+(dp4955
+g5
+S'New York'
+p4956
+sg7
+S'10019'
+p4957
+sg9
+S'125 W. 55th St.'
+p4958
+ssS'Hunan Bistro'
+p4959
+(dp4960
+g5
+S'New York'
+p4961
+sg7
+S'10003'
+p4962
+sg9
+S'96 Third Ave.'
+p4963
+ssS"Del Frisco's"
+p4964
+(dp4965
+g5
+S'New York'
+p4966
+sg7
+S'10020'
+p4967
+sg9
+S'1221 Sixth Ave.'
+p4968
+ssS'Tulsi'
+p4969
+(dp4970
+g5
+S'New York'
+p4971
+sg7
+S'10017'
+p4972
+sg9
+S'211 E. 46th St.'
+p4973
+ssS'Zum Stammtisch'
+p4974
+(dp4975
+g5
+S'Glendale'
+p4976
+sg7
+S'11385'
+p4977
+sg9
+S'69-46 Myrtle Ave.'
+p4978
+ssS'Boqueria'
+p4979
+(dp4980
+g5
+S'New York'
+p4981
+sg7
+S'10011'
+p4982
+sg9
+S'53 W. 19th St.'
+p4983
+ssS'Craft'
+p4984
+(dp4985
+g5
+S'New York'
+p4986
+sg7
+S'10003'
+p4987
+sg9
+S'43 E. 19th St.'
+p4988
+ssS"L'Appart"
+p4989
+(dp4990
+g5
+S'New York'
+p4991
+sg7
+S'10281'
+p4992
+sg9
+S'225 Liberty St.'
+p4993
+ssS'Mimi'
+p4994
+(dp4995
+g5
+S'New York'
+p4996
+sg7
+S'10012'
+p4997
+sg9
+S'185 Sullivan St.'
+p4998
+ssS'Ricardo Steakhouse'
+p4999
+(dp5000
+g5
+S'New York'
+p5001
+sg7
+S'10029'
+p5002
+sg9
+S'2145 Second Ave.'
+p5003
+ssS'El Parador'
+p5004
+(dp5005
+g5
+S'New York'
+p5006
+sg7
+S'10016'
+p5007
+sg9
+S'325 E. 34th St.'
+p5008
+ssS'J.G. Melon'
+p5009
+(dp5010
+g5
+S'New York'
+p5011
+sg7
+S'10021'
+p5012
+sg9
+S'1291 Third Ave.'
+p5013
+ssS'Hearth'
+p5014
+(dp5015
+g5
+S'New York'
+p5016
+sg7
+S'10009'
+p5017
+sg9
+S'403 E. 12th St.'
+p5018
+ssS'Cagen'
+p5019
+(dp5020
+g5
+S'New York'
+p5021
+sg7
+S'10009'
+p5022
+sg9
+S'414 E. 9th St.'
+p5023
+ssS'Jungsik'
+p5024
+(dp5025
+g5
+S'New York'
+p5026
+sg7
+S'10013'
+p5027
+sg9
+S'2 Harrison St.'
+p5028
+ssS'Ivan Ramen'
+p5029
+(dp5030
+g5
+S'New York'
+p5031
+sg7
+S'10002'
+p5032
+sg9
+S'25 Clinton St.'
+p5033
+ssS'Keens'
+p5034
+(dp5035
+g5
+S'New York'
+p5036
+sg7
+S'10018'
+p5037
+sg9
+S'72 W. 36th St.'
+p5038
+ssS'Sushi Zo'
+p5039
+(dp5040
+g5
+S'New York'
+p5041
+sg7
+S'10012'
+p5042
+sg9
+S'88 W. 3rd St.'
+p5043
+ssS'The Regency Bar & Grill'
+p5044
+(dp5045
+g5
+S'New York'
+p5046
+sg7
+S'10065'
+p5047
+sg9
+S'540 Park Ave.'
+p5048
+ssS'Kang Ho Dong Baekjeong'
+p5049
+(dp5050
+g5
+S'Flushing'
+p5051
+sg7
+S'11354'
+p5052
+sg9
+S'152-12 Northern Blvd.'
+p5053
+ssS'Louie and Chan'
+p5054
+(dp5055
+g5
+S'New York'
+p5056
+sg7
+S'10002'
+p5057
+sg9
+S'303 Broome St.'
+p5058
+ssS'Macao Trading Co.'
+p5059
+(dp5060
+g5
+S'New York'
+p5061
+sg7
+S'10013'
+p5062
+sg9
+S'311 Church St.'
+p5063
+ssS'Sottocasa'
+p5064
+(dp5065
+g5
+S'Brooklyn'
+p5066
+sg7
+S'11201'
+p5067
+sg9
+S'298 Atlantic Ave.'
+p5068
+ssS'Bustan'
+p5069
+(dp5070
+g5
+S'New York'
+p5071
+sg7
+S'10024'
+p5072
+sg9
+S'487 Amsterdam Ave.'
+p5073
+ssS'Gabriel Kreuther'
+p5074
+(dp5075
+g5
+S'New York'
+p5076
+sg7
+S'10036'
+p5077
+sg9
+S'41 W. 42nd St.'
+p5078
+ssS'Sushi Dojo'
+p5079
+(dp5080
+g5
+S'New York'
+p5081
+sg7
+S'10009'
+p5082
+sg9
+S'110 First Ave.'
+p5083
+ssS'Pier A'
+p5084
+(dp5085
+g5
+S'New York'
+p5086
+sg7
+S'10280'
+p5087
+sg9
+S'22 Battery Pl.'
+p5088
+ssS'Mezzaluna'
+p5089
+(dp5090
+g5
+S'New York'
+p5091
+sg7
+S'10021'
+p5092
+sg9
+S'1295 Third Ave.'
+p5093
+ssS"Virginia's"
+p5094
+(dp5095
+g5
+S'New York'
+p5096
+sg7
+S'10009'
+p5097
+sg9
+S'647 E. 11 St.'
+p5098
+ssS'db Bistro Moderne'
+p5099
+(dp5100
+g5
+S'New York'
+p5101
+sg7
+S'10036'
+p5102
+sg9
+S'55 W. 44th St.'
+p5103
+ssS'No. 7'
+p5104
+(dp5105
+g5
+S'Brooklyn'
+p5106
+sg7
+S'11238'
+p5107
+sg9
+S'7 Greene Ave.'
+p5108
+ssS'Kings County Imperial'
+p5109
+(dp5110
+g5
+S'Brooklyn'
+p5111
+sg7
+S'11211'
+p5112
+sg9
+S'20 Skillman Ave.'
+p5113
+ssS'The Stanton Social'
+p5114
+(dp5115
+g5
+S'New York'
+p5116
+sg7
+S'10002'
+p5117
+sg9
+S'99 Stanton St.'
+p5118
+ssS'RedFarm'
+p5119
+(dp5120
+g5
+S'New York'
+p5121
+sg7
+S'10014'
+p5122
+sg9
+S'529 Hudson St.'
+p5123
+ssS'Curry-Ya'
+p5124
+(dp5125
+g5
+S'New York'
+p5126
+sg7
+S'10003'
+p5127
+sg9
+S'214 E. 10th St.'
+p5128
+ssS"L'Amico"
+p5129
+(dp5130
+g5
+S'New York'
+p5131
+sg7
+S'10001'
+p5132
+sg9
+S'849 Sixth Ave.'
+p5133
+ssS'Mundo'
+p5134
+(dp5135
+g5
+S'Long Island City'
+p5136
+sg7
+S'11101'
+p5137
+sg9
+S'37-06 36th St.'
+p5138
+ssS'A\xc3\xb1ejo'
+p5139
+(dp5140
+g5
+S'New York'
+p5141
+sg7
+S'10036'
+p5142
+sg9
+S'668 Tenth Ave.'
+p5143
+ssS'A Casa Fox'
+p5144
+(dp5145
+g5
+S'New York'
+p5146
+sg7
+S'10002'
+p5147
+sg9
+S'173 Orchard St.'
+p5148
+ssS'Gigino at Wagner Park'
+p5149
+(dp5150
+g5
+S'New York'
+p5151
+sg7
+S'10004'
+p5152
+sg9
+S'20 Battery Pl.'
+p5153
+ssS"Raoul's"
+p5154
+(dp5155
+g5
+S'New York'
+p5156
+sg7
+S'10012'
+p5157
+sg9
+S'180 Prince St.'
+p5158
+ssS'Utsav'
+p5159
+(dp5160
+g5
+S'New York'
+p5161
+sg7
+S'10036'
+p5162
+sg9
+S'1185 Sixth Ave.'
+p5163
+ssS'Rucola'
+p5164
+(dp5165
+g5
+S'Brooklyn'
+p5166
+sg7
+S'11217'
+p5167
+sg9
+S'190 Dean St.'
+p5168
+ssS'Blue Ribbon Sushi'
+p5169
+(dp5170
+g5
+S'New York'
+p5171
+sg7
+S'10012'
+p5172
+sg9
+S'119 Sullivan St.'
+p5173
+ssS'Il Cortile'
+p5174
+(dp5175
+g5
+S'New York'
+p5176
+sg7
+S'10013'
+p5177
+sg9
+S'125 Mulberry St.'
+p5178
+ssS'Kitchen 79'
+p5179
+(dp5180
+g5
+S'Jackson Heights'
+p5181
+sg7
+S'11372'
+p5182
+sg9
+S'37-70 79th St.'
+p5183
+ssS'Gelso & Grand'
+p5184
+(dp5185
+g5
+S'New York'
+p5186
+sg7
+S'10013'
+p5187
+sg9
+S'186 Grand St.'
+p5188
+ssS'Shuko'
+p5189
+(dp5190
+g5
+S'New York'
+p5191
+sg7
+S'10003'
+p5192
+sg9
+S'47 E. 12th St.'
+p5193
+ssS'San Matteo'
+p5194
+(dp5195
+g5
+S'New York'
+p5196
+sg7
+S'10128'
+p5197
+sg9
+S'1739 Second Ave.'
+p5198
+ssS'Blue Hill'
+p5199
+(dp5200
+g5
+S'New York'
+p5201
+sg7
+S'10011'
+p5202
+sg9
+S'75 Washington Pl.'
+p5203
+ssS'Abyssinia'
+p5204
+(dp5205
+g5
+S'New York'
+p5206
+sg7
+S'10030'
+p5207
+sg9
+S'268 W. 135th St.'
+p5208
+ssS'Vinater\xc3\xada'
+p5209
+(dp5210
+g5
+S'New York'
+p5211
+sg7
+S'10026'
+p5212
+sg9
+S'2211 Frederick Douglass Blvd.'
+p5213
+ssS'Bell Book & Candle'
+p5214
+(dp5215
+g5
+S'New York'
+p5216
+sg7
+S'10014'
+p5217
+sg9
+S'141 W. 10th St.'
+p5218
+ssS"Katz's"
+p5219
+(dp5220
+g5
+S'New York'
+p5221
+sg7
+S'10002'
+p5222
+sg9
+S'205 E. Houston St.'
+p5223
+ssS'Cafe Cluny'
+p5224
+(dp5225
+g5
+S'New York'
+p5226
+sg7
+S'10014'
+p5227
+sg9
+S'284 W. 12th St.'
+p5228
+ssS"Franny's"
+p5229
+(dp5230
+g5
+S'Brooklyn'
+p5231
+sg7
+S'11238'
+p5232
+sg9
+S'348 Flatbush Ave.'
+p5233
+ssS'Birds & Bubbles'
+p5234
+(dp5235
+g5
+S'New York'
+p5236
+sg7
+S'10002'
+p5237
+sg9
+S'100B Forsyth St.'
+p5238
+ssS'Baker & Co.'
+p5239
+(dp5240
+g5
+S'New York'
+p5241
+sg7
+S'10014'
+p5242
+sg9
+S'259 Bleecker St.'
+p5243
+ssS'Nerai'
+p5244
+(dp5245
+g5
+S'New York'
+p5246
+sg7
+S'10022'
+p5247
+sg9
+S'55 E. 54th St.'
+p5248
+ssS'Cherry Point'
+p5249
+(dp5250
+g5
+S'Brooklyn'
+p5251
+sg7
+S'11222'
+p5252
+sg9
+S'664 Manhattan Ave.'
+p5253
+ssS'Delaware and Hudson'
+p5254
+(dp5255
+g5
+S'Brooklyn'
+p5256
+sg7
+S'11249'
+p5257
+sg9
+S'135 N. 5th St.'
+p5258
+ssS'Llama Inn'
+p5259
+(dp5260
+g5
+S'Brooklyn'
+p5261
+sg7
+S'11211'
+p5262
+sg9
+S'50 Withers St.'
+p5263
+ssS'Angkor'
+p5264
+(dp5265
+g5
+S'New York'
+p5266
+sg7
+S'10065'
+p5267
+sg9
+S'408 E. 64th St.'
+p5268
+ssS'Caf\xc3\xa9 Altro Paradiso'
+p5269
+(dp5270
+g5
+S'New York'
+p5271
+sg7
+S'10013'
+p5272
+sg9
+S'234 Spring St.'
+p5273
+ssS'The Odeon'
+p5274
+(dp5275
+g5
+S'New York'
+p5276
+sg7
+S'10013'
+p5277
+sg9
+S'145 West Broadway'
+p5278
+ssS'Tipsy Parson'
+p5279
+(dp5280
+g5
+S'New York'
+p5281
+sg7
+S'10011'
+p5282
+sg9
+S'156 Ninth Ave.'
+p5283
+ssS'Good'
+p5284
+(dp5285
+g5
+S'New York'
+p5286
+sg7
+S'10014'
+p5287
+sg9
+S'89 Greenwich Ave.'
+p5288
+ssS'Kanoyama'
+p5289
+(dp5290
+g5
+S'New York'
+p5291
+sg7
+S'10003'
+p5292
+sg9
+S'175 Second Ave.'
+p5293
+ssS'Marc Forgione'
+p5294
+(dp5295
+g5
+S'New York'
+p5296
+sg7
+S'10013'
+p5297
+sg9
+S'134 Reade St.'
+p5298
+ssS'Al Seabu'
+p5299
+(dp5300
+g5
+S'Brooklyn'
+p5301
+sg7
+S'11215'
+p5302
+sg9
+S'383 Fifth Ave.'
+p5303
+ssS'Aurora'
+p5304
+(dp5305
+g5
+S'Brooklyn'
+p5306
+sg7
+S'11112'
+p5307
+sg9
+S'70 Grand St.'
+p5308
+ssS'Avant Garden'
+p5309
+(dp5310
+g5
+S'New York'
+p5311
+sg7
+S'10009'
+p5312
+sg9
+S'130 E. Seventh St.'
+p5313
+ssS'Dojo Izakaya'
+p5314
+(dp5315
+g5
+S'New York'
+p5316
+sg7
+S'10009'
+p5317
+sg9
+S'38 Ave. B.'
+p5318
+ssS'Mezzogiorno'
+p5319
+(dp5320
+g5
+S'New York'
+p5321
+sg7
+S'10025'
+p5322
+sg9
+S'2791 Broadway'
+p5323
+ssS'Rai Rai Ken'
+p5324
+(dp5325
+g5
+S'New York'
+p5326
+sg7
+S'10003'
+p5327
+sg9
+S'218 E. 10th St.'
+p5328
+ssS'BONDST'
+p5329
+(dp5330
+g5
+S'New York'
+p5331
+sg7
+S'10014'
+p5332
+sg9
+S'6 Bond St.'
+p5333
+ssS'El Quinto Pino'
+p5334
+(dp5335
+g5
+S'New York'
+p5336
+sg7
+S'10011'
+p5337
+sg9
+S'401 W. 24th St.'
+p5338
+ssS'The Red Cat'
+p5339
+(dp5340
+g5
+S'New York'
+p5341
+sg7
+S'10011'
+p5342
+sg9
+S'227\xc2\xa0Tenth Ave.'
+p5343
+ssS'Mile End'
+p5344
+(dp5345
+g5
+S'Brooklyn'
+p5346
+sg7
+S'11217'
+p5347
+sg9
+S'97A Hoyt St.'
+p5348
+ssS'Bread & Tulips'
+p5349
+(dp5350
+g5
+S'New York'
+p5351
+sg7
+S'10016'
+p5352
+sg9
+S'365 Park Ave. South'
+p5353
+ssS"Patricia's"
+p5354
+(dp5355
+g5
+S'Bronx'
+p5356
+sg7
+S'10461'
+p5357
+sg9
+S'1082 Morris Park Ave.'
+p5358
+ssS'Acme'
+p5359
+(dp5360
+g5
+S'New York'
+p5361
+sg7
+S'10012'
+p5362
+sg9
+S'9 Great Jones St.'
+p5363
+ssS'North End Grill'
+p5364
+(dp5365
+g5
+S'New York'
+p5366
+sg7
+S'10282'
+p5367
+sg9
+S'104 North End Ave.'
+p5368
+ssS"Norma's"
+p5369
+(dp5370
+g5
+S'New York'
+p5371
+sg7
+S'10019'
+p5372
+sg9
+S'119 W. 56th St.'
+p5373
+ssS'Aldo Sohm Wine Bar'
+p5374
+(dp5375
+g5
+S'New York'
+p5376
+sg7
+S'10019'
+p5377
+sg9
+S'151 W. 51st St.'
+p5378
+ssS'Sigiri'
+p5379
+(dp5380
+g5
+S'New York'
+p5381
+sg7
+S'10009'
+p5382
+sg9
+S'91 First Ave.'
+p5383
+ssS'Gr\xc3\xbcnauer Bistro'
+p5384
+(dp5385
+g5
+S'New York'
+p5386
+sg7
+S'10028'
+p5387
+sg9
+S'1578 First Ave.'
+p5388
+ssS'Hide-Chan Ramen'
+p5389
+(dp5390
+g5
+S'New York'
+p5391
+sg7
+S'10022'
+p5392
+sg9
+S'248 E. 52nd St.'
+p5393
+ssS'Great N.Y. Noodletown'
+p5394
+(dp5395
+g5
+S'New York'
+p5396
+sg7
+S'10013'
+p5397
+sg9
+S'28 Bowery'
+p5398
+ssS'Kajitsu'
+p5399
+(dp5400
+g5
+S'New York'
+p5401
+sg7
+S'10016'
+p5402
+sg9
+S'125 E. 39th St.'
+p5403
+ssS'Macondo'
+p5404
+(dp5405
+g5
+S'New York'
+p5406
+sg7
+S'10002'
+p5407
+sg9
+S'157 E. Houston St.'
+p5408
+ssS'Lugo'
+p5409
+(dp5410
+g5
+S'New York'
+p5411
+sg7
+S'10119'
+p5412
+sg9
+S'1 Penn Plaza'
+p5413
+ssS'T\xc3\xada Pol'
+p5414
+(dp5415
+g5
+S'New York'
+p5416
+sg7
+S'10011'
+p5417
+sg9
+S'205 Tenth Ave.'
+p5418
+ssS'Sushi of Gari'
+p5419
+(dp5420
+g5
+S'New York'
+p5421
+sg7
+S'10021'
+p5422
+sg9
+S'402 E. 78th St.'
+p5423
+ssS"Brinkley's"
+p5424
+(dp5425
+g5
+S'New York'
+p5426
+sg7
+S'10013'
+p5427
+sg9
+S'406 Broome St.'
+p5428
+ssS'Walls\xc3\xa9'
+p5429
+(dp5430
+g5
+S'New York'
+p5431
+sg7
+S'10014'
+p5432
+sg9
+S'344 W. 11th St.'
+p5433
+ssS'Motorino'
+p5434
+(dp5435
+g5
+S'New York'
+p5436
+sg7
+S'10003'
+p5437
+sg9
+S'349 E. 12th St.'
+p5438
+ssS'Danji'
+p5439
+(dp5440
+g5
+S'New York'
+p5441
+sg7
+S'10019'
+p5442
+sg9
+S'346 W. 52nd St.'
+p5443
+ssS'Semilla'
+p5444
+(dp5445
+g5
+S'No.'
+p5446
+sg7
+S'11211'
+p5447
+sg9
+S'160 Havemeyer St.'
+p5448
+ssS'Rocking Horse Cafe'
+p5449
+(dp5450
+g5
+S'New York'
+p5451
+sg7
+S'10011'
+p5452
+sg9
+S'182 Eighth Ave.'
+p5453
+ssS'Cheburechnaya'
+p5454
+(dp5455
+g5
+S'Rego Park'
+p5456
+sg7
+S'11374'
+p5457
+sg9
+S'92-09 63rd Dr.'
+p5458
+ssS'China Blue'
+p5459
+(dp5460
+g5
+S'New York'
+p5461
+sg7
+S'10013'
+p5462
+sg9
+S'135 Watts St.'
+p5463
+ssS'Pizza Moto'
+p5464
+(dp5465
+g5
+S'Brooklyn'
+p5466
+sg7
+S'11231'
+p5467
+sg9
+S'338 Hamilton Ave.'
+p5468
+ssS'Gotham Bar and Grill'
+p5469
+(dp5470
+g5
+S'New York'
+p5471
+sg7
+S'10003'
+p5472
+sg9
+S'12 E. 12th St.'
+p5473
+ssS'Hakkasan'
+p5474
+(dp5475
+g5
+S'New York'
+p5476
+sg7
+S'10036'
+p5477
+sg9
+S'311 W. 43rd St.'
+p5478
+ssS'Lan Sheng'
+p5479
+(dp5480
+g5
+S'New York'
+p5481
+sg7
+S'10018'
+p5482
+sg9
+S'60 W. 39th St.'
+p5483
+ssS'Momofuku Ss\xc3\xa4m Bar'
+p5484
+(dp5485
+g5
+S'New York'
+p5486
+sg7
+S'10003'
+p5487
+sg9
+S'207 Second Ave.'
+p5488
+ssS'Dumpling Galaxy'
+p5489
+(dp5490
+g5
+S'Flushing'
+p5491
+sg7
+S'11355'
+p5492
+sg9
+S'42-35 Main St.'
+p5493
+ssS'Navy'
+p5494
+(dp5495
+g5
+S'New York'
+p5496
+sg7
+S'10012'
+p5497
+sg9
+S'137 Sullivan St.'
+p5498
+ssS"Chef's Table at Brooklyn Fare"
+p5499
+(dp5500
+g5
+S'Brooklyn'
+p5501
+sg7
+S'11201'
+p5502
+sg9
+S'200 Schermerhorn St.'
+p5503
+ssS'Hakata Tonton'
+p5504
+(dp5505
+g5
+S'New York'
+p5506
+sg7
+S'10014'
+p5507
+sg9
+S'61 Grove St.'
+p5508
+ssS'Don Antonio by Starita'
+p5509
+(dp5510
+g5
+S'New York'
+p5511
+sg7
+S'10019'
+p5512
+sg9
+S'309 W. 50th St.'
+p5513
+ssS'Th\xc3\xa1i So\xc5\x89'
+p5514
+(dp5515
+g5
+S'New York'
+p5516
+sg7
+S'10013'
+p5517
+sg9
+S'89 Baxter St.'
+p5518
+ssS'Little Park'
+p5519
+(dp5520
+g5
+S'New York'
+p5521
+sg7
+S'10007'
+p5522
+sg9
+S'85 West Broadway'
+p5523
+ssS'Le Turtle'
+p5524
+(dp5525
+g5
+S'New York'
+p5526
+sg7
+S'10002'
+p5527
+sg9
+S'177 Chrystie St.'
+p5528
+ssS"Lil' Frankie's"
+p5529
+(dp5530
+g5
+S'New York'
+p5531
+sg7
+S'10003'
+p5532
+sg9
+S'19 First Ave.'
+p5533
+ssS'La Sirena'
+p5534
+(dp5535
+g5
+S'New York'
+p5536
+sg7
+S'10011'
+p5537
+sg9
+S'88 Ninth Ave.'
+p5538
+ssS'Nakajima at Jado Sushi'
+p5539
+(dp5540
+g5
+S'New York'
+p5541
+sg7
+S'10026'
+p5542
+sg9
+S'2118 Frederick Douglass Blvd.'
+p5543
+ssS'Locanda Vini e Olii'
+p5544
+(dp5545
+g5
+S'New York'
+p5546
+sg7
+S'11238'
+p5547
+sg9
+S'129 Gates Ave.'
+p5548
+ssS"Paulie Gee's"
+p5549
+(dp5550
+g5
+S'Brooklyn'
+p5551
+sg7
+S'11222'
+p5552
+sg9
+S'60 Greenpoint Ave.'
+p5553
+ssS'Joseph Leonard'
+p5554
+(dp5555
+g5
+S'New York'
+p5556
+sg7
+S'10014'
+p5557
+sg9
+S'170 Waverly Pl.'
+p5558
+ssS'Szechuan Mountain House'
+p5559
+(dp5560
+g5
+S'Ste.'
+p5561
+sg7
+S'11354'
+p5562
+sg9
+S'3916 Prince St.'
+p5563
+ssS'Tocqueville'
+p5564
+(dp5565
+g5
+S'New York'
+p5566
+sg7
+S'10003'
+p5567
+sg9
+S'1 E. 15th St.'
+p5568
+ssS'Dirt Candy'
+p5569
+(dp5570
+g5
+S'New York'
+p5571
+sg7
+S'10002'
+p5572
+sg9
+S'86 Allen St.'
+p5573
+ssS'Fumo'
+p5574
+(dp5575
+g5
+S'New York'
+p5576
+sg7
+S'10031'
+p5577
+sg9
+S'1600 Amsterdam Ave.'
+p5578
+ssS'Piccola Venezia'
+p5579
+(dp5580
+g5
+S'Astoria'
+p5581
+sg7
+S'11103'
+p5582
+sg9
+S'42-01 28th Ave.'
+p5583
+ssS'The Dutch'
+p5584
+(dp5585
+g5
+S'New York'
+p5586
+sg7
+S'10012'
+p5587
+sg9
+S'131 Sullivan St.'
+p5588
+ssS'Charlie Bird'
+p5589
+(dp5590
+g5
+S'New York'
+p5591
+sg7
+S'10012'
+p5592
+sg9
+S'5 King St.'
+p5593
+ssS'Left Bank'
+p5594
+(dp5595
+g5
+S'New York'
+p5596
+sg7
+S'10014'
+p5597
+sg9
+S'117 Perry St.'
+p5598
+ssS'MarkJoseph'
+p5599
+(dp5600
+g5
+S'New York'
+p5601
+sg7
+S'10038'
+p5602
+sg9
+S'261 Water St.'
+p5603
+ssS'Balade'
+p5604
+(dp5605
+g5
+S'New York'
+p5606
+sg7
+S'10009'
+p5607
+sg9
+S'208 First Ave.'
+p5608
+ssS'Estela'
+p5609
+(dp5610
+g5
+S'New York'
+p5611
+sg7
+S'10012'
+p5612
+sg9
+S'47 E. Houston St.'
+p5613
+ssS'Gladys'
+p5614
+(dp5615
+g5
+S'Brooklyn'
+p5616
+sg7
+S'11238'
+p5617
+sg9
+S'788 Franklin Ave.'
+p5618
+ssS'Ribalta'
+p5619
+(dp5620
+g5
+S'New York'
+p5621
+sg7
+S'10003'
+p5622
+sg9
+S'48 E. 12th St.'
+p5623
+ssS'Le Cirque'
+p5624
+(dp5625
+g5
+S'New York'
+p5626
+sg7
+S'10022'
+p5627
+sg9
+S'151 E. 58th St.'
+p5628
+ssS'Royal Seafood'
+p5629
+(dp5630
+g5
+S'New York'
+p5631
+sg7
+S'10013'
+p5632
+sg9
+S'103 Mott St.'
+p5633
+ssS"Mimi's Hummus"
+p5634
+(dp5635
+g5
+S'Brooklyn'
+p5636
+sg7
+S'11218'
+p5637
+sg9
+S'1209 Cortelyou Rd.'
+p5638
+ssS'Mesa Coyoac\xc3\xa1n'
+p5639
+(dp5640
+g5
+S'Brooklyn'
+p5641
+sg7
+S'11052'
+p5642
+sg9
+S'372 Graham Ave.'
+p5643
+ssS'Black Swan'
+p5644
+(dp5645
+g5
+S'Brooklyn'
+p5646
+sg7
+S'11205'
+p5647
+sg9
+S'1048 Bedford Ave.'
+p5648
+ssS'La Vara'
+p5649
+(dp5650
+g5
+S'Brooklyn'
+p5651
+sg7
+S'11201'
+p5652
+sg9
+S'268 Clinton St.'
+p5653
+ssS'Cafe Sabarsky'
+p5654
+(dp5655
+g5
+S'New York'
+p5656
+sg7
+S'10028'
+p5657
+sg9
+S'1048 Fifth Ave.'
+p5658
+ssS'Rye'
+p5659
+(dp5660
+g5
+S'Brooklyn'
+p5661
+sg7
+S'11211'
+p5662
+sg9
+S'247 S. 1st St.'
+p5663
+ssS'Mexicosina'
+p5664
+(dp5665
+g5
+S'Bronx'
+p5666
+sg7
+S'10455'
+p5667
+sg9
+S'503 Jackson Ave.'
+p5668
+ssS'New Malaysia'
+p5669
+(dp5670
+g5
+S'New York'
+p5671
+sg7
+S'10013'
+p5672
+sg9
+S'46-48 Bowery'
+p5673
+ssS'Bar Masa'
+p5674
+(dp5675
+g5
+S'New York'
+p5676
+sg7
+S'10019'
+p5677
+sg9
+S'10 Columbus Circle'
+p5678
+ssS'Ai Fiori'
+p5679
+(dp5680
+g5
+S'New York'
+p5681
+sg7
+S'10018'
+p5682
+sg9
+S'400 Fifth Ave.'
+p5683
+ssS'Nyonya'
+p5684
+(dp5685
+g5
+S'New York'
+p5686
+sg7
+S'10013'
+p5687
+sg9
+S'199 Grand St.'
+p5688
+ssS'Mayfield'
+p5689
+(dp5690
+g5
+S'Brooklyn'
+p5691
+sg7
+S'11238'
+p5692
+sg9
+S'688 Franklin Ave.'
+p5693
+ssS'Il Buco'
+p5694
+(dp5695
+g5
+S'New York'
+p5696
+sg7
+S'10012'
+p5697
+sg9
+S'47 Bond St.'
+p5698
+ssS'Enoteca on Court'
+p5699
+(dp5700
+g5
+S'Brooklyn'
+p5701
+sg7
+S'11231'
+p5702
+sg9
+S'347 Court St.'
+p5703
+ssS'Marlow & Sons'
+p5704
+(dp5705
+g5
+S'Brooklyn'
+p5706
+sg7
+S'11211'
+p5707
+sg9
+S'81 Broadway'
+p5708
+ssS'A Voce Madison'
+p5709
+(dp5710
+g5
+S'New York'
+p5711
+sg7
+S'10010'
+p5712
+sg9
+S'41 Madison Ave.'
+p5713
+ssS'Osteria del Circo'
+p5714
+(dp5715
+g5
+S'New York'
+p5716
+sg7
+S'10019'
+p5717
+sg9
+S'120 W. 55th St.'
+p5718
+ssS'Babu Ji'
+p5719
+(dp5720
+g5
+S'New York'
+p5721
+sg7
+S'10001'
+p5722
+sg9
+S'175 Avenue B'
+p5723
+ssS"Sabry's"
+p5724
+(dp5725
+g5
+S'Astoria'
+p5726
+sg7
+S'11102'
+p5727
+sg9
+S'24-25 Steinway St.'
+p5728
+ssS'Fonda'
+p5729
+(dp5730
+g5
+S'Brooklyn'
+p5731
+sg7
+S'11215'
+p5732
+sg9
+S'434 Seventh Ave.'
+p5733
+ssS'Bin 5'
+p5734
+(dp5735
+g5
+S'Staten Island'
+p5736
+sg7
+S'10305'
+p5737
+sg9
+S'1233 Bay St.'
+p5738
+ssS"Tito Rad's Grill"
+p5739
+(dp5740
+g5
+S'Woodside'
+p5741
+sg7
+S'11377'
+p5742
+sg9
+S'49-10 Queens Blvd.'
+p5743
+ssS'Bo Ky'
+p5744
+(dp5745
+g5
+S'New York'
+p5746
+sg7
+S'10013'
+p5747
+sg9
+S'80 Bayard St.'
+p5748
+ssS'Somtum Der'
+p5749
+(dp5750
+g5
+S'New York'
+p5751
+sg7
+S'10009'
+p5752
+sg9
+S'85 Ave A.'
+p5753
+ssS"Wolfgang's"
+p5754
+(dp5755
+g5
+S'New York'
+p5756
+sg7
+S'10016'
+p5757
+sg9
+S'4 Park Ave.'
+p5758
+ssS'2nd Avenue Deli'
+p5759
+(dp5760
+g5
+S'New York'
+p5761
+sg7
+S'10016'
+p5762
+sg9
+S'162 E. 33rd St.'
+p5763
+ssS'Aska'
+p5764
+(dp5765
+g5
+S'Brooklyn'
+p5766
+sg7
+S'11249'
+p5767
+sg9
+S'47 S. 5th St.'
+p5768
+ssS'Tamarind'
+p5769
+(dp5770
+g5
+S'New York'
+p5771
+sg7
+S'10013'
+p5772
+sg9
+S'99 Hudson St.'
+p5773
+ssS'The General Greene'
+p5774
+(dp5775
+g5
+S'Brooklyn'
+p5776
+sg7
+S'11205'
+p5777
+sg9
+S'229 DeKalb Ave.'
+p5778
+ssS'Al di L\xc3\xa0'
+p5779
+(dp5780
+g5
+S'New York'
+p5781
+sg7
+S'11215'
+p5782
+sg9
+S'248 Fifth Ave.'
+p5783
+ssS'Socarrat'
+p5784
+(dp5785
+g5
+S'New York'
+p5786
+sg7
+S'10011'
+p5787
+sg9
+S'259 W. 19th St.'
+p5788
+ssS'San Rasa'
+p5789
+(dp5790
+g5
+S'Staten Island'
+p5791
+sg7
+S'10301'
+p5792
+sg9
+S'19 Corson Ave.'
+p5793
+ssS"Gregory's 26 Corner Taverna"
+p5794
+(dp5795
+g5
+S'Astoria'
+p5796
+sg7
+S'11105'
+p5797
+sg9
+S'26-02 23rd Ave.'
+p5798
+ssS'Barbounia'
+p5799
+(dp5800
+g5
+S'New York'
+p5801
+sg7
+S'10003'
+p5802
+sg9
+S'250 Park Ave. South'
+p5803
+ssS'Tempura Matsui'
+p5804
+(dp5805
+g5
+S'New York'
+p5806
+sg7
+S'10158'
+p5807
+sg9
+S'222 E. 39th St.'
+p5808
+ssS'Battersby'
+p5809
+(dp5810
+g5
+S'Brooklyn'
+p5811
+sg7
+S'11231'
+p5812
+sg9
+S'255 Smith St.'
+p5813
+ssS'Colonie'
+p5814
+(dp5815
+g5
+S'Brooklyn'
+p5816
+sg7
+S'11201'
+p5817
+sg9
+S'127 Atlantic Ave.'
+p5818
+ssS'Vida'
+p5819
+(dp5820
+g5
+S'Staten Island'
+p5821
+sg7
+S'10304'
+p5822
+sg9
+S'381 Van Duzer St.'
+p5823
+ssS'Aburiya Kinnosuke'
+p5824
+(dp5825
+g5
+S'New York'
+p5826
+sg7
+S'10017'
+p5827
+sg9
+S'213 E. 45th St.'
+p5828
+ssS'Fig & Olive'
+p5829
+(dp5830
+g5
+S'New York'
+p5831
+sg7
+S'10021'
+p5832
+sg9
+S'808 Lexington Ave.'
+p5833
+ssS'Balvanera'
+p5834
+(dp5835
+g5
+S'New York'
+p5836
+sg7
+S'10002'
+p5837
+sg9
+S'152 Stanton St.'
+p5838
+ssS'The Waverly Inn'
+p5839
+(dp5840
+g5
+S'New York'
+p5841
+sg7
+S'10014'
+p5842
+sg9
+S'16 Bank St.'
+p5843
+ssS'Co.'
+p5844
+(dp5845
+g5
+S'New York'
+p5846
+sg7
+S'10001'
+p5847
+sg9
+S'230 Ninth Ave.'
+p5848
+ssS'Nebraska Steakhouse'
+p5849
+(dp5850
+g5
+S'New York'
+p5851
+sg7
+S'10004'
+p5852
+sg9
+S'15 Stone St.'
+p5853
+ssS'New Leaf'
+p5854
+(dp5855
+g5
+S'New York'
+p5856
+sg7
+S'10040'
+p5857
+sg9
+S'1 Margaret Corbin Dr.'
+p5858
+ssS'Yerba Buena Perry'
+p5859
+(dp5860
+g5
+S'New York'
+p5861
+sg7
+S'10014'
+p5862
+sg9
+S'1 Perry St.'
+p5863
+ssS'Sociale'
+p5864
+(dp5865
+g5
+S'Brooklyn'
+p5866
+sg7
+S'11201'
+p5867
+sg9
+S'72 Henry St.'
+p5868
+ssS'Enoteca Maria'
+p5869
+(dp5870
+g5
+S'Staten Island'
+p5871
+sg7
+S'10301'
+p5872
+sg9
+S'27 Hyatt St.'
+p5873
+ssS'El Born'
+p5874
+(dp5875
+g5
+S'Brooklyn'
+p5876
+sg7
+S'11222'
+p5877
+sg9
+S'651 Manhattan Ave.'
+p5878
+ssS'Salt & Fat'
+p5879
+(dp5880
+g5
+S'Sunnyside'
+p5881
+sg7
+S'11104'
+p5882
+sg9
+S'41-16 Queens Blvd.'
+p5883
+ssS'Las Ramblas'
+p5884
+(dp5885
+g5
+S'New York'
+p5886
+sg7
+S'10014'
+p5887
+sg9
+S'170 W. 4th St.'
+p5888
+ssS'Iki'
+p5889
+(dp5890
+g5
+S'Flushing'
+p5891
+sg7
+S'10354'
+p5892
+sg9
+S'133-42 39th Ave.'
+p5893
+ssS"Aunt Jake's"
+p5894
+(dp5895
+g5
+S'New York'
+p5896
+sg7
+S'10013'
+p5897
+sg9
+S'151 Mulberry St.'
+p5898
+ssS'Diner'
+p5899
+(dp5900
+g5
+S'New York'
+p5901
+sg7
+S'11211'
+p5902
+sg9
+S'85 Broadway'
+p5903
+ssS'The John Dory Oyster Bar'
+p5904
+(dp5905
+g5
+S'New York'
+p5906
+sg7
+S'10001'
+p5907
+sg9
+S'1196 Broadway'
+p5908
+ssS'Petrossian'
+p5909
+(dp5910
+g5
+S'New York'
+p5911
+sg7
+S'10019'
+p5912
+sg9
+S'182 W. 58th St.'
+p5913
+ssS'Barbetta'
+p5914
+(dp5915
+g5
+S'New York'
+p5916
+sg7
+S'10036'
+p5917
+sg9
+S'321 W. 46th St.'
+p5918
+ssS'Community Food & Juice'
+p5919
+(dp5920
+g5
+S'New York'
+p5921
+sg7
+S'10025'
+p5922
+sg9
+S'2893 Broadway'
+p5923
+ssS'Russ & Daughters Cafe'
+p5924
+(dp5925
+g5
+S'New York'
+p5926
+sg7
+S'10002'
+p5927
+sg9
+S'127 Orchard St.'
+p5928
+ssS'b\xc3\xban-ker'
+p5929
+(dp5930
+g5
+S'Ridgewood'
+p5931
+sg7
+S'11385'
+p5932
+sg9
+S'46-63 Metropolitan Ave.'
+p5933
+ssS'Zutto'
+p5934
+(dp5935
+g5
+S'New York'
+p5936
+sg7
+S'10013'
+p5937
+sg9
+S'77 Hudson St.'
+p5938
+ssS'Kat & Theo'
+p5939
+(dp5940
+g5
+S'New York'
+p5941
+sg7
+S'10010'
+p5942
+sg9
+S'5 W. 21st St.'
+p5943
+ssS'Gran El\xc3\xa9ctrica'
+p5944
+(dp5945
+g5
+S'Brooklyn'
+p5946
+sg7
+S'11201'
+p5947
+sg9
+S'5 Front St.'
+p5948
+ssS'Landmarc'
+p5949
+(dp5950
+g5
+S'New York'
+p5951
+sg7
+S'10013'
+p5952
+sg9
+S'179 West Broadway'
+p5953
+ssS'Kafana'
+p5954
+(dp5955
+g5
+S'New York'
+p5956
+sg7
+S'10009'
+p5957
+sg9
+S'116 Ave. C'
+p5958
+ssS'Wallflower'
+p5959
+(dp5960
+g5
+S'New York'
+p5961
+sg7
+S'10014'
+p5962
+sg9
+S'235 W. 12th St.'
+p5963
+ssS'Racines NY'
+p5964
+(dp5965
+g5
+S'New York'
+p5966
+sg7
+S'10013'
+p5967
+sg9
+S'94 Chambers St.'
+p5968
+ssS'Andaz'
+p5969
+(dp5970
+g5
+S'New York'
+p5971
+sg7
+S'10021'
+p5972
+sg9
+S'1378 First Ave.'
+p5973
+ssS'Jewel Bako'
+p5974
+(dp5975
+g5
+S'New York'
+p5976
+sg7
+S'10003'
+p5977
+sg9
+S'239 E. 5th St.'
+p5978
+ssS'Meadowsweet'
+p5979
+(dp5980
+g5
+S'Brooklyn'
+p5981
+sg7
+S'11212'
+p5982
+sg9
+S'149 Broadway'
+p5983
+ssS'Faun'
+p5984
+(dp5985
+g5
+S'Brooklyn'
+p5986
+sg7
+S'11238'
+p5987
+sg9
+S'606 Vanderbilt Ave.'
+p5988
+ssS'Taverna Kyclades'
+p5989
+(dp5990
+g5
+S'Astoria'
+p5991
+sg7
+S'11105'
+p5992
+sg9
+S'33-07 Ditmars Blvd.'
+p5993
+ssS"44 & X Hell's Kitchen"
+p5994
+(dp5995
+g5
+S'New York'
+p5996
+sg7
+S'10036'
+p5997
+sg9
+S'622 Tenth Ave.'
+p5998
+ssS'Graffiti'
+p5999
+(dp6000
+g5
+S'New York'
+p6001
+sg7
+S'10003'
+p6002
+sg9
+S'224 E. 10th St.'
+p6003
+ssS'Nocciola'
+p6004
+(dp6005
+g5
+S'New York'
+p6006
+sg7
+S'10029'
+p6007
+sg9
+S'237 E. 116th St.'
+p6008
+ssS'Txikito'
+p6009
+(dp6010
+g5
+S'New York'
+p6011
+sg7
+S'10001'
+p6012
+sg9
+S'240 Ninth Ave.'
+p6013
+ssS'Barano'
+p6014
+(dp6015
+g5
+S'Brooklyn'
+p6016
+sg7
+S'11249'
+p6017
+sg9
+S'26 Broadway'
+p6018
+ssS'Bricolage'
+p6019
+(dp6020
+g5
+S'Brooklyn'
+p6021
+sg7
+S'11217'
+p6022
+sg9
+S'162 Fifth Ave.'
+p6023
+ssS'BLT Steak'
+p6024
+(dp6025
+g5
+S'New York'
+p6026
+sg7
+S'10022'
+p6027
+sg9
+S'106 E. 57th St.'
+p6028
+ssS'J. Restaurant Chez Asta'
+p6029
+(dp6030
+g5
+S'New York'
+p6031
+sg7
+S'10027'
+p6032
+sg9
+S'2479 Frederick Douglass Blvd.'
+p6033
+ssS'Kosaka'
+p6034
+(dp6035
+g5
+S'New York'
+p6036
+sg7
+S'10011'
+p6037
+sg9
+S'220 W. 13th St.'
+p6038
+ssS'Ganso Ramen'
+p6039
+(dp6040
+g5
+S'Brooklyn'
+p6041
+sg7
+S'11201'
+p6042
+sg9
+S'25 Bond St.'
+p6043
+ssS'Daniel'
+p6044
+(dp6045
+g5
+S'New York'
+p6046
+sg7
+S'10065'
+p6047
+sg9
+S'60 E. 65th St.'
+p6048
+ssS'NoMad'
+p6049
+(dp6050
+g5
+S'New York'
+p6051
+sg7
+S'10001'
+p6052
+sg9
+S'1170 Broadway'
+p6053
+ssS'Spiga'
+p6054
+(dp6055
+g5
+S'New York'
+p6056
+sg7
+S'10024'
+p6057
+sg9
+S'200 W. 84th St.'
+p6058
+ssS'Zenkichi'
+p6059
+(dp6060
+g5
+S'Brooklyn'
+p6061
+sg7
+S'11211'
+p6062
+sg9
+S'77 N. 6th St.'
+p6063
+ssS'The Greek'
+p6064
+(dp6065
+g5
+S'New York'
+p6066
+sg7
+S'10013'
+p6067
+sg9
+S'458 Greenwich St.'
+p6068
+ssS'Almayass'
+p6069
+(dp6070
+g5
+S'New York'
+p6071
+sg7
+S'10010'
+p6072
+sg9
+S'24 E. 21st St.'
+p6073
+ssS'St. Anselm'
+p6074
+(dp6075
+g5
+S'Brooklyn'
+p6076
+sg7
+S'11211'
+p6077
+sg9
+S'355 Metropolitan Ave.'
+p6078
+ssS'Lupa'
+p6079
+(dp6080
+g5
+S'New York'
+p6081
+sg7
+S'10012'
+p6082
+sg9
+S'170 Thompson St.'
+p6083
+ssS'pizzArte'
+p6084
+(dp6085
+g5
+S'New York'
+p6086
+sg7
+S'10019'
+p6087
+sg9
+S'69 W. 55th St.'
+p6088
+ssS'Rockmeisha'
+p6089
+(dp6090
+g5
+S'New York'
+p6091
+sg7
+S'10014'
+p6092
+sg9
+S'11 Barrow St.'
+p6093
+ssS'Per Se'
+p6094
+(dp6095
+g5
+S'New York'
+p6096
+sg7
+S'10019'
+p6097
+sg9
+S'10 Columbus Circle'
+p6098
+ssS'La Grenouille'
+p6099
+(dp6100
+g5
+S'New York'
+p6101
+sg7
+S'10022'
+p6102
+sg9
+S'3 E. 52nd St.'
+p6103
+ssS'Sushi Daizen'
+p6104
+(dp6105
+g5
+S'Long Island City'
+p6106
+sg7
+S'11101'
+p6107
+sg9
+S'47-38 Vernon Blvd.'
+p6108
+ssS'Dinosaur Bar-B-Que'
+p6109
+(dp6110
+g5
+S'New York'
+p6111
+sg7
+S'10027'
+p6112
+sg9
+S'700 W. 125th St.'
+p6113
+ssS'Lakruwana'
+p6114
+(dp6115
+g5
+S'Staten Island'
+p6116
+sg7
+S'10304'
+p6117
+sg9
+S'668 Bay St.'
+p6118
+ssS'James'
+p6119
+(dp6120
+g5
+S'Brooklyn'
+p6121
+sg7
+S'11238'
+p6122
+sg9
+S'605 Carlton Ave.'
+p6123
+ssS'Peking Duck House'
+p6124
+(dp6125
+g5
+S'New York'
+p6126
+sg7
+S'10013'
+p6127
+sg9
+S'28 Mott St.'
+p6128
+ssS'Gradisca'
+p6129
+(dp6130
+g5
+S'New York'
+p6131
+sg7
+S'10011'
+p6132
+sg9
+S'126 W. 13th St.'
+p6133
+ssS'21 Club'
+p6134
+(dp6135
+g5
+S'New York'
+p6136
+sg7
+S'10019'
+p6137
+sg9
+S'21 W. 52nd St.'
+p6138
+ssS'DOMODOMO'
+p6139
+(dp6140
+g5
+S'New York'
+p6141
+sg7
+S'10012'
+p6142
+sg9
+S'138 W. Houston St.'
+p6143
+ssS'Tong Sam Gyup Goo Yi'
+p6144
+(dp6145
+g5
+S'Flushing'
+p6146
+sg7
+S'11358'
+p6147
+sg9
+S'162-23 Depot Rd.'
+p6148
+ssS'Hecho en Dumbo'
+p6149
+(dp6150
+g5
+S'New York'
+p6151
+sg7
+S'10012'
+p6152
+sg9
+S'354 Bowery'
+p6153
+ssS'Tutti Matti'
+p6154
+(dp6155
+g5
+S'Long Island City'
+p6156
+sg7
+S'11101'
+p6157
+sg9
+S'47-30 Vernon Blvd.'
+p6158
+ssS"Freek's Mill"
+p6159
+(dp6160
+g5
+S'Brooklyn'
+p6161
+sg7
+S'11217'
+p6162
+sg9
+S'285 Nevins St.'
+p6163
+ssS'Sweet Yummy House'
+p6164
+(dp6165
+g5
+S'Elmhurst'
+p6166
+sg7
+S'11373'
+p6167
+sg9
+S'83-13 Broadway'
+p6168
+ssS'Bayou'
+p6169
+(dp6170
+g5
+S'Staten Island'
+p6171
+sg7
+S'10305'
+p6172
+sg9
+S'1072 Bay St.'
+p6173
+ssS'Ushiwakamaru'
+p6174
+(dp6175
+g5
+S'New York'
+p6176
+sg7
+S'10011'
+p6177
+sg9
+S'362 W. 23rd St.'
+p6178
+ssS'The Fat Radish'
+p6179
+(dp6180
+g5
+S'New York'
+p6181
+sg7
+S'10002'
+p6182
+sg9
+S'17 Orchard St.'
+p6183
+ssS'Okonomi'
+p6184
+(dp6185
+g5
+S'Brooklyn'
+p6186
+sg7
+S'11211'
+p6187
+sg9
+S'150 Ainslie St.'
+p6188
+ssS'The Black Ant'
+p6189
+(dp6190
+g5
+S'New York'
+p6191
+sg7
+S'10003'
+p6192
+sg9
+S'60 Second Ave.'
+p6193
+ssS'The Lucky Bee'
+p6194
+(dp6195
+g5
+S'New York'
+p6196
+sg7
+S'10002'
+p6197
+sg9
+S'252 Broome St.'
+p6198
+ssS'East 12th Osteria'
+p6199
+(dp6200
+g5
+S'New York'
+p6201
+sg7
+S'10003'
+p6202
+sg9
+S'197 First Ave.'
+p6203
+ssS"Joe's Shanghai"
+p6204
+(dp6205
+g5
+S'Flushing'
+p6206
+sg7
+S'11354'
+p6207
+sg9
+S'136-21 37th Ave.'
+p6208
+ssS'Mill Basin Kosher Delicatessen'
+p6209
+(dp6210
+g5
+S'Brooklyn'
+p6211
+sg7
+S'11234'
+p6212
+sg9
+S'5823 Ave. T'
+p6213
+ssS'Pok Pok Ny'
+p6214
+(dp6215
+g5
+S'Brooklyn'
+p6216
+sg7
+S'11231'
+p6217
+sg9
+S'117 Columbia St.'
+p6218
+ssS'Jack the Horse'
+p6219
+(dp6220
+g5
+S'Brooklyn'
+p6221
+sg7
+S'11201'
+p6222
+sg9
+S'66 Hicks St.'
+p6223
+ssS'ABC Cocina'
+p6224
+(dp6225
+g5
+S'New York'
+p6226
+sg7
+S'10003'
+p6227
+sg9
+S'38 E. 19th St.'
+p6228
+ssS'Java'
+p6229
+(dp6230
+g5
+S'Brooklyn'
+p6231
+sg7
+S'11215'
+p6232
+sg9
+S'455\xc2\xa0Seventh Ave.'
+p6233
+ssS'Dovetail'
+p6234
+(dp6235
+g5
+S'New York'
+p6236
+sg7
+S'10024'
+p6237
+sg9
+S'103 W. 77th St.'
+p6238
+ssS"Gallagher's"
+p6239
+(dp6240
+g5
+S'New York'
+p6241
+sg7
+S'10019'
+p6242
+sg9
+S'228 W. 52nd St.'
+p6243
+ssS'SushiAnn'
+p6244
+(dp6245
+g5
+S'New York'
+p6246
+sg7
+S'10022'
+p6247
+sg9
+S'38 E. 51st St.'
+p6248
+ssS'Kurry Qulture'
+p6249
+(dp6250
+g5
+S'Astoria'
+p6251
+sg7
+S'11103'
+p6252
+sg9
+S'36-05 30th Ave.'
+p6253
+ssS'Blenheim'
+p6254
+(dp6255
+g5
+S'New York'
+p6256
+sg7
+S'10014'
+p6257
+sg9
+S'283 W. 12th St.'
+p6258
+ssS'Impero Caff\xc3\xa8'
+p6259
+(dp6260
+g5
+S'New York'
+p6261
+sg7
+S'10001'
+p6262
+sg9
+S'132 W. 27th St.'
+p6263
+ssS'Trading Post'
+p6264
+(dp6265
+g5
+S'New York'
+p6266
+sg7
+S'10038'
+p6267
+sg9
+S'170 John St.'
+p6268
+ssS'Colonia Verde'
+p6269
+(dp6270
+g5
+S'Brooklyn'
+p6271
+sg7
+S'11205'
+p6272
+sg9
+S'219 DeKalb Ave.'
+p6273
+ssS'Parkside'
+p6274
+(dp6275
+g5
+S'Corona'
+p6276
+sg7
+S'11368'
+p6277
+sg9
+S'107-01 Corona Ave.'
+p6278
+ssS'Bar Corvo'
+p6279
+(dp6280
+g5
+S'Brooklyn'
+p6281
+sg7
+S'11238'
+p6282
+sg9
+S'791 Washington Ave.'
+p6283
+ssS'Basil Brick Oven Pizza'
+p6284
+(dp6285
+g5
+S'Astoria'
+p6286
+sg7
+S'11102'
+p6287
+sg9
+S'28-17 Astoria Blvd.'
+p6288
+ssS"Tiny's"
+p6289
+(dp6290
+g5
+S'New York'
+p6291
+sg7
+S'10013'
+p6292
+sg9
+S'135 West Broadway'
+p6293
+ssS'Noodle Pudding'
+p6294
+(dp6295
+g5
+S'New York'
+p6296
+sg7
+S'11201'
+p6297
+sg9
+S'38 Henry St.'
+p6298
+ssS'Lea'
+p6299
+(dp6300
+g5
+S'Brooklyn'
+p6301
+sg7
+S'11218'
+p6302
+sg9
+S'1022 Cortelyou Rd.'
+p6303
+ssS'Vesta Trattoria'
+p6304
+(dp6305
+g5
+S'Astoria'
+p6306
+sg7
+S'11102'
+p6307
+sg9
+S'21-02 30th Ave.'
+p6308
+ssS"Taci's Beyti"
+p6309
+(dp6310
+g5
+S'Brooklyn'
+p6311
+sg7
+S'11223'
+p6312
+sg9
+S'1953-1955 Coney Island Ave.'
+p6313
+ssS'Marea'
+p6314
+(dp6315
+g5
+S'New York'
+p6316
+sg7
+S'10019'
+p6317
+sg9
+S'240 Central Park South'
+p6318
+ssS'Ciccio'
+p6319
+(dp6320
+g5
+S'New York'
+p6321
+sg7
+S'10013'
+p6322
+sg9
+S'190 Sixth Ave.'
+p6323
+ssS'Brasserie 8 1/2'
+p6324
+(dp6325
+g5
+S'New York'
+p6326
+sg7
+S'10019'
+p6327
+sg9
+S'9 W. 57th St.'
+p6328
+ssS'Casellula'
+p6329
+(dp6330
+g5
+S'New York'
+p6331
+sg7
+S'10019'
+p6332
+sg9
+S'401 W. 52nd St.'
+p6333
+ssS"Mary's Fish Camp"
+p6334
+(dp6335
+g5
+S'New York'
+p6336
+sg7
+S'10014'
+p6337
+sg9
+S'64 Charles St.'
+p6338
+ssS'Purple Yam'
+p6339
+(dp6340
+g5
+S'New York'
+p6341
+sg7
+S'11226'
+p6342
+sg9
+S'1314 Cortelyou Rd.'
+p6343
+ssS'Nishi'
+p6344
+(dp6345
+g5
+S'New York'
+p6346
+sg7
+S'10011'
+p6347
+sg9
+S'232 Eighth Ave.'
+p6348
+ssS'Tavola'
+p6349
+(dp6350
+g5
+S'New York'
+p6351
+sg7
+S'10010'
+p6352
+sg9
+S'488 Ninth Ave.'
+p6353
+ssS'Kunjip'
+p6354
+(dp6355
+g5
+S'New York'
+p6356
+sg7
+S'10001'
+p6357
+sg9
+S'9 W 32nd St.'
+p6358
+ssS'Falansai'
+p6359
+(dp6360
+g5
+S'Brooklyn'
+p6361
+sg7
+S'11237'
+p6362
+sg9
+S'112 Harrison Pl.'
+p6363
+ssS'900 Park'
+p6364
+(dp6365
+g5
+S'Bronx'
+p6366
+sg7
+S'10462'
+p6367
+sg9
+S'900 Morris Park Ave.'
+p6368
+ssS'Blaue Gans'
+p6369
+(dp6370
+g5
+S'New York'
+p6371
+sg7
+S'10013'
+p6372
+sg9
+S'139 Duane St.'
+p6373
+ssS'Rubirosa'
+p6374
+(dp6375
+g5
+S'New York'
+p6376
+sg7
+S'10012'
+p6377
+sg9
+S'235 Mulberry St.'
+p6378
+ssS'Bettolona'
+p6379
+(dp6380
+g5
+S'New York'
+p6381
+sg7
+S'10027'
+p6382
+sg9
+S'3143 Broadway'
+p6383
+ssS'Untitled'
+p6384
+(dp6385
+g5
+S'New York'
+p6386
+sg7
+S'10014'
+p6387
+sg9
+S'99 Gansevoort St.'
+p6388
+ssS'Allswell'
+p6389
+(dp6390
+g5
+S'Brooklyn'
+p6391
+sg7
+S'11211'
+p6392
+sg9
+S'124 Bedford Ave.'
+p6393
+ssS'Remi'
+p6394
+(dp6395
+g5
+S'New York'
+p6396
+sg7
+S'10019'
+p6397
+sg9
+S'145 W. 53rd St.'
+p6398
+ssS'Caf\xc3\xa9 Mogador'
+p6399
+(dp6400
+g5
+S'New York'
+p6401
+sg7
+S'10009'
+p6402
+sg9
+S'101 St. Marks Pl.'
+p6403
+ssS'Minetta Tavern'
+p6404
+(dp6405
+g5
+S'New York'
+p6406
+sg7
+S'10012'
+p6407
+sg9
+S'113 MacDougal St.'
+p6408
+ssS'Locanda Verde'
+p6409
+(dp6410
+g5
+S'New York'
+p6411
+sg7
+S'10013'
+p6412
+sg9
+S'377 Greenwich St.'
+p6413
+ssS'Krolewskie Jadlo'
+p6414
+(dp6415
+g5
+S'Brooklyn'
+p6416
+sg7
+S'11222'
+p6417
+sg9
+S'694 Manhattan Ave.'
+p6418
+ssS'Taiwanese Gourmet'
+p6419
+(dp6420
+g5
+S'Elmhurst'
+p6421
+sg7
+S'11373'
+p6422
+sg9
+S'84-02 Broadway'
+p6423
+ssS'Larb Ubol'
+p6424
+(dp6425
+g5
+S'New York'
+p6426
+sg7
+S'10018'
+p6427
+sg9
+S'480 Ninth Ave.'
+p6428
+ssS'Shanghai Heping'
+p6429
+(dp6430
+g5
+S'New York'
+p6431
+sg7
+S'10013'
+p6432
+sg9
+S'104 Mott St.'
+p6433
+ssS'Caf\xc3\xa9 Frida'
+p6434
+(dp6435
+g5
+S'New York'
+p6436
+sg7
+S'10024'
+p6437
+sg9
+S'368 Columbus Ave.'
+p6438
+ssS'Jukai'
+p6439
+(dp6440
+g5
+S'New York'
+p6441
+sg7
+S'10022'
+p6442
+sg9
+S'237 E. 53rd St.'
+p6443
+ssS'Bozu'
+p6444
+(dp6445
+g5
+S'Brooklyn'
+p6446
+sg7
+S'11211'
+p6447
+sg9
+S'296 Grand St.'
+p6448
+ssS'Tuome'
+p6449
+(dp6450
+g5
+S'New York'
+p6451
+sg7
+S'10009'
+p6452
+sg9
+S'536 E. 5th St.'
+p6453
+ssS"Mighty Quinn's"
+p6454
+(dp6455
+g5
+S'New York'
+p6456
+sg7
+S'10003'
+p6457
+sg9
+S'103 Second Ave.'
+p6458
+ssS'Oso'
+p6459
+(dp6460
+g5
+S'New York'
+p6461
+sg7
+S'10031'
+p6462
+sg9
+S'1618 Amsterdam Ave.'
+p6463
+ssS'El Porr\xc3\xb3n'
+p6464
+(dp6465
+g5
+S'New York'
+p6466
+sg7
+S'10065'
+p6467
+sg9
+S'1123 First Ave.'
+p6468
+ssS'Dirty French'
+p6469
+(dp6470
+g5
+S'New York'
+p6471
+sg7
+S'10002'
+p6472
+sg9
+S'180 Ludlow St.'
+p6473
+ssS'Streetbird Rotisserie'
+p6474
+(dp6475
+g5
+S'New York'
+p6476
+sg7
+S'10027'
+p6477
+sg9
+S'2149 Frederick Douglass Blvd.'
+p6478
+ssS'Orsay'
+p6479
+(dp6480
+g5
+S'New York'
+p6481
+sg7
+S'10021'
+p6482
+sg9
+S'1057 Lexington Ave.'
+p6483
+ssS'Saraghina'
+p6484
+(dp6485
+g5
+S'Brooklyn'
+p6486
+sg7
+S'11233'
+p6487
+sg9
+S'435 Halsey St.'
+p6488
+ssS"Eli's Table"
+p6489
+(dp6490
+g5
+S'New York'
+p6491
+sg7
+S'10028'
+p6492
+sg9
+S'1413 Third Ave.'
+p6493
+ssS'Emporio'
+p6494
+(dp6495
+g5
+S'New York'
+p6496
+sg7
+S'10012'
+p6497
+sg9
+S'231 Mott St.'
+p6498
+ssS'B\xc3\xa2tard'
+p6499
+(dp6500
+g5
+S'New York'
+p6501
+sg7
+S'10013'
+p6502
+sg9
+S'239 West Broadway'
+p6503
+ssS'Tanoshi'
+p6504
+(dp6505
+g5
+S'New York'
+p6506
+sg7
+S'10021'
+p6507
+sg9
+S'1372 York Ave.'
+p6508
+ssS'I Sodi'
+p6509
+(dp6510
+g5
+S'New York'
+p6511
+sg7
+S'10014'
+p6512
+sg9
+S'105 Christopher St.'
+p6513
+ssS'Cafe Clover'
+p6514
+(dp6515
+g5
+S'New York'
+p6516
+sg7
+S'10014'
+p6517
+sg9
+S'10 Downing St.'
+p6518
+ssS"Chavela's"
+p6519
+(dp6520
+g5
+S'Brooklyn'
+p6521
+sg7
+S'11238'
+p6522
+sg9
+S'736 Franklin Ave.'
+p6523
+ssS'Venturo Osteria & Wine Bar'
+p6524
+(dp6525
+g5
+S'Long Island City'
+p6526
+sg7
+S'11104'
+p6527
+sg9
+S'44-07 Queens Blvd.'
+p6528
+ssS'Sauce'
+p6529
+(dp6530
+g5
+S'New York'
+p6531
+sg7
+S'10002'
+p6532
+sg9
+S'78-84 Rivington St.'
+p6533
+ssS'Wasan'
+p6534
+(dp6535
+g5
+S'New York'
+p6536
+sg7
+S'10003'
+p6537
+sg9
+S'108 E. 4th St.'
+p6538
+ssS'Brisas del Caribe'
+p6539
+(dp6540
+g5
+S'Bronx'
+p6541
+sg7
+S'10471'
+p6542
+sg9
+S'1207 Castle Hill Ave.'
+p6543
+ssS'El Atoradero'
+p6544
+(dp6545
+g5
+S'Brooklyn'
+p6546
+sg7
+S'11238'
+p6547
+sg9
+S'708 Washington Ave.'
+p6548
+ssS'The Finch'
+p6549
+(dp6550
+g5
+S'Brooklyn'
+p6551
+sg7
+S'11238'
+p6552
+sg9
+S'212 Greene Ave.'
+p6553
+ssS'Paet Rio'
+p6554
+(dp6555
+g5
+S'Elmhurst'
+p6556
+sg7
+S'11373'
+p6557
+sg9
+S'81-10 Broadway'
+p6558
+ssS'Hill Country Chicken'
+p6559
+(dp6560
+g5
+S'New York'
+p6561
+sg7
+S'10010'
+p6562
+sg9
+S'1123 Broadway'
+p6563
+ssS'Main Street Imperial Taiwanese Gourmet'
+p6564
+(dp6565
+g5
+S'Flushing'
+p6566
+sg7
+S'11355'
+p6567
+sg9
+S'59-14A Main St.'
+p6568
+ssS'Eleven Madison Park'
+p6569
+(dp6570
+g5
+S'New York'
+p6571
+sg7
+S'10010'
+p6572
+sg9
+S'11 Madison Ave.'
+p6573
+ssS'Babbo'
+p6574
+(dp6575
+g5
+S'New York'
+p6576
+sg7
+S'10011'
+p6577
+sg9
+S'110 Waverly Pl.'
+p6578
+ssS'Khe-Yo'
+p6579
+(dp6580
+g5
+S'New York'
+p6581
+sg7
+S'10013'
+p6582
+sg9
+S'157 Duane St.'
+p6583
+ssS'Donguri'
+p6584
+(dp6585
+g5
+S'New York'
+p6586
+sg7
+S'10028'
+p6587
+sg9
+S'309 E. 83rd St.'
+p6588
+ssS'Prospect'
+p6589
+(dp6590
+g5
+S'Brooklyn'
+p6591
+sg7
+S'11217'
+p6592
+sg9
+S'773 Fulton St.'
+p6593
+ssS'The Mermaid Inn'
+p6594
+(dp6595
+g5
+S'New York'
+p6596
+sg7
+S'10003'
+p6597
+sg9
+S'96 Second Ave.'
+p6598
+ssS'Cotenna'
+p6599
+(dp6600
+g5
+S'New York'
+p6601
+sg7
+S'10014'
+p6602
+sg9
+S'21 Bedford St.'
+p6603
+ssS'Sip Sak'
+p6604
+(dp6605
+g5
+S'New York'
+p6606
+sg7
+S'10017'
+p6607
+sg9
+S'928 Second Ave.'
+p6608
+ssS"Roberto's"
+p6609
+(dp6610
+g5
+S'New York'
+p6611
+sg7
+S'10458'
+p6612
+sg9
+S'603 Crescent Ave.'
+p6613
+ssS'M\xc3\xa1 P\xc3\xaache'
+p6614
+(dp6615
+g5
+S'New York'
+p6616
+sg7
+S'10019'
+p6617
+sg9
+S'15 W. 56th St.'
+p6618
+ssS'Hot Kitchen'
+p6619
+(dp6620
+g5
+S'New York'
+p6621
+sg7
+S'10003'
+p6622
+sg9
+S'104 Second Ave.'
+p6623
+ssS'Good Enough to Eat'
+p6624
+(dp6625
+g5
+S'New York'
+p6626
+sg7
+S'10024'
+p6627
+sg9
+S'520 Columbus Ave.'
+p6628
+ssS'Ramen Misoya'
+p6629
+(dp6630
+g5
+S'New York'
+p6631
+sg7
+S'10003'
+p6632
+sg9
+S'129 Second Ave.'
+p6633
+ssS'Freud'
+p6634
+(dp6635
+g5
+S'New York'
+p6636
+sg7
+S'10012'
+p6637
+sg9
+S'506 La Guardia Pl.'
+p6638
+ssS'Peasant'
+p6639
+(dp6640
+g5
+S'New York'
+p6641
+sg7
+S'10012'
+p6642
+sg9
+S'194 Elizabeth St.'
+p6643
+ssS'Tertulia'
+p6644
+(dp6645
+g5
+S'New York'
+p6646
+sg7
+S'10014'
+p6647
+sg9
+S'359 Sixth Ave.'
+p6648
+ssS"Engeline's"
+p6649
+(dp6650
+g5
+S'Woodside'
+p6651
+sg7
+S'11377'
+p6652
+sg9
+S'58-28 Roosevelt Ave.'
+p6653
+ssS'Soba-Ya'
+p6654
+(dp6655
+g5
+S'New York'
+p6656
+sg7
+S'10003'
+p6657
+sg9
+S'229 E. 9th St.'
+p6658
+ssS'Bruno Pizza'
+p6659
+(dp6660
+g5
+S'New York'
+p6661
+sg7
+S'10003'
+p6662
+sg9
+S'204 E. 13th St.'
+p6663
+ssS'Maz Mezcal'
+p6664
+(dp6665
+g5
+S'New York'
+p6666
+sg7
+S'10028'
+p6667
+sg9
+S'316 E. 86th St.'
+p6668
+ssS'Trestle on Tenth'
+p6669
+(dp6670
+g5
+S'New York'
+p6671
+sg7
+S'10001'
+p6672
+sg9
+S'242 Tenth Ave.'
+p6673
+ssS'Market Table'
+p6674
+(dp6675
+g5
+S'New York'
+p6676
+sg7
+S'10014'
+p6677
+sg9
+S'54 Carmine St.'
+p6678
+ssS'Saravanaas'
+p6679
+(dp6680
+g5
+S'New York'
+p6681
+sg7
+S'10016'
+p6682
+sg9
+S'81 Lexington Ave.'
+p6683
+ssS'dinnertable'
+p6684
+(dp6685
+g5
+S'New York'
+p6686
+sg7
+S'10009'
+p6687
+sg9
+S'206 Avenue A'
+p6688
+ssS'atera'
+p6689
+(dp6690
+g5
+S'New York'
+p6691
+sg7
+S'10013'
+p6692
+sg9
+S'77 Worth St.'
+p6693
+ssS'Kristalbelli'
+p6694
+(dp6695
+g5
+S'New York'
+p6696
+sg7
+S'10018'
+p6697
+sg9
+S'8 W. 36th St.'
+p6698
+ssS'Tribeca Grill'
+p6699
+(dp6700
+g5
+S'New York'
+p6701
+sg7
+S'10013'
+p6702
+sg9
+S'375 Greenwich St.'
+p6703
+ssS'Ardesia'
+p6704
+(dp6705
+g5
+S'New York'
+p6706
+sg7
+S'10019'
+p6707
+sg9
+S'510 W. 52nd St.'
+p6708
+ssS'Donostia'
+p6709
+(dp6710
+g5
+S'New York'
+p6711
+sg7
+S'10009'
+p6712
+sg9
+S'155 Ave. B'
+p6713
+ssS'Tiella'
+p6714
+(dp6715
+g5
+S'New York'
+p6716
+sg7
+S'10065'
+p6717
+sg9
+S'1109 First Ave.'
+p6718
+ssS'Barney Greengrass'
+p6719
+(dp6720
+g5
+S'New York'
+p6721
+sg7
+S'10024'
+p6722
+sg9
+S'541 Amsterdam Ave.'
+p6723
+ssS"Au Za'atar"
+p6724
+(dp6725
+g5
+S'New York'
+p6726
+sg7
+S'10009'
+p6727
+sg9
+S'188 Ave. A'
+p6728
+ssS"Luzzo's"
+p6729
+(dp6730
+g5
+S'New York'
+p6731
+sg7
+S'10003'
+p6732
+sg9
+S'211-13 First Ave.'
+p6733
+ssS'Pacificana'
+p6734
+(dp6735
+g5
+S'Brooklyn'
+p6736
+sg7
+S'11220'
+p6737
+sg9
+S'813 55th St.'
+p6738
+ssS'Antique Garage'
+p6739
+(dp6740
+g5
+S'New York'
+p6741
+sg7
+S'10013'
+p6742
+sg9
+S'41 Mercer St.'
+p6743
+ssS'Lucky Eight'
+p6744
+(dp6745
+g5
+S'Brooklyn'
+p6746
+sg7
+S'11220'
+p6747
+sg9
+S'5204 Eighth Ave.'
+p6748
+ssS'Stone Park Cafe'
+p6749
+(dp6750
+g5
+S'New York'
+p6751
+sg7
+S'11215'
+p6752
+sg9
+S'324 Fifth Ave.'
+p6753
+ssS'G\xc3\xbcnter Seeger NY'
+p6754
+(dp6755
+g5
+S'New York'
+p6756
+sg7
+S'10014'
+p6757
+sg9
+S'641 Hudson St.'
+p6758
+ssS'Chefs Club'
+p6759
+(dp6760
+g5
+S'New York'
+p6761
+sg7
+S'10012'
+p6762
+sg9
+S'275 Mulberry St.'
+p6763
+ssS'Becco'
+p6764
+(dp6765
+g5
+S'New York'
+p6766
+sg7
+S'10036'
+p6767
+sg9
+S'355 W. 46th St.'
+p6768
+ssS'Huertas'
+p6769
+(dp6770
+g5
+S'New York'
+p6771
+sg7
+S'10003'
+p6772
+sg9
+S'107\xc2\xa0First Ave.'
+p6773
+ssS'Felidia'
+p6774
+(dp6775
+g5
+S'New York'
+p6776
+sg7
+S'10022'
+p6777
+sg9
+S'243 E. 58th St.'
+p6778
+ssS'Maya'
+p6779
+(dp6780
+g5
+S'New York'
+p6781
+sg7
+S'10021'
+p6782
+sg9
+S'1191 First Ave.'
+p6783
+ssS'District Saigon'
+p6784
+(dp6785
+g5
+S'Astoria'
+p6786
+sg7
+S'11103'
+p6787
+sg9
+S'37-15 Broadway'
+p6788
+ssS'Salt + Charcoal'
+p6789
+(dp6790
+g5
+S'Brooklyn'
+p6791
+sg7
+S'11211'
+p6792
+sg9
+S'171 Grand St.'
+p6793
+ssS"L'Apicio"
+p6794
+(dp6795
+g5
+S'New York'
+p6796
+sg7
+S'10003'
+p6797
+sg9
+S'13 E. 1st St.'
+p6798
+ssS'Scarlatto'
+p6799
+(dp6800
+g5
+S'New York'
+p6801
+sg7
+S'10036'
+p6802
+sg9
+S'250 W. 47th St.'
+p6803
+ssS'Fishtag'
+p6804
+(dp6805
+g5
+S'New York'
+p6806
+sg7
+S'10024'
+p6807
+sg9
+S'222 W. 79th St.'
+p6808
+ssS'Eugene & Co.'
+p6809
+(dp6810
+g5
+S'Brooklyn'
+p6811
+sg7
+S'11216'
+p6812
+sg9
+S'397 Tompkins Ave.'
+p6813
+ssS'Shalom Japan'
+p6814
+(dp6815
+g5
+S'Brooklyn'
+p6816
+sg7
+S'11211'
+p6817
+sg9
+S'301 S. 4th St.'
+p6818
+ssS'I Trulli'
+p6819
+(dp6820
+g5
+S'New York'
+p6821
+sg7
+S'10016'
+p6822
+sg9
+S'122 E. 27th St.'
+p6823
+ssS'The Metrograph Commissary'
+p6824
+(dp6825
+g5
+S'New York'
+p6826
+sg7
+S'10002'
+p6827
+sg9
+S'7 Ludlow St.'
+p6828
+ssS'Jones Wood Foundry'
+p6829
+(dp6830
+g5
+S'New York'
+p6831
+sg7
+S'10021'
+p6832
+sg9
+S'401 E. 76th St.'
+p6833
+ssS'Jin Ramen'
+p6834
+(dp6835
+g5
+S'New York'
+p6836
+sg7
+S'10027'
+p6837
+sg9
+S'3183 Broadway'
+p6838
+ssS'Speedy Romeo'
+p6839
+(dp6840
+g5
+S'Brooklyn'
+p6841
+sg7
+S'11238'
+p6842
+sg9
+S'376 Classon Ave.'
+p6843
+ssS'Cipura'
+p6844
+(dp6845
+g5
+S'Brooklyn'
+p6846
+sg7
+S'11235'
+p6847
+sg9
+S'1901 Emmons Ave.'
+p6848
+ssS"Don's Bogam"
+p6849
+(dp6850
+g5
+S'New York'
+p6851
+sg7
+S'10016'
+p6852
+sg9
+S'17 E. 32nd St.'
+p6853
+ssS'Brooklyn Star'
+p6854
+(dp6855
+g5
+S'Brooklyn'
+p6856
+sg7
+S'11211'
+p6857
+sg9
+S'593 Lorimer St.'
+p6858
+ssS'Dosa Garden'
+p6859
+(dp6860
+g5
+S'Staten Island'
+p6861
+sg7
+S'10301'
+p6862
+sg9
+S'323 Victory Blvd.'
+p6863
+ssS'Feast'
+p6864
+(dp6865
+g5
+S'New York'
+p6866
+sg7
+S'10003'
+p6867
+sg9
+S'102 Third Ave.'
+p6868
+ssS'MP Taverna'
+p6869
+(dp6870
+g5
+S'Astoria'
+p6871
+sg7
+S'11105'
+p6872
+sg9
+S'31-29 Ditmars Blvd.'
+p6873
+ssS'Cull & Pistol'
+p6874
+(dp6875
+g5
+S'New York'
+p6876
+sg7
+S'10011'
+p6877
+sg9
+S'75 Ninth Ave.'
+p6878
+ssS'Clinton St. Baking Company'
+p6879
+(dp6880
+g5
+S'New York'
+p6881
+sg7
+S'10002'
+p6882
+sg9
+S'4 Clinton St.'
+p6883
+ssS'Anassa Taverna'
+p6884
+(dp6885
+g5
+S'New York'
+p6886
+sg7
+S'10022'
+p6887
+sg9
+S'200 E. 60th St.'
+p6888
+ssS'Quality Eats'
+p6889
+(dp6890
+g5
+S'New York'
+p6891
+sg7
+S'10014'
+p6892
+sg9
+S'19 Greenwich Ave.'
+p6893
+ssS'Malai Marke'
+p6894
+(dp6895
+g5
+S'New York'
+p6896
+sg7
+S'10003'
+p6897
+sg9
+S'318 E. 6th St.'
+p6898
+ssS'Yakiniku Futago'
+p6899
+(dp6900
+g5
+S'New York'
+p6901
+sg7
+S'10011'
+p6902
+sg9
+S'37 W. 17th St.'
+p6903
+ssS'Le Bernardin'
+p6904
+(dp6905
+g5
+S'New York'
+p6906
+sg7
+S'10019'
+p6907
+sg9
+S'155 W. 51st St.'
+p6908
+ssS'Zoma'
+p6909
+(dp6910
+g5
+S'New York'
+p6911
+sg7
+S'10026'
+p6912
+sg9
+S'2084 Frederick Douglass Blvd.'
+p6913
+ssS'Indian Accent'
+p6914
+(dp6915
+g5
+S'New York'
+p6916
+sg7
+S'10019'
+p6917
+sg9
+S'123 W. 56th St.'
+p6918
+ssS'Katsuno'
+p6919
+(dp6920
+g5
+S'Forest Hills'
+p6921
+sg7
+S'11375'
+p6922
+sg9
+S'103-01 Metropolitan Ave.'
+p6923
+ssS'Via Carota'
+p6924
+(dp6925
+g5
+S'New York'
+p6926
+sg7
+S'10014'
+p6927
+sg9
+S'51 Grove St.'
+p6928
+ssS'Dover'
+p6929
+(dp6930
+g5
+S'Brooklyn'
+p6931
+sg7
+S'11231'
+p6932
+sg9
+S'412 Court St.'
+p6933
+ssS'Mominette'
+p6934
+(dp6935
+g5
+S'Brooklyn'
+p6936
+sg7
+S'11237'
+p6937
+sg9
+S'221 Knickerbocker Ave.'
+p6938
+ssS'Amma'
+p6939
+(dp6940
+g5
+S'New York'
+p6941
+sg7
+S'10022'
+p6942
+sg9
+S'246 E. 51st St.'
+p6943
+ssS'Covina'
+p6944
+(dp6945
+g5
+S'New York'
+p6946
+sg7
+S'10016'
+p6947
+sg9
+S'127 E. 27th St.'
+p6948
+ssS'Vics'
+p6949
+(dp6950
+g5
+S'New York'
+p6951
+sg7
+S'10012'
+p6952
+sg9
+S'31 Great Jones St'
+p6953
+ssS'P\xc3\xb3'
+p6954
+(dp6955
+g5
+S'New York'
+p6956
+sg7
+S'10014'
+p6957
+sg9
+S'31 Cornelia St.'
+p6958
+ssS'Tang Pavilion'
+p6959
+(dp6960
+g5
+S'New York'
+p6961
+sg7
+S'10019'
+p6962
+sg9
+S'65 W. 55th St.'
+p6963
+ssS'Anjappar'
+p6964
+(dp6965
+g5
+S'New York'
+p6966
+sg7
+S'10016'
+p6967
+sg9
+S'116 Lexington Ave.'
+p6968
+ssS'Hatsuhana'
+p6969
+(dp6970
+g5
+S'New York'
+p6971
+sg7
+S'10017'
+p6972
+sg9
+S'17 E. 48th St.'
+p6973
+ssS'Smith & Wollensky'
+p6974
+(dp6975
+g5
+S'New York'
+p6976
+sg7
+S'10022'
+p6977
+sg9
+S'797 Third Ave.'
+p6978
+ssS'Benares'
+p6979
+(dp6980
+g5
+S'New York'
+p6981
+sg7
+S'10022'
+p6982
+sg9
+S'240 W. 56th St.'
+p6983
+ssS'M. Wells Steakhouse'
+p6984
+(dp6985
+g5
+S'Long Island City'
+p6986
+sg7
+S'11101'
+p6987
+sg9
+S'43-15 Crescent St.'
+p6988
+ssS'Seamstress'
+p6989
+(dp6990
+g5
+S'New York'
+p6991
+sg7
+S'10021'
+p6992
+sg9
+S'339 E. 75th St.'
+p6993
+ssS'Hugo & Sons'
+p6994
+(dp6995
+g5
+S'Brooklyn'
+p6996
+sg7
+S'11215'
+p6997
+sg9
+S'367 Seventh Ave.'
+p6998
+sss.

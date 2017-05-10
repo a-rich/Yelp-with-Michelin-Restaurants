@@ -31,10 +31,8 @@ class RestaurantDetailView(DetailView):
 
     def get_context_data(self, **kwargs):
       context = super(RestaurantDetailView, self).get_context_data(**kwargs)
-      print("self.object:", self.object)
-      r = Review.objects.filter(restaurant_id=self.object.id)
-      print('r:', r)
-      context['reviews'] = r
+      context['reviews'] = Review.objects.filter(restaurant_id=self.object.id)
+      self.object.url = ':'.join(['https'] + self.object.url.split('https')[1:])
       return context
 
 
