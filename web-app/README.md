@@ -6,9 +6,11 @@ Yelp-with-Michelin-Restaurants is an application that aims to get information ab
 Components
 ---------------------------
 Yelp-with-Michelin-Restaurants has a user-friendly interface including:
+
 **Landing Page:**
 * Search for restaurants with restaurants name, city, state, or category.
 * View all restaurants, cities, states, or categories.
+
 **Restaurant Information Page:**
 * Displays the information for the restaurant you selected.
 * Connects the user to the Yelp page via a URL link.
